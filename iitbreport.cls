@@ -1,7 +1,7 @@
 %%
 %% This is file `iitbreport.cls',
 %%
-%% Time-stamp: <2015-04-14 23:39:15 sunthar> 
+%% Time-stamp: <2015-04-15 00:00:54 sunthar> 
 %% 
 %% 
 %% IMPORTANT NOTICE:
@@ -198,7 +198,8 @@
     }
 \fi
 
-\newcommand{\makecoverpage}{%
+%\newcommand{\makecoverpage}{%
+\renewcommand{\maketitle}{%
   {\renewcommand{\baselinestretch}{1}\normalsize
   \thispagestyle{empty}
   {\Usefont{ptm}

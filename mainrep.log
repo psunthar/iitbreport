@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.7.24)  14 APR 2015 23:43
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.7.24)  15 APR 2015 00:01
 entering extended mode
  %&-line parsing enabled.
 **mainrep.tex
@@ -416,62 +416,62 @@ LaTeX Info: Redefining \pageref on input line 44.
 \MPnumerator=\count118
 \everyMPtoPDFconversion=\toks22
 )
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 51.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 52.
  (/usr/share/texmf-texlive/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
-LaTeX Font Info:    Try loading font information for OT1+phv on input line 51.
+LaTeX Font Info:    Try loading font information for OT1+phv on input line 52.
 
 (/usr/share/texmf-texlive/tex/latex/psnfss/ot1phv.fd
 File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
 )
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <20.74> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 51.
-LaTeX Font Info:    Try loading font information for U+txmia on input line 51.
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 52.
+LaTeX Font Info:    Try loading font information for U+txmia on input line 52.
 
 (/usr/share/texmf-texlive/tex/latex/txfonts/utxmia.fd
 File: utxmia.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+txsya on input line 51.
+LaTeX Font Info:    Try loading font information for U+txsya on input line 52.
 
 (/usr/share/texmf-texlive/tex/latex/txfonts/utxsya.fd
 File: utxsya.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+txsyb on input line 51.
+LaTeX Font Info:    Try loading font information for U+txsyb on input line 52.
 
 (/usr/share/texmf-texlive/tex/latex/txfonts/utxsyb.fd
 File: utxsyb.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+txsyc on input line 51.
+LaTeX Font Info:    Try loading font information for U+txsyc on input line 52.
 
 (/usr/share/texmf-texlive/tex/latex/txfonts/utxsyc.fd
 File: utxsyc.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <14.4> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 51.
-LaTeX Font Info:    Try loading font information for OT1+pzc on input line 51.
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 52.
+LaTeX Font Info:    Try loading font information for OT1+pzc on input line 52.
 
 (/usr/share/texmf-texlive/tex/latex/psnfss/ot1pzc.fd
 File: ot1pzc.fd 2001/06/04 font definitions for OT1/pzc.
 )
 LaTeX Font Info:    Font shape `OT1/pzc/m/it' in size <14.4> not available
-(Font)              Font shape `OT1/pzc/mb/it' tried instead on input line 51.
-LaTeX Font Info:    Try loading font information for OT1+ppl on input line 51.
+(Font)              Font shape `OT1/pzc/mb/it' tried instead on input line 52.
+LaTeX Font Info:    Try loading font information for OT1+ppl on input line 52.
 
 (/usr/share/texmf-texlive/tex/latex/psnfss/ot1ppl.fd
 File: ot1ppl.fd 2001/06/04 font definitions for OT1/ppl.
 )
 LaTeX Font Info:    Font shape `OT1/ppl/bx/it' in size <14.4> not available
-(Font)              Font shape `OT1/ppl/b/it' tried instead on input line 51.
+(Font)              Font shape `OT1/ppl/b/it' tried instead on input line 52.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 51.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 52.
 
 <iitb-black.pdf, id=39, 557.08125pt x 533.995pt>
 File: iitb-black.pdf Graphic file (type pdf)
  <use iitb-black.pdf> [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./iitb-black.pdf>]
-Overfull \hbox (0.71632pt too wide) in paragraph at lines 54--58
+Overfull \hbox (0.71632pt too wide) in paragraph at lines 55--59
 \OT1/txr/m/n/12 This doc-u-ment con-tains es-sen-tial tem-plates re-quired to w
 rite tech-ni-cal re-ports us-ing L[]T[]X.
  []
@@ -480,7 +480,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.58 \end{abstract}
+l.59 \end{abstract}
                     [1] (./mainrep.toc)
 \tf@toc=\write4
 \openout4 = `mainrep.toc'.
@@ -562,10 +562,10 @@ Chapter 4.
 ]) [9] (./mainrep.aux (./intro/introduction.aux)
 (./lit/literature.aux) (./expt/experimental.aux) (./rnd/results.aux)) ) 
 Here is how much of TeX's memory you used:
- 6362 strings out of 495061
- 86379 string characters out of 1182621
+ 6361 strings out of 495061
+ 86366 string characters out of 1182621
  150612 words of memory out of 3000000
- 9308 multiletter control sequences out of 15000+50000
+ 9307 multiletter control sequences out of 15000+50000
  47383 words of font info for 107 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
  45i,10n,50p,253b,336s stack positions out of 5000i,500n,10000p,200000b,50000s
