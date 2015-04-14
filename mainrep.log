@@ -1,12 +1,8 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.7.24)  15 APR 2015 00:23
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.7.24)  15 APR 2015 00:55
 entering extended mode
  %&-line parsing enabled.
-**mainrep.tex
-(./mainrep.tex
-LaTeX2e <2009/09/24>
-Babel <v3.8l> and hyphenation patterns for english, usenglishmax, dumylang, noh
-yphenation, loaded.
-(./iitbreport.cls
+**\input mainrep.tex
+(./mainrep.tex (./iitbreport.cls
 Document Class: iitbreport 14/04/2015 IIT Bombay Report class v 1.0
 (/usr/share/texmf-texlive/tex/latex/base/report.cls
 Document Class: report 2007/10/19 v1.4h Standard LaTeX document class
@@ -416,62 +412,62 @@ LaTeX Info: Redefining \pageref on input line 44.
 \MPnumerator=\count118
 \everyMPtoPDFconversion=\toks22
 )
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 52.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 53.
  (/usr/share/texmf-texlive/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
-LaTeX Font Info:    Try loading font information for OT1+phv on input line 52.
+LaTeX Font Info:    Try loading font information for OT1+phv on input line 53.
 
 (/usr/share/texmf-texlive/tex/latex/psnfss/ot1phv.fd
 File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
 )
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <20.74> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 52.
-LaTeX Font Info:    Try loading font information for U+txmia on input line 52.
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 53.
+LaTeX Font Info:    Try loading font information for U+txmia on input line 53.
 
 (/usr/share/texmf-texlive/tex/latex/txfonts/utxmia.fd
 File: utxmia.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+txsya on input line 52.
+LaTeX Font Info:    Try loading font information for U+txsya on input line 53.
 
 (/usr/share/texmf-texlive/tex/latex/txfonts/utxsya.fd
 File: utxsya.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+txsyb on input line 52.
+LaTeX Font Info:    Try loading font information for U+txsyb on input line 53.
 
 (/usr/share/texmf-texlive/tex/latex/txfonts/utxsyb.fd
 File: utxsyb.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+txsyc on input line 52.
+LaTeX Font Info:    Try loading font information for U+txsyc on input line 53.
 
 (/usr/share/texmf-texlive/tex/latex/txfonts/utxsyc.fd
 File: utxsyc.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <14.4> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 52.
-LaTeX Font Info:    Try loading font information for OT1+pzc on input line 52.
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 53.
+LaTeX Font Info:    Try loading font information for OT1+pzc on input line 53.
 
 (/usr/share/texmf-texlive/tex/latex/psnfss/ot1pzc.fd
 File: ot1pzc.fd 2001/06/04 font definitions for OT1/pzc.
 )
 LaTeX Font Info:    Font shape `OT1/pzc/m/it' in size <14.4> not available
-(Font)              Font shape `OT1/pzc/mb/it' tried instead on input line 52.
-LaTeX Font Info:    Try loading font information for OT1+ppl on input line 52.
+(Font)              Font shape `OT1/pzc/mb/it' tried instead on input line 53.
+LaTeX Font Info:    Try loading font information for OT1+ppl on input line 53.
 
 (/usr/share/texmf-texlive/tex/latex/psnfss/ot1ppl.fd
 File: ot1ppl.fd 2001/06/04 font definitions for OT1/ppl.
 )
 LaTeX Font Info:    Font shape `OT1/ppl/bx/it' in size <14.4> not available
-(Font)              Font shape `OT1/ppl/b/it' tried instead on input line 52.
+(Font)              Font shape `OT1/ppl/b/it' tried instead on input line 53.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 52.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 53.
 
 <iitb-black.pdf, id=39, 557.08125pt x 533.995pt>
 File: iitb-black.pdf Graphic file (type pdf)
  <use iitb-black.pdf> [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./iitb-black.pdf>]
-Overfull \hbox (0.71632pt too wide) in paragraph at lines 55--59
+Overfull \hbox (0.71632pt too wide) in paragraph at lines 56--60
 \OT1/txr/m/n/12 This doc-u-ment con-tains es-sen-tial tem-plates re-quired to w
 rite tech-ni-cal re-ports us-ing L[]T[]X.
  []
@@ -480,7 +476,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.59 \end{abstract}
+l.60 \end{abstract}
                     [1] (./mainrep.toc)
 \tf@toc=\write4
 \openout4 = `mainrep.toc'.
@@ -562,13 +558,13 @@ Chapter 4.
 ] [9]) [10] (./mainrep.aux (./intro/introduction.aux)
 (./lit/literature.aux) (./expt/experimental.aux) (./rnd/results.aux)) ) 
 Here is how much of TeX's memory you used:
- 6404 strings out of 495061
- 87039 string characters out of 1182621
+ 6405 strings out of 495061
+ 87045 string characters out of 1182621
  150612 words of memory out of 3000000
  9336 multiletter control sequences out of 15000+50000
- 48437 words of font info for 109 fonts, out of 3000000 for 9000
+ 49515 words of font info for 110 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
- 45i,10n,50p,253b,468s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 45i,10n,50p,260b,468s stack positions out of 5000i,500n,10000p,200000b,50000s
 {/usr/sh
 are/texmf-texlive/fonts/enc/dvips/base/8r.enc}</usr/share/texmf-texlive/fonts/t
 ype1/public/txfonts/rtxmi.pfb></usr/share/texmf-texlive/fonts/type1/public/txfo
@@ -580,7 +576,7 @@ b8a.pfb></usr/share/texmf-texlive/fonts/type1/urw/palatino/uplbi8a.pfb></usr/sh
 are/texmf-texlive/fonts/type1/urw/times/utmb8a.pfb></usr/share/texmf-texlive/fo
 nts/type1/urw/times/utmr8a.pfb></usr/share/texmf-texlive/fonts/type1/urw/times/
 utmri8a.pfb></usr/share/texmf-texlive/fonts/type1/urw/zapfchan/uzcmi8a.pfb>
-Output written on mainrep.pdf (18 pages, 222933 bytes).
+Output written on mainrep.pdf (18 pages, 222964 bytes).
 PDF statistics:
  243 PDF objects out of 1000 (max. 8388607)
  48 named destinations out of 1000 (max. 500000)
