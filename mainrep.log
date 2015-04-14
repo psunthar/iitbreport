@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.7.24)  14 APR 2015 22:18
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.7.24)  14 APR 2015 22:56
 entering extended mode
  %&-line parsing enabled.
 **mainrep.tex
@@ -515,10 +515,10 @@ Chapter 4.
 ] (./mainrep.aux (./intro/introduction.aux)
 (./lit/literature.aux) (./expt/experimental.aux) (./rnd/results.aux)) ) 
 Here is how much of TeX's memory you used:
- 6083 strings out of 495061
- 83181 string characters out of 1182621
+ 6082 strings out of 495061
+ 83165 string characters out of 1182621
  147462 words of memory out of 3000000
- 9060 multiletter control sequences out of 15000+50000
+ 9059 multiletter control sequences out of 15000+50000
  42395 words of font info for 105 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
  38i,10n,38p,252b,316s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -530,7 +530,7 @@ r/share/texmf-texlive/fonts/type1/public/txfonts/txsy.pfb></usr/share/texmf-tex
 live/fonts/type1/public/txfonts/txtt.pfb></usr/share/texmf-texlive/fonts/type1/
 urw/times/utmb8a.pfb></usr/share/texmf-texlive/fonts/type1/urw/times/utmr8a.pfb
 ></usr/share/texmf-texlive/fonts/type1/urw/times/utmri8a.pfb>
-Output written on mainrep.pdf (11 pages, 83372 bytes).
+Output written on mainrep.pdf (11 pages, 83366 bytes).
 PDF statistics:
  169 PDF objects out of 1000 (max. 8388607)
  35 named destinations out of 1000 (max. 500000)

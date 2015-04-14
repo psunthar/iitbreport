@@ -1442,16 +1442,6 @@ FUNCTION {format.ser.vol.num}
     }
   if$
   bolden
-  number "number" bibinfo.check duplicate$ empty$ 'skip$
-    {
-      swap$ duplicate$ empty$
-        { "there's a number but no volume in " cite$ * warning$ }
-        'skip$
-      if$
-      swap$
-      "~(" swap$ * ")" *
-    }
-  if$ *
 }
 
 FUNCTION {format.chapter.pages}

@@ -9,38 +9,38 @@ Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Database file #1: mylit.bib
 Merlin.mbs v4.21 2009-07-09. 
 You've used 2 entries,
-            4579 wiz_defined-function locations,
-            890 strings with 8128 characters,
-and the built_in function-call counts, 2206 in all, are:
+            4548 wiz_defined-function locations,
+            886 strings with 8084 characters,
+and the built_in function-call counts, 2178 in all, are:
 = -- 129
 > -- 52
 < -- 5
 + -- 17
 - -- 15
-* -- 341
+* -- 333
 := -- 229
 add.period$ -- 3
 call.type$ -- 2
 change.case$ -- 16
 chr.to.int$ -- 5
 cite$ -- 4
-duplicate$ -- 193
-empty$ -- 167
+duplicate$ -- 189
+empty$ -- 164
 format.name$ -- 31
-if$ -- 364
+if$ -- 360
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 30
+missing$ -- 29
 newline$ -- 85
 num.names$ -- 8
 pop$ -- 74
 preamble$ -- 1
 purify$ -- 13
 quote$ -- 2
-skip$ -- 68
+skip$ -- 67
 stack$ -- 0
 substring$ -- 42
-swap$ -- 180
+swap$ -- 173
 text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 1

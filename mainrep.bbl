@@ -80,8 +80,7 @@
   \bibfield{journal}{%
   \Doi{10.1016/S0006-3495(95)80361-9}{\bibinfo {journal} {New Journal of
   Biliography}}\ }%
-  \textbf{\bibinfo {volume} {21}}~(\bibinfo {number} {2}),\ \bibinfo {pages}
-  {10--28}%
+  \textbf{\bibinfo {volume} {21}},\ \bibinfo {pages} {10--28}%
   \bibAnnoteFile{NoStop}{Auth09}%
 \bibitem[{\citenamefont{Author}\ and\ \citenamefont{Writer}(2008)}]{Mono08}%
   \BibitemOpen
