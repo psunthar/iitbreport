@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.7.24)  12 MAR 2015 06:50
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.7.24)  14 APR 2015 22:18
 entering extended mode
  %&-line parsing enabled.
 **mainrep.tex
@@ -85,6 +85,7 @@ Package hyperref Info: Option `bookmarks' set `true' on input line 2864.
 Package hyperref Info: Option `breaklinks' set `true' on input line 2864.
 Package hyperref Info: Option `pdffitwindow' set `true' on input line 2864.
 Package hyperref Info: Option `pdfcenterwindow' set `true' on input line 2864.
+Package hyperref Info: Option `pdfusetitle' set `true' on input line 2864.
 Package hyperref Info: Hyper figures OFF on input line 2975.
 Package hyperref Info: Link nesting OFF on input line 2980.
 Package hyperref Info: Hyper index ON on input line 2983.
@@ -143,12 +144,7 @@ Package: atbegshi 2008/07/31 v1.9 At begin shipout hook (HO)
 \c@Item=\count92
 \c@Hfootnote=\count93
 )
-
-Package hyperref Warning: Wrong driver `hdvips.def';
-(hyperref)                pdfTeX is running in PDF mode.
-(hyperref)                Forcing driver `hpdftex.def'.
-
-*hyperref using driver hpdftex*
+*hyperref using default driver hpdftex*
 (/usr/share/texmf-texlive/tex/latex/hyperref/hpdftex.def
 File: hpdftex.def 2009/10/09 v6.79a Hyperref driver for pdfTeX
 \Fld@listcount=\count94
@@ -342,48 +338,48 @@ LaTeX Info: Redefining \not on input line 1043.
 (./rnd/results.aux))
 \openout1 = `mainrep.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 66.
-LaTeX Font Info:    Try loading font information for OML+txmi on input line 66.
+LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 63.
+LaTeX Font Info:    Try loading font information for OML+txmi on input line 63.
 
  (/usr/share/texmf-texlive/tex/latex/txfonts/omltxmi.fd
 File: omltxmi.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 66.
-LaTeX Font Info:    Try loading font information for OMS+txsy on input line 66.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 63.
+LaTeX Font Info:    Try loading font information for OMS+txsy on input line 63.
 
 
 (/usr/share/texmf-texlive/tex/latex/txfonts/omstxsy.fd
 File: omstxsy.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 66.
-LaTeX Font Info:    Try loading font information for OMX+txex on input line 66.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 63.
+LaTeX Font Info:    Try loading font information for OMX+txex on input line 63.
 
 
 (/usr/share/texmf-texlive/tex/latex/txfonts/omxtxex.fd
 File: omxtxex.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 66.
-LaTeX Font Info:    Try loading font information for U+txexa on input line 66.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 63.
+LaTeX Font Info:    Try loading font information for U+txexa on input line 63.
 
 (/usr/share/texmf-texlive/tex/latex/txfonts/utxexa.fd
 File: utxexa.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Try loading font information for OT1+txr on input line 66.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Try loading font information for OT1+txr on input line 63.
 
 (/usr/share/texmf-texlive/tex/latex/txfonts/ot1txr.fd
 File: ot1txr.fd 2000/12/15 v3.1
 )
-Package hyperref Info: Link coloring OFF on input line 66.
+Package hyperref Info: Link coloring OFF on input line 63.
 
 (/usr/share/texmf-texlive/tex/latex/hyperref/nameref.sty
 Package: nameref 2007/05/29 v2.31 Cross-referencing by name of section
@@ -393,8 +389,8 @@ Package: refcount 2008/08/11 v3.1 Data extraction from references (HO)
 )
 \c@section@level=\count113
 )
-LaTeX Info: Redefining \ref on input line 66.
-LaTeX Info: Redefining \pageref on input line 66.
+LaTeX Info: Redefining \ref on input line 63.
+LaTeX Info: Redefining \pageref on input line 63.
  (./mainrep.out)
 (./mainrep.out)
 \@outlinefile=\write3
@@ -414,21 +410,21 @@ LaTeX Info: Redefining \pageref on input line 66.
 \MPnumerator=\count118
 \everyMPtoPDFconversion=\toks22
 )
-LaTeX Font Info:    Try loading font information for U+txmia on input line 72.
+LaTeX Font Info:    Try loading font information for U+txmia on input line 70.
  (/usr/share/texmf-texlive/tex/latex/txfonts/utxmia.fd
 File: utxmia.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+txsya on input line 72.
+LaTeX Font Info:    Try loading font information for U+txsya on input line 70.
 
 (/usr/share/texmf-texlive/tex/latex/txfonts/utxsya.fd
 File: utxsya.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+txsyb on input line 72.
+LaTeX Font Info:    Try loading font information for U+txsyb on input line 70.
 
 (/usr/share/texmf-texlive/tex/latex/txfonts/utxsyb.fd
 File: utxsyb.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+txsyc on input line 72.
+LaTeX Font Info:    Try loading font information for U+txsyc on input line 70.
 
 (/usr/share/texmf-texlive/tex/latex/txfonts/utxsyc.fd
 File: utxsyc.fd 2000/12/15 v3.1
@@ -439,7 +435,7 @@ ination with the same identifier (name{page.1}) has been already used, duplicat
 e ignored
 <to be read again> 
                    \relax 
-l.79 \end{abstract}
+l.77 \end{abstract}
                     [1] (./mainrep.toc)
 \tf@toc=\write4
 \openout4 = `mainrep.toc'.
@@ -497,7 +493,7 @@ Chapter 2.
 
  (./expt/experimental.tex
 Chapter 3.
-<expt/profflow.pdf, id=117, 462.72874pt x 182.6825pt>
+<expt/profflow.pdf, id=112, 462.72874pt x 182.6825pt>
 File: expt/profflow.pdf Graphic file (type pdf)
  <use expt/profflow.pdf>)
 [4
@@ -519,13 +515,13 @@ Chapter 4.
 ] (./mainrep.aux (./intro/introduction.aux)
 (./lit/literature.aux) (./expt/experimental.aux) (./rnd/results.aux)) ) 
 Here is how much of TeX's memory you used:
- 6051 strings out of 495061
- 82832 string characters out of 1182621
- 147453 words of memory out of 3000000
- 9030 multiletter control sequences out of 15000+50000
+ 6083 strings out of 495061
+ 83181 string characters out of 1182621
+ 147462 words of memory out of 3000000
+ 9060 multiletter control sequences out of 15000+50000
  42395 words of font info for 105 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
- 38i,10n,38p,252b,333s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 38i,10n,38p,252b,316s stack positions out of 5000i,500n,10000p,200000b,50000s
 {/usr/sh
 are/texmf-texlive/fonts/enc/dvips/base/8r.enc}</usr/share/texmf-texlive/fonts/t
 ype1/public/txfonts/rtxmi.pfb></usr/share/texmf-texlive/fonts/type1/public/txfo
@@ -534,9 +530,9 @@ r/share/texmf-texlive/fonts/type1/public/txfonts/txsy.pfb></usr/share/texmf-tex
 live/fonts/type1/public/txfonts/txtt.pfb></usr/share/texmf-texlive/fonts/type1/
 urw/times/utmb8a.pfb></usr/share/texmf-texlive/fonts/type1/urw/times/utmr8a.pfb
 ></usr/share/texmf-texlive/fonts/type1/urw/times/utmri8a.pfb>
-Output written on mainrep.pdf (11 pages, 83993 bytes).
+Output written on mainrep.pdf (11 pages, 83372 bytes).
 PDF statistics:
- 171 PDF objects out of 1000 (max. 8388607)
+ 169 PDF objects out of 1000 (max. 8388607)
  35 named destinations out of 1000 (max. 500000)
- 86 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 78 words of extra memory for PDF output out of 10000 (max. 10000000)
 

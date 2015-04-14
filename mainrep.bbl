@@ -1,14 +1,95 @@
-\begin{thebibliography}{2}
-\addcontentsline{toc}{chapter}{\bibname}
-\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
-
-\bibitem[Author \textit{et~al.}(2009)Author, Writer and Scientist]{Auth09}
-Author, F., Writer, S. and Scientist, T. (2009) Any title for the article,
-  authors to be separated by \verb|and|.
-\newblock \textit{New Journal of Biliography} \textbf{21}, 10--28.
-
-\bibitem[Author and Writer(2008)]{Mono08}
-Author, N. and Writer, I. (2008) \textit{Experiences with Book Writing}.
-\newblock Random Mouse, Mumbai, third edition.
-
-\end{thebibliography}
+%Merlin.mbs v4.21 2009-07-09.
+\begin{thebibliography}{2}%
+\makeatletter
+\providecommand \@ifxundefined [1]{%
+ \ifx #1\undefined \expandafter \@firstoftwo
+ \else \expandafter \@secondoftwo
+\fi
+}%
+\providecommand \@ifnum [1]{%
+ \ifnum #1\expandafter \@firstoftwo
+ \else \expandafter \@secondoftwo
+\fi
+}%
+\providecommand \natexlab [1]{#1}%
+\providecommand \enquote [1]{``#1''}%
+\providecommand \bibnamefont  [1]{#1}%
+\providecommand \bibfnamefont [1]{#1}%
+\providecommand \citenamefont [1]{#1}%
+\providecommand\href[0]{\@sanitize\@href}%
+\providecommand\@href[1]{\endgroup\@@startlink{#1}\endgroup\@@href}%
+\providecommand\@@href[1]{#1\@@endlink}%
+\providecommand \@sanitize [0]{\begingroup\catcode`\&12\catcode`\#12\relax}%
+\@ifxundefined \pdfoutput {\@firstoftwo}{%
+ \@ifnum{\z@=\pdfoutput}{\@firstoftwo}{\@secondoftwo}%
+}{%
+ \providecommand\@@startlink[1]{\leavevmode\special{html:<a href="#1">}}%
+ \providecommand\@@endlink[0]{\special{html:</a>}}%
+}{%
+ \providecommand\@@startlink[1]{%
+  \leavevmode
+  \pdfstartlink
+   attr{/Border[0 0 1 ]/H/I/C[0 1 1]}%
+   user{/Subtype/Link/A<</Type/Action/S/URI/URI(#1)>>}%
+  \relax
+ }%
+ \providecommand\@@endlink[0]{\pdfendlink}%
+}%
+\providecommand \url  [0]{\begingroup\@sanitize \@url }%
+\providecommand \@url [1]{\endgroup\@href {#1}{\urlprefix}}%
+\providecommand \urlprefix [0]{URL }%
+\providecommand \Eprint[0]{\href }%
+\@ifxundefined \urlstyle {%
+  \providecommand \doi [1]{doi:\discretionary{}{}{}#1}%
+}{%
+  \providecommand \doi [0]{doi:\discretionary{}{}{}\begingroup
+  \urlstyle{rm}\Url }%
+}%
+\providecommand \doibase [0]{http://dx.doi.org/}%
+\providecommand \Doi[1]{\href{\doibase#1}}%
+\providecommand \bibAnnote [3]{%
+  \BibitemShut{#1}%
+  \begin{quotation}\noindent
+    \textsc{Key:}\ #2\\\textsc{Annotation:}\ #3%
+  \end{quotation}%
+}%
+\providecommand \bibAnnoteFile [2]{%
+  \IfFileExists{#2}{\bibAnnote {#1} {#2} {\input{#2}}}{}%
+}%
+\providecommand \typeout [0]{\immediate \write \m@ne }%
+\providecommand \selectlanguage [0]{\@gobble}%
+\providecommand \bibinfo [0]{\@secondoftwo}%
+\providecommand \bibfield [0]{\@secondoftwo}%
+\providecommand \translation [1]{[#1]}%
+\providecommand \BibitemOpen[0]{}%
+\providecommand \bibitemStop [0]{}%
+\providecommand \bibitemNoStop [0]{.\EOS\space}%
+\providecommand \EOS [0]{\spacefactor3000\relax}%
+\providecommand \BibitemShut [1]{\csname bibitem#1\endcsname}%
+%</preamble>
+\bibitem[{\citenamefont{Author}\ \emph{et~al.}(2009)\citenamefont{Author},
+  \citenamefont{Writer},\ and\ \citenamefont{Scientist}}]{Auth09}%
+  \BibitemOpen
+  \bibfield{author}{%
+  \bibinfo {author} {\bibnamefont{Author}, \bibfnamefont{First}}, \bibinfo
+  {author} {\bibfnamefont{S.}~\bibnamefont{Writer}},\ and\ \bibinfo {author}
+  {\bibfnamefont{Third}\ \bibnamefont{Scientist}}}%
+  , \bibinfo {year} {2009},\ \bibfield{title}{%
+  \enquote{\bibinfo {title} {Any title for the article, authors to be separated
+  by 'and'},}\ }%
+  \bibfield{journal}{%
+  \Doi{10.1016/S0006-3495(95)80361-9}{\bibinfo {journal} {New Journal of
+  Biliography}}\ }%
+  \textbf{\bibinfo {volume} {21}}~(\bibinfo {number} {2}),\ \bibinfo {pages}
+  {10--28}%
+  \bibAnnoteFile{NoStop}{Auth09}%
+\bibitem[{\citenamefont{Author}\ and\ \citenamefont{Writer}(2008)}]{Mono08}%
+  \BibitemOpen
+  \bibfield{author}{%
+  \bibinfo {author} {\bibnamefont{Author}, \bibfnamefont{Novel}},\ and\
+  \bibinfo {author} {\bibfnamefont{Interesting}\ \bibnamefont{Writer}}}%
+  , \bibinfo {year} {2008},\ \Doi{10.1021/ja2076873}{\emph{\bibinfo {title}
+  {Experiences with Book Writing}}},\ \bibinfo {edition} {3rd}\ ed.\ (\bibinfo
+  {publisher} {Random Mouse},\ \bibinfo {address} {Mumbai})%
+  \bibAnnoteFile{NoStop}{Mono08}%
+\end{thebibliography}%
