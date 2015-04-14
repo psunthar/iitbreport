@@ -12,17 +12,28 @@ allow you to export bibliographic entries in the Bib\TeX format.
 
 Citations are referred in the text using \verb|\citet| command which produces
 citations as though they are part of the text.  In order to say
-somebody did this work as a part of a line use: \verb|\citet{Auth09}|
+somebody did this work as a part of a line use:
+\verb|\citet{Batzri1973}|
 have done extensive work on \ldots.  This will produce
 
-\citet{Auth09} have done extensive work on \ldots
+\citet{Batzri1973} have done extensive work on \ldots
 
 
 Alternately citations can appear in parenthesis.  The
-command \verb|\citep{Auth09}| is used to automatically put the
+command \verb|\citep{Batzri1973}| is used to automatically put the
 citations in parenthesis.
   As an example consider the extensive work
-done in the area of book writing \citep{Mono08,Auth09}.
+done in the area of book writing \citep{Sackmann1995a,Boal2012}.
+
+Conferences \citep{rich-mart92} or collection of work
+\citep{Sackmann1995a} also have special entries.
+
+It is also possible to cite thesis like this:
+\citet{jariwala00,luding94} or just unpublished work from
+\citet{SunHI03}. Some times there are unclassified bibliographic
+entries which can be put under ``misc'' \citep{Smith99}.
+
+
 
 %%% Local Variables: 
 %%% mode: latex

@@ -1,5 +1,5 @@
 %Merlin.mbs v4.21 2009-07-09.
-\begin{thebibliography}{2}%
+\begin{thebibliography}{8}%
 \makeatletter
 \providecommand \@ifxundefined [1]{%
  \ifx #1\undefined \expandafter \@firstoftwo
@@ -67,28 +67,84 @@
 \providecommand \EOS [0]{\spacefactor3000\relax}%
 \providecommand \BibitemShut [1]{\csname bibitem#1\endcsname}%
 %</preamble>
-\bibitem[{\citenamefont{Author}\ \emph{et~al.}(2009)\citenamefont{Author},
-  \citenamefont{Writer},\ and\ \citenamefont{Scientist}}]{Auth09}%
+\bibitem[{\citenamefont{Batzri}\ and\ \citenamefont{Korn}(1973)}]{Batzri1973}%
   \BibitemOpen
   \bibfield{author}{%
-  \bibinfo {author} {\bibnamefont{Author}, \bibfnamefont{First}}, \bibinfo
-  {author} {\bibfnamefont{S.}~\bibnamefont{Writer}},\ and\ \bibinfo {author}
-  {\bibfnamefont{Third}\ \bibnamefont{Scientist}}}%
-  , \bibinfo {year} {2009},\ \bibfield{title}{%
-  \enquote{\bibinfo {title} {Any title for the article, authors to be separated
-  by 'and'},}\ }%
+  \bibinfo {author} {\bibnamefont{Batzri}, \bibfnamefont{Shmuel}},\ and\
+  \bibinfo {author} {\bibfnamefont{ED}~\bibnamefont{Korn}}}%
+  , \bibinfo {year} {1973},\ \bibfield{title}{%
+  \enquote{\bibinfo {title} {{Single bilayer liposomes prepared without
+  sonication}},}\ }%
   \bibfield{journal}{%
-  \Doi{10.1016/S0006-3495(95)80361-9}{\bibinfo {journal} {New Journal of
-  Biliography}}\ }%
-  \textbf{\bibinfo {volume} {21}},\ \bibinfo {pages} {10--28}%
-  \bibAnnoteFile{NoStop}{Auth09}%
-\bibitem[{\citenamefont{Author}\ and\ \citenamefont{Writer}(2008)}]{Mono08}%
+  \Doi{10.1016/0005-2736(73)90408-2}{\bibinfo {journal} {Biochim. Biophys.
+  Acta}}\ }%
+  \textbf{\bibinfo {volume} {298}},\ \bibinfo {pages} {1015--1019}%
+  \bibAnnoteFile{NoStop}{Batzri1973}%
+\bibitem[{\citenamefont{Boal}(2012)}]{Boal2012}%
   \BibitemOpen
   \bibfield{author}{%
-  \bibinfo {author} {\bibnamefont{Author}, \bibfnamefont{Novel}},\ and\
-  \bibinfo {author} {\bibfnamefont{Interesting}\ \bibnamefont{Writer}}}%
-  , \bibinfo {year} {2008},\ \Doi{10.1021/ja2076873}{\emph{\bibinfo {title}
-  {Experiences with Book Writing}}},\ \bibinfo {edition} {3rd}\ ed.\ (\bibinfo
-  {publisher} {Random Mouse},\ \bibinfo {address} {Mumbai})%
-  \bibAnnoteFile{NoStop}{Mono08}%
+  \bibinfo {author} {\bibnamefont{Boal}, \bibfnamefont{David}}}%
+  , \bibinfo {year} {2012},\ \emph{\bibinfo {title} {Mechanics of the Cell}},\
+  \bibinfo {edition} {2nd}\ ed.\ (\bibinfo {publisher} {Cambridge})%
+  \bibAnnoteFile{NoStop}{Boal2012}%
+\bibitem[{\citenamefont{Jariwala}(2000)}]{jariwala00}%
+  \BibitemOpen
+  \bibfield{author}{%
+  \bibinfo {author} {\bibnamefont{Jariwala}, \bibfnamefont{Saurabh}}}%
+  , \bibinfo {year} {2000},\ \emph{\bibinfo {title} {Lattice Boltzmann
+  Simulation of Lamellar Phase}},\ Master's thesis\ (\bibinfo {school}
+  {Chemical Engineering, Indian Institute of Science}, \bibinfo {address}
+  {Bangalore, India})%
+  \bibAnnoteFile{NoStop}{jariwala00}%
+\bibitem[{\citenamefont{Luding}(1994)}]{luding94}%
+  \BibitemOpen
+  \bibfield{author}{%
+  \bibinfo {author} {\bibnamefont{Luding}, \bibfnamefont{S}}}%
+  , \bibinfo {year} {1994}\ \bibinfo {month} {October},\ \emph{\bibinfo {title}
+  {Models and Simulations of Granular Materials}},\ Ph.D. thesis\ (\bibinfo
+  {school} {Albert-{L}udwigs-{U}nivetsit{\"a}t {F}reiburg})%
+  \bibAnnoteFile{NoStop}{luding94}%
+\bibitem[{\citenamefont{Richman}\ and\
+  \citenamefont{Martin}(1992)}]{rich-mart92}%
+  \BibitemOpen
+  \bibfield{author}{%
+  \bibinfo {author} {\bibnamefont{Richman}, \bibfnamefont{W.}},\ and\ \bibinfo
+  {author} {\bibfnamefont{Richard~E.}\ \bibnamefont{Martin}}}%
+  , \bibinfo {year} {1992}\ \bibinfo {month} {May 24--27},\ \enquote{\bibinfo
+  {title} {Unconfined granular materials thermalised by fluctuating horizontal
+  surfaces},}\ in\ \emph{\bibinfo {booktitle} {Engineering Mechanics:
+  Proceedings of the Ninth Conference}},\ \bibinfo {editor} {edited by\
+  \bibinfo {editor} {\bibfnamefont{Loren~D.}\ \bibnamefont{Lutes}}\ and\
+  \bibinfo {editor} {\bibfnamefont{John~M.}\ \bibnamefont{Niedzwecki}}},\
+  \bibinfo {organization} {Engineering Mechanics Division}\ (\bibinfo
+  {publisher} {American Society of Civil Engineers, New York})\ Chap.~\bibinfo
+  {chapter} {3},\ pp.\ \bibinfo {pages} {900--903}%
+  \bibAnnoteFile{NoStop}{rich-mart92}%
+\bibitem[{\citenamefont{Sackmann}(1995)}]{Sackmann1995a}%
+  \BibitemOpen
+  \bibfield{author}{%
+  \bibinfo {author} {\bibnamefont{Sackmann}, \bibfnamefont{E}}}%
+  , \bibinfo {year} {1995},\ \enquote{\bibinfo {title} {Physical basis of
+  self-organization and function of membranes: Physics of vesicles},}\ in\
+  \emph{\bibinfo {booktitle} {Structure and Dynamics of Membranes: From Cells
+  to Vesicles}},\ \bibinfo {series} {Handbook of Biological Physics},
+  Vol.~\bibinfo {volume} {1A},\ \bibinfo {editor} {edited by\ \bibinfo {editor}
+  {\bibfnamefont{R}~\bibnamefont{Lipowsky}}\ and\ \bibinfo {editor}
+  {\bibfnamefont{E}~\bibnamefont{Sackmann}}},\ Chap.~\bibinfo {chapter} {5}\
+  (\bibinfo {publisher} {Elsevier})\ pp.\ \bibinfo {pages} {213--303}%
+  \bibAnnoteFile{NoStop}{Sackmann1995a}%
+\bibitem[{\citenamefont{Smith}(1999)}]{Smith99}%
+  \BibitemOpen
+  \bibfield{author}{%
+  \bibinfo {author} {\bibnamefont{Smith}, \bibfnamefont{Douglas~E}}}%
+  , \bibinfo {year} {1999},\ \bibinfo {howpublished} {Private communication}%
+  \bibAnnote{NoStop}{Smith99}{Duc At has the communication regarding the
+  details passed on by Smith.}%
+\bibitem[{\citenamefont{Sunthar}(2003)}]{SunHI03}%
+  \BibitemOpen
+  \bibfield{author}{%
+  \bibinfo {author} {\bibnamefont{Sunthar}, \bibfnamefont{P}}}%
+  , \bibinfo {year} {2003},\ \enquote{\bibinfo {title} {Calculation of fixed
+  point in the zimm model: revisited},}\ \bibinfo {note} {Unpublished notes}%
+  \bibAnnoteFile{NoStop}{SunHI03}%
 \end{thebibliography}%

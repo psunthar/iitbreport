@@ -1,51 +1,51 @@
 This is BibTeX, Version 0.99c (TeX Live 2009/Debian)
 The top-level auxiliary file: mainrep.aux
+The style file: iitbauthyr.bst
 A level-1 auxiliary file: intro/introduction.aux
 A level-1 auxiliary file: lit/literature.aux
 A level-1 auxiliary file: expt/experimental.aux
 A level-1 auxiliary file: rnd/results.aux
-The style file: iitbauthyr.bst
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Database file #1: mylit.bib
 Merlin.mbs v4.21 2009-07-09. 
-You've used 2 entries,
+You've used 8 entries,
             4548 wiz_defined-function locations,
-            886 strings with 8084 characters,
-and the built_in function-call counts, 2178 in all, are:
-= -- 129
-> -- 52
-< -- 5
-+ -- 17
-- -- 15
-* -- 333
-:= -- 229
-add.period$ -- 3
-call.type$ -- 2
-change.case$ -- 16
-chr.to.int$ -- 5
-cite$ -- 4
-duplicate$ -- 189
-empty$ -- 164
-format.name$ -- 31
-if$ -- 360
+            929 strings with 9056 characters,
+and the built_in function-call counts, 7064 in all, are:
+= -- 493
+> -- 123
+< -- 20
++ -- 42
+- -- 34
+* -- 963
+:= -- 801
+add.period$ -- 13
+call.type$ -- 8
+change.case$ -- 55
+chr.to.int$ -- 11
+cite$ -- 16
+duplicate$ -- 680
+empty$ -- 573
+format.name$ -- 72
+if$ -- 1273
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 29
-newline$ -- 85
-num.names$ -- 8
-pop$ -- 74
+missing$ -- 98
+newline$ -- 121
+num.names$ -- 34
+pop$ -- 264
 preamble$ -- 1
-purify$ -- 13
+purify$ -- 42
 quote$ -- 2
-skip$ -- 67
+skip$ -- 260
 stack$ -- 0
-substring$ -- 42
-swap$ -- 173
-text.length$ -- 3
+substring$ -- 187
+swap$ -- 586
+text.length$ -- 11
 text.prefix$ -- 0
 top$ -- 1
-type$ -- 21
+type$ -- 80
 warning$ -- 0
-while$ -- 8
+while$ -- 32
 width$ -- 0
-write$ -- 95
+write$ -- 166
