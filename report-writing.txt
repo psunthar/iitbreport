@@ -1,0 +1,54 @@
+
+======================================
+Abstract/Motivation
+
+What problem is being addressed ? 
+
+Why do we need to it (implications).
+
+What method you are going to follow
+
+Why did you choose that.
+
+What are the chief outcomes.
+
+What are its implications.
+
+
+======================================
+Literature Survey must answer:
+
+   1. ``What is X?''
+   2. Why is X important? What is its place in the world at large?
+   3. What are the main intellectual questions.
+   4. What are the answers/approaches.
+   5. Some details regarding the important approaches. Your favourite approaches. The latest...
+   6. What are the unsolved problem.
+
+Use some of these ideas in the abstract and introduction
+
+
+
+======================================
+Introduction and General Strategy
+
+Who are the potential readers of the report (research scholars, scientists)
+What do you need to explain? What is obvious?
+What is surprising to them?
+
+======================================
+Structure of Documents:
+Heirarchy of building blocks: Chapters, sections,
+subsections, paragraphs, sentences.
+
+Begin each block with an overview:
+Report overview: first chapter
+Chapter overview: first section.
+Section overview: first pargraph
+Paragraph overview: first sentence
+
+End each block with a summary
+Last chapter: Summary and Conclusions
+Last section of each chapter: What did the chapter
+accomplish? What is important for the rest of the
+chapters.

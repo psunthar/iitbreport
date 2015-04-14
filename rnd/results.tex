@@ -1,0 +1,30 @@
+\chapter{Results and Discussion}
+
+
+\section{Including Tables}
+
+Tables are to be used in a special environment so that they have a
+Number, caption and appear in the list of tables.
+Table~\ref{tab:samtab} is a sample table. In the case of tables, it is
+a convention to write the caption above the table.  Note that in the
+case of figures the caption appears below the figure.
+
+\begin{table}[tbp]
+  \begin{center}
+    \caption{Physical properties of the materials used.}
+    \label{tab:samtab}
+    \begin{tabular}{ll}
+      \toprule 
+      Property & Value \\
+      \midrule
+      Particle Density, $\rho_{\mathrm{p}}$ & 2500 kg/m$^{3}$ \\
+      Viscosity, $\eta_{\mathrm{s}}$& 1 $\times 10^{-3}$ Pa-s \\
+      \bottomrule \\
+    \end{tabular}
+  \end{center}
+\end{table}
+
+%%% Local Variables: 
+%%% mode: latex
+%%% TeX-master: "../mainrep"
+%%% End: 

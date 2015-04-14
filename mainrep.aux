@@ -1,0 +1,22 @@
+\relax 
+\ifx\hyper@anchor\@undefined
+\global \let \oldcontentsline\contentsline
+\gdef \contentsline#1#2#3#4{\oldcontentsline{#1}{#2}{#3}}
+\global \let \oldnewlabel\newlabel
+\gdef \newlabel#1#2{\newlabelxx{#1}#2}
+\gdef \newlabelxx#1#2#3#4#5#6{\oldnewlabel{#1}{{#2}{#3}}}
+\AtEndDocument{\let \contentsline\oldcontentsline
+\let \newlabel\oldnewlabel}
+\else
+\global \let \hyper@last\relax 
+\fi
+
+\@input{intro/introduction.aux}
+\@input{lit/literature.aux}
+\@input{expt/experimental.aux}
+\@input{rnd/results.aux}
+\bibstyle{chemthes}
+\bibdata{mylit}
+\bibcite{Auth09}{{1}{2009}{{Author \textit  {et~al.}}}{{Author, Writer and Scientist}}}
+\bibcite{Mono08}{{2}{2008}{{Author and Writer}}{{}}}
+\@writefile{toc}{\contentsline {chapter}{Bibliography}{6}{chapter*.4}}

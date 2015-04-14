@@ -1,0 +1,77 @@
+
+\chapter{Introduction}
+
+
+This document contains commonly used essential templates to write a
+\LaTeX\ document. This document is to be used along with the files and
+folders provided. Writing a \LaTeX\ document is very simple.  Often
+students need only very simple constructs.  This document shows
+certain essential features that almost all technical report writing
+requires. Please consult the PDF file for the output of the document,
+and then look at the corresponding \LaTeX\ file to reproduce it.  The
+document illustrates the following constructs
+\begin{itemize}
+\item Unnumbered and Numbered Lists
+\item Equations
+\item Defining short macros for frequently used symbols
+\item Bibliography
+\item Figures
+\item Tables
+\end{itemize}
+
+The normal procedure for compiling a \LaTeX\ document that contains
+bibliographic entries is to follow the following steps
+\begin{enumerate}
+\item \verb|pdflatex mainrep|
+\item \verb|bibtex mainrep|
+\item \verb|pdflatex mainrep|
+\item \verb|pdflatex mainrep|
+\end{enumerate}
+In the above example \verb|mainrep| is the main \LaTeX\ file.
+
+
+\section{First section of this chapter}
+
+This is the first chapter, which resides in a directory (folder)
+intro. Each chapter can contain \verb|section|, \verb|subsection|
+and so on.
+
+\subsection{Equations and Math symbols}
+
+
+Equations should be set in a separate mode.  For details on getting
+various types of aligned equations, consult the \AmS-\LaTeX\
+documentation \verb|amsldoc.pdf|. Simple equations are set as
+\begin{equation}
+\label{eq:sinx}
+\int \mathrm{d}x \; \cos x =  \sin x
+\end{equation}
+Equation~\eqref{eq:sinx} is the integral of the cosine
+function. Mathematical symbols must always be put inside \verb|$$|,
+when they appear outside a math environment (such as \verb|equation|,
+\verb|align|, \verb|gather|, etc).  The symbol ``ex'' must be written as
+$x$ and not as x.  
+
+Another commonly used construct for equations is the \verb|align|
+environment to align several equations along a vertical line. It is
+usually the $=$ sign across which the alignment is done.  The
+point of alignment for each equation is specified using the ampersand symbol 
+\begin{align}
+a &= b  \\
+a + e + f + g & = m + n + z \\
+x + 2 & = x^{3} + 3 x^{2} + 2 x + 5
+\end{align}
+
+\subsection{Commonly used Symbols}
+For mathematical symbols it is very convenient to define frequently
+used symbols as a short macro. For example if you are to be using the
+symbol $\eta_{\mathrm{s}}$ frequently it is convenient to define it in
+as:\\
+\verb|\newcommand{\etas}{\ensuremath{\eta_{\mathrm{s}}}}| \\
+in the preamble and to simply refer it to in the text as \etas\ or in
+a mathematical equation as $\etas = \eta \, ( 1 + \phi)$.
+
+%%% Local Variables: 
+%%% mode: latex
+%%% TeX-master: "../mainrep"
+%%% End: 

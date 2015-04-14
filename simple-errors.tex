@@ -1,0 +1,98 @@
+\documentclass{article}
+
+% \documentclass{book}
+% any line with a percent symbol is ignored after the symbol
+
+
+
+
+
+
+\begin{document}
+
+
+% Comment out these three lines to get the minimal LaTeX document
+\title{Common Errors in \LaTeX Document}
+\author{Sunthar (Change this)}
+\maketitle
+
+
+\begin{abstract}
+  This document is written to help you find common errors in a \LaTeX\ Document. 
+\end{abstract}
+
+
+Find the typesetting errors in the following sentences. The errors may
+not be captured by your \LaTeX\ programme.
+\begin{enumerate}
+
+\item The words \TeX\Latex can be typeset using \verb|\TeX| and
+\verb|\LaTeX| commands.
+
+
+\item Two words have to be separated by atleast one space or one
+  newline character (end of line, carriage return). 
+                   Any      number       of   spaces
+between       two        words      amounts     just one space.
+Similarly 
+we 
+can
+have
+words
+written
+in fresh
+line
+without
+blank 
+lines
+in between.
+
+
+\item A paragraph is separated by a blank line.  
+
+
+
+
+            Any amount of blank lines is simply equal to one \item.
+
+
+
+\item \LaTeX macros are always preceeded by a $\backslash$ symbol.  The
+  macros are like inline (or \verb|#define| functions) of the
+  C-language.  Some macros accept arguments. Each argument must be
+  enclosed in curly braces \{ \}.  Example a macro accepting three
+  arguments is written as:\\
+  \verb|\somemacro{arg 1}{argument 2}{third arg}|
+
+
+
+
+
+
+\item If you want to emphasise a part of a sentence you must use
+  \verb|\emph|.  It does not always mean to change to italics font.
+  It emphasises depending on the surrounding characters.  If all the
+  surrounding characters are normal (it is called roman), then it
+  becomes italics, and vice versa.
+  
+  Therefore, you can have \emph{nested emphasize statements like this,
+  where there is an emphasise 
+  \emph{inside another}  emphasised section of sentence}.
+
+ 
+\item Mathematical symbols in running text should be written between
+two Dollar symbols \$  \$.  As an example see how this is written:
+$\sum_{i=0}^{N} x_i $.  Here $x$ is any math variable, it must not
+be written like x (without the dollar symbols). Did you notice the
+$difference$ ?
+
+
+\item Math mode does not mean simply italics, even the spacing between
+the letters changes.  Consider the difference between
+\emph{different} and $different$.
+
+
+\end{enumerate}
+
+\end{document}
+

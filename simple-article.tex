@@ -1,0 +1,82 @@
+ \documentclass{article}
+
+% any line with a percent symbol is ignored after the symbol
+
+
+% to increase the line spacing
+\renewcommand{\baselinestretch}{1.5} % this is equal to double spacing
+% \renewcommand{\baselinestretch}{1.3} % this is equal to 1.5 spacing
+
+
+
+\begin{document}
+
+\title{Simple \LaTeX\ Document}
+\author{P Sunthar}
+
+\date{\today} % this is the default
+\date{10 Sep 2010}
+
+\maketitle
+
+\begin{abstract}
+ This article shows the important tags in an \emph{article} class. Article contains
+ sections, subsections, and paragraphs as the main content classifications.
+\end{abstract}
+
+
+
+\section{Introduction}
+
+Hello World!
+
+In latex text file number of a              spaces between words do not count.
+New
+lines
+in 
+a 
+paragraph
+also
+does
+not
+count. This whole section will be treated as a paragraph.
+
+What distinguishes one paragraph from another is a blank line. Like there
+is a blank line here.
+
+An important tip is to avoid trying obtain explicit spaces in the compiled
+document, like spaces, indents, blank lines (in the final document not
+in the plain text file). There are ways to do this, but that is the job
+of the editor, who provides the class file,  \emph{not the job of the
+content provider} which is you.
+
+
+\section{Document Dividers}
+ The article document can be divided into several sections and subsections.
+ The sections can be numbered or not numbered.
+ \subsection{First subsection}
+  There is nothing in this subsection
+ \subsection{Second subsection}
+  Subsections can have upto two subsubs like subsection, and subsubsection.
+  \subsubsection{This is  under subsect}
+
+  Emphasize depends on the environment it is in.  Normally it is
+  \emph{italics},
+   but \emph{if the environment is in italics then it is in \emph{Roman}. Like
+   in this case}.
+
+ 
+  \subsubsection{This is  under subsect}
+
+  More about divisions here
+
+ \paragraph{Titled Paragraph}
+
+ By default all the numbers for the sections will be displayed.  The fourth
+level of document division is called as a paragraph.  Just as each section
+has a title a paragraph can also have a title.
+ 
+
+
+\end{document}
+Anything below this is ignored

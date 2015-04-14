@@ -1,0 +1,63 @@
+%%% Time-stamp: <usefulmath.tex 14:00, 04 Jul 2011 by P Sunthar>
+
+
+%%% $Log:$
+
+
+\documentclass{article}
+
+\usepackage{amsmath}
+\usepackage{mathpazo}
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{array}
+
+\input{operands}
+
+\newcommand{\shmath}[3]{%
+  #1 #2 #3
+}
+
+
+\begin{document}
+\title{Some Useful Math Macros}
+\author{P Sunthar}
+\maketitle
+
+These are some useful short forms for math, which occur repeatedly.
+The macros are defined in \verb|operands.tex|.
+
+\begin{longtable}{l>{$\displaystyle}c<{$}|l}
+    \toprule
+    Short form  & \text{Appears as} & Description \\
+    \midrule
+     \verb|\Vector{A}| & \Vector{A} & Bold face for vectors \\
+     \verb|\Tensor{A}| & \Tensor{A} & Bold face, Sans-Serif font for tensors \\
+     \verb|$\rmd$| & \rmd & Roman dee.\\
+     \verb|\der{A}{t}| & \der{A}{t} & Derivative \\
+     \verb|\pder{A}{t}| & \pder{A}{t} & Partial Derivative \\
+     \verb|\DDt{A}| & \DDt{A} & Material/Total Derivative \\
+     \verb|\textder{A}{x}| & \textder{A}{x} & Derivative in running
+     text \\
+     \verb|\Int{0}{\infty}{x}| & \Int{0}{\infty}{x}& Integral with
+     limits and differential \\
+     \verb|2.3\tenpow{-3}| & 2.3\tenpow{-3} &  Scientific Notation of
+     2.3$\times 10^{-3}$ \\
+     \verb|\Exp{-t}| & \Exp{-t} & Raised exponential \\
+     \verb|\OrderOf{\epsilon}| & \OrderOf{\epsilon} & Order Of\\
+     \verb|\modulus{A}| & \modulus{A} & Magnitude or Determinant\\
+     \verb|\braket{A}| & \braket{A} & Ensemble Average or bra and ket
+     operators\\
+     \verb|\sqfrac{A}{t}| & \sqfrac{A}{t} & Square root of a fraction\\
+     \verb|\evalat{A}{t=0}| & \evalat{A}{t=0} & Evaluate $A$ at $t=0$\\
+     \verb|\crossV| & \crossV & V-cross to denote volume\\
+    \bottomrule
+\end{longtable}
+
+\end{document}
+
+
+%%% Local Variables: 
+%%% mode: latex
+%%% TeX-master: t
+%%% End: 

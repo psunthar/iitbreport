@@ -1,0 +1,36 @@
+
+\chapter{Materials and Methods}
+
+\section{Including Figures}
+
+Figures are conveniently included using postscript format.  If you are
+generating a figure in a software, please check if the software
+supports writing to a postscript or a PDF format. This format is loss
+less vector format and with reproduce in any magnification without any
+pixelation. Make sure to write it to an ``Encapsulated Post-script''or
+.eps format.
+
+
+\begin{figure}[tbp]
+  \begin{center}
+    \includegraphics[width=0.7\textwidth]{profflow}
+    \caption[Process flow sheet]{Process flow sheet of the
+      experimental setup. The caption of the figure goes here. A
+      shorter caption can be written in square brackets to identify it
+      in the list of figures.}
+    \label{fig:pfs}
+  \end{center}
+\end{figure}
+
+Figures should be given a label and which can be used to refer to them
+in the running text using \verb|\ref{}| command. Figure~\ref{fig:pfs}
+describes the process flow sheet of the experimental set up used in
+this report. The \Figref{fig:pfs} can also be refered by a short form notation
+a pre-defined macro \verb"\Figref".
+
+
+
+%%% Local Variables: 
+%%% mode: latex
+%%% TeX-master: "../mainrep"
+%%% End: 

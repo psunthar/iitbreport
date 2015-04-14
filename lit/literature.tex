@@ -1,0 +1,30 @@
+
+\chapter{Literature Survey}
+
+The bibliographic entries are to be kept in a file named
+\verb|<something>.bib|. In this sample report we call it as
+\verb|mylit.bib|. This file must be included without the \verb|.bib|
+extension in the main file as: \verb|\bibliography{mylit}|.   Open the
+file \verb|mylit.bib| to see the format in which the entries are
+written. This is written in the Bib\TeX format. Most of the
+bibliographic web pages (Scopus, ISI Web) and software (EndNote, etc)
+allow you to export bibliographic entries in the Bib\TeX format.
+
+Citations are referred in the text using \verb|\citet| command which produces
+citations as though they are part of the text.  In order to say
+somebody did this work as a part of a line use: \verb|\citet{Auth09}|
+have done extensive work on \ldots.  This will produce
+
+\citet{Auth09} have done extensive work on \ldots
+
+
+Alternately citations can appear in parenthesis.  The
+command \verb|\citep{Auth09}| is used to automatically put the
+citations in parenthesis.
+  As an example consider the extensive work
+done in the area of book writing \citep{Mono08,Auth09}.
+
+%%% Local Variables: 
+%%% mode: latex
+%%% TeX-master: "../mainrep"
+%%% End: 

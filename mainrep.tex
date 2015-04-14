@@ -1,0 +1,109 @@
+%%% Time-stamp: <mainrep.tex 13:08, 25 May 2009 by P. Sunthar>
+
+%%% $Log:$
+
+\documentclass[11pt,a4paper,openright]{report}
+\includeonly{%
+  intro/introduction,
+  lit/literature,
+  expt/experimental,
+  rnd/results,
+}
+
+\usepackage{fullpage}
+
+%%% Some commonly used packages (make sure your LaTeX installation
+%%% contains these packages, if not ask your senior to help installing
+%%% the packages)
+
+\usepackage[bookmarks,%
+            a4paper,%
+            breaklinks,%
+            backref=false,%
+            dvips,ps2pdf,%
+            pdfhighlight=/I,%
+            pdffitwindow=true,%
+            pdfstartview=Fit,%
+            pdfcenterwindow=true,%
+            linkbordercolor={1 0 1},%
+            %colorlinks,%
+            pdftitle=Essential LaTeX Templates,%
+            pdfauthor=P Sunthar]%
+            {hyperref}
+
+
+
+\usepackage{amsmath}
+
+\usepackage{natbib}
+\usepackage{booktabs}
+\usepackage{graphicx}
+\graphicspath{{expt/}}
+
+
+\usepackage{times}
+\usepackage[varg]{txfonts}
+
+%%% Macro definitions for Commonly used symbols
+\newcommand{\etas}{\ensuremath{\eta_{\mathrm{s}}}}
+\newcommand{\Rey}{\ensuremath{\mathrm{Re}}}
+\newcommand{\avg}[1]{\ensuremath{\overline{#1}}}
+\newcommand{\tenpow}[1]{\ensuremath{\times 10^{#1}}}
+
+\newcommand{\pder}[2]{\ensuremath{\frac{\partial#1}{\partial#2}}}
+
+
+% Referencing macros
+\newcommand{\Eqref}[1]{Equation~\eqref{#1}}
+\newcommand{\Tabref}[1]{Table~\ref{#1}}
+\newcommand{\Figref}[1]{Figure~\ref{#1}}
+\newcommand{\Appref}[1]{Appendix~\ref{#1}}
+
+
+
+
+
+\begin{document}
+\title{Essential \LaTeX\ Templates for Report Writing}
+\author{P Sunthar}
+%\date{25 May 2009}
+\date{\today}
+
+\maketitle
+
+
+\begin{abstract}
+This document contains essential templates required to write technical
+reports using \LaTeX.  Particularly it shows how to create an
+equation, figure, table, and bibliographic citation in a \LaTeX\
+document.
+\end{abstract}
+
+\pagenumbering{roman}
+\tableofcontents
+
+\listoftables
+\listoffigures
+
+\cleardoublepage
+\setcounter{page}{1}
+\pagenumbering{arabic}
+
+\include{intro/introduction}
+\include{lit/literature}
+\include{expt/experimental}
+\include{rnd/results}
+
+\bibliographystyle{chemthes}
+\bibliography{mylit}
+
+
+\end{document}
+
+
+
+
+%%% Local Variables: 
+%%% mode: latex
+%%% TeX-master: t
+%%% End: 

@@ -1,0 +1,14 @@
+\begin{thebibliography}{2}
+\addcontentsline{toc}{chapter}{\bibname}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+
+\bibitem[Author \textit{et~al.}(2009)Author, Writer and Scientist]{Auth09}
+Author, F., Writer, S. and Scientist, T. (2009) Any title for the article,
+  authors to be separated by \verb|and|.
+\newblock \textit{New Journal of Biliography} \textbf{21}, 10--28.
+
+\bibitem[Author and Writer(2008)]{Mono08}
+Author, N. and Writer, I. (2008) \textit{Experiences with Book Writing}.
+\newblock Random Mouse, Mumbai, third edition.
+
+\end{thebibliography}
