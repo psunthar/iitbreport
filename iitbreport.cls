@@ -1,7 +1,7 @@
 %%
-%% This is file `chemeng.cls',
+%% This is file `iitbreport.cls',
 %%
-%% Time-stamp: <17:11 25 Dec 1997> 
+%% Time-stamp: <2015-04-14 23:24:22 sunthar> 
 %% 
 %% 
 %% IMPORTANT NOTICE:
@@ -20,18 +20,16 @@
 %% 
 %% Error Reports in case of UNCHANGED versions to either of
 %% 
-%%     P Sunthar
+%%     P Sunthar  <p.sunthar@gmail.com>
 %% 
-%%     L Srinivasa Mohan
 %%
 
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesClass{chemthes} [25/12/1997 chemeng thesis class v 1.0]
+\ProvidesClass{iitbreport} [14/04/2015 IIT Bombay Report class v 1.0]
 
-\newif\if@phd
-\newif\if@msc
-\newif\if@me
 \newif\if@draft
+\newif\if@seminar
+\newif\if@project
 
 \DeclareOption{twoside}{%
   \PassOptionsToClass{twoside}{report}
@@ -42,17 +40,11 @@
   \PassOptionsToClass{draft}{report}
 }
 
-\DeclareOption{phd}{%
-  \@phdtrue
+
+\DeclareOption{seminar}{%
+  \@seminartrue
 }
 
-\DeclareOption{msc}{%
-  \@msctrue
-}
-
-\DeclareOption{me}{%
-  \@metrue
-}
 
 
 \DeclareOption*{\PassOptionsToPackage{\CurrentOption}{report}}  
@@ -62,9 +54,27 @@
 
 \LoadClass[12pt,a4paper,openright]{report}
 \RequirePackage{fancyhdr}
-\RequirePackage{iisclogo}
 
-% Page layout
+%%% Other packages
+\usepackage[bookmarks,%
+            a4paper,%
+            breaklinks,%
+            backref=false,%
+            pdfhighlight=/I,%
+            pdffitwindow=true,%
+            pdfstartview=Fit,%
+            pdfcenterwindow=true,%
+            linkbordercolor={1 0 1},%
+	    pdfusetitle]
+            {hyperref}
+
+
+\usepackage{amsmath}
+\usepackage[varg]{txfonts}
+\usepackage{graphicx}
+\newcommand{\putiitblogo}{\includegraphics[width=10em]{iitb-black}}
+
+%%%% Page layout
 \marginparwidth=0pt
 \marginparsep=0pt
 \setlength\hoffset{-1in}
@@ -98,8 +108,9 @@
 %% In a thesis/report it the bibliography is called ``References'' 
 \renewcommand{\bibname}{References}
 
-%% The style file for References (close to Chem. Engng. Sci)
-\bibliographystyle{chemthes}
+%% The style file for References (Rev. Mod. Phys long
+%% apsrmp4-1long.bst)
+\bibliographystyle{iitbauthyr}
 
 
 % Fancy header 
@@ -149,29 +160,42 @@
 \newcommand{\Usefont}[1]{\fontfamily{#1}\selectfont}
 \newcommand{\monthyear}[1]{\gdef\@monthyear{#1}}
 \gdef\@monthyear{}
+\newcommand{\degree}[1]{\gdef\@degree{#1}}
+\gdef\@degree{}
+\newcommand{\dept}[1]{\gdef\@dept{#1}}
+\gdef\@dept{}
 
 
-\if@me % declaration for ME thesis
-  \newcommand{\@degree}{Master of Engineering}
+
+\if@seminar % 
   \newcommand{\@declaration}{%
     { \large \em \Usefont{pzc} 
-      A Project Report \\ [.25\baselineskip] 
+      A Seminar Report \\ [.25\baselineskip] 
       submitted in partial fulfillment of the \\ [.25\baselineskip] 
       requirements for the degree of \\ [.25\baselineskip] 
       {\Usefont{ppl} \bfseries  \@degree } \\ [.25\baselineskip] 
-      in the Faculty of Engineering \par by \par
+       by \par
       } 
     }
 \else % for research thesis
-   \if@phd\newcommand{\@degree}{Doctor of Philosophy}\fi
-   \if@msc\newcommand{\@degree}{Master of Science (Engg.)}\fi
   \newcommand{\@declaration}{%
     { \large \em \Usefont{pzc} 
-      A Thesis submitted \par
-      for the degree of \\ [.25\baselineskip] 
+      A Thesis \\ [.25\baselineskip] 
+      submitted in partial fulfillment of the \\ [.25\baselineskip] 
+      requirements for the degree of \\ [.25\baselineskip] 
       {\Usefont{ppl} \bfseries  \@degree } \\ [.25\baselineskip] 
-      in the Faculty of Engineering \par by \par }
+      by \par }
 }
+\fi
+
+
+\if@project % declaration for project work
+  \newcommand{\@declaration}{%
+    { \large \em \Usefont{pzc} 
+      A Project Report submitted \\ [.25\baselineskip] 
+       by \par
+      } 
+    }
 \fi
 
 \newcommand{\makecoverpage}{%
@@ -185,11 +209,11 @@
       \vspace{\stretch{1}}
       {\large \bfseries \@author \par}
       \vspace{\stretch{2}}
-      \if@draft\else\iisclogo{800}\fi\par
+      \if@draft\else\putiitblogo \fi\par
       { \Usefont{ptm}
-        {\large   Department of  Chemical Engineering \\[0.2\baselineskip]
-          Indian Institute of Science \\[0.3\baselineskip]
-          Bangalore 560 012  (India) }\\ [.75\baselineskip]
+        {\large \@dept  \\[0.2\baselineskip]
+          Indian Institute of Technology Bombay \\[0.3\baselineskip]
+          Mumbai 460076  (India) }\\ [.75\baselineskip]
         {\Large \@monthyear \par}
         }
     \end{center}
@@ -216,4 +240,4 @@
 \endinput
 
 
-%% End of file `chemthes.cls'
+%% End of file `iitbreport.cls'

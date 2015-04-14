@@ -1,8 +1,9 @@
-%%% Time-stamp: <mainrep.tex 13:08, 25 May 2009 by P. Sunthar>
+%%% Time-stamp: <2015-04-14 23:26:50 sunthar>
 
 %%% $Log:$
 
-\documentclass[11pt,a4paper,openright]{report}
+%\documentclass[11pt,a4paper,openright]{report}
+\documentclass[seminar,twoside,openright]{iitbreport}
 \includeonly{%
   intro/introduction,
   lit/literature,
@@ -10,36 +11,23 @@
   rnd/results,
 }
 
-\usepackage{fullpage}
-
 %%% Some commonly used packages (make sure your LaTeX installation
 %%% contains these packages, if not ask your senior to help installing
 %%% the packages)
 
-\usepackage[bookmarks,%
-            a4paper,%
-            breaklinks,%
-            backref=false,%
-            pdfhighlight=/I,%
-            pdffitwindow=true,%
-            pdfstartview=Fit,%
-            pdfcenterwindow=true,%
-            linkbordercolor={1 0 1},%
-	    pdfusetitle]
-            {hyperref}
+
 
 
 
 \usepackage{amsmath}
-
 \usepackage{natbib}
 \usepackage{booktabs}
 \usepackage{graphicx}
 \graphicspath{{expt/}}
 
 
-\usepackage{times}
-\usepackage[varg]{txfonts}
+%\usepackage{times}
+%\usepackage[varg]{txfonts}
 
 %%% Macro definitions for Commonly used symbols
 \newcommand{\etas}{\ensuremath{\eta_{\mathrm{s}}}}
@@ -63,10 +51,11 @@
 \begin{document}
 \title{Essential \LaTeX\ Templates for Report Writing}
 \author{P Sunthar}
-%\date{25 May 2009}
 \date{\today}
+\degree{Doctor of Philosophy}
+\dept{Chemical Engineering}
 
-\maketitle
+\makecoverpage
 
 
 \begin{abstract}

@@ -1,15 +1,13 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.7.24)  14 APR 2015 22:58
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.7.24)  14 APR 2015 23:25
 entering extended mode
  %&-line parsing enabled.
-**mainrep.tex
-(./mainrep.tex
-LaTeX2e <2009/09/24>
-Babel <v3.8l> and hyphenation patterns for english, usenglishmax, dumylang, noh
-yphenation, loaded.
+**\input mainrep.tex
+(./mainrep.tex (./iitbreport.cls
+Document Class: iitbreport 14/04/2015 IIT Bombay Report class v 1.0
 (/usr/share/texmf-texlive/tex/latex/base/report.cls
 Document Class: report 2007/10/19 v1.4h Standard LaTeX document class
-(/usr/share/texmf-texlive/tex/latex/base/size11.clo
-File: size11.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+(/usr/share/texmf-texlive/tex/latex/base/size12.clo
+File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
 \c@chapter=\count80
@@ -24,9 +22,16 @@ File: size11.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-(/usr/share/texmf-texlive/tex/latex/preprint/fullpage.sty
-Package: fullpage 1999/02/23 1.1 (PWD)
-\FP@margin=\skip43
+(/usr/share/texmf-texlive/tex/latex/fancyhdr/fancyhdr.sty
+\fancy@headwidth=\skip43
+\f@ncyO@elh=\skip44
+\f@ncyO@erh=\skip45
+\f@ncyO@olh=\skip46
+\f@ncyO@orh=\skip47
+\f@ncyO@elf=\skip48
+\f@ncyO@erf=\skip49
+\f@ncyO@olf=\skip50
+\f@ncyO@orf=\skip51
 )
 (/usr/share/texmf-texlive/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2009/10/09 v6.79a Hypertext links for LaTeX
@@ -151,7 +156,7 @@ File: hpdftex.def 2009/10/09 v6.79a Hyperref driver for pdfTeX
 )
 (/usr/share/texmf-texlive/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2000/07/18 v2.13 AMS math features
-\@mathmargin=\skip44
+\@mathmargin=\skip52
 
 For additional information on amsmath, use the `?' option.
 (/usr/share/texmf-texlive/tex/latex/amsmath/amstext.sty
@@ -201,62 +206,11 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
 \totwidth@=\dimen113
 \lineht@=\dimen114
 \@envbody=\toks19
-\multlinegap=\skip45
-\multlinetaggap=\skip46
+\multlinegap=\skip53
+\multlinetaggap=\skip54
 \mathdisplay@stack=\toks20
 LaTeX Info: Redefining \[ on input line 2666.
 LaTeX Info: Redefining \] on input line 2667.
-)
-(/usr/share/texmf-texlive/tex/latex/natbib/natbib.sty
-Package: natbib 2009/07/16 8.31 (PWD, AO)
-\bibhang=\skip47
-\bibsep=\skip48
-LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count107
-)
-(/usr/share/texmf-texlive/tex/latex/booktabs/booktabs.sty
-Package: booktabs 2005/04/14 v1.61803 publication quality tables
-\heavyrulewidth=\dimen115
-\lightrulewidth=\dimen116
-\cmidrulewidth=\dimen117
-\belowrulesep=\dimen118
-\belowbottomsep=\dimen119
-\aboverulesep=\dimen120
-\abovetopsep=\dimen121
-\cmidrulesep=\dimen122
-\cmidrulekern=\dimen123
-\defaultaddspace=\dimen124
-\@cmidla=\count108
-\@cmidlb=\count109
-\@aboverulesep=\dimen125
-\@belowrulesep=\dimen126
-\@thisruleclass=\count110
-\@lastruleclass=\count111
-\@thisrulewidth=\dimen127
-)
-(/usr/share/texmf-texlive/tex/latex/graphics/graphicx.sty
-Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
-
-(/usr/share/texmf-texlive/tex/latex/graphics/graphics.sty
-Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
-
-(/usr/share/texmf-texlive/tex/latex/graphics/trig.sty
-Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
-)
-(/etc/texmf/tex/latex/config/graphics.cfg
-File: graphics.cfg 2009/08/28 v1.8 graphics configuration of TeX Live
-)
-Package graphics Info: Driver file: pdftex.def on input line 91.
-
-(/usr/share/texmf-texlive/tex/latex/pdftex-def/pdftex.def
-File: pdftex.def 2010/03/12 v0.04p Graphics/color for pdfTeX
-\Gread@gobject=\count112
-))
-\Gin@req@height=\dimen128
-\Gin@req@width=\dimen129
-)
-(/usr/share/texmf-texlive/tex/latex/psnfss/times.sty
-Package: times 2005/04/12 PSNFSS-v9.2a (SPQR) 
 )
 (/usr/share/texmf-texlive/tex/latex/txfonts/txfonts.sty
 Package: txfonts 2008/01/22 v3.2.1
@@ -333,53 +287,101 @@ LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
 LaTeX Font Info:    Overwriting symbol font `largesymbolsA' in version `bold'
 (Font)                  U/txexa/m/n --> U/txexa/bx/n on input line 129.
 LaTeX Info: Redefining \not on input line 1043.
+)
+(/usr/share/texmf-texlive/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf-texlive/tex/latex/graphics/graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf-texlive/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/etc/texmf/tex/latex/config/graphics.cfg
+File: graphics.cfg 2009/08/28 v1.8 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+(/usr/share/texmf-texlive/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2010/03/12 v0.04p Graphics/color for pdfTeX
+\Gread@gobject=\count107
+))
+\Gin@req@height=\dimen115
+\Gin@req@width=\dimen116
+))
+(/usr/share/texmf-texlive/tex/latex/natbib/natbib.sty
+Package: natbib 2009/07/16 8.31 (PWD, AO)
+\bibhang=\skip55
+\bibsep=\skip56
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count108
+)
+(/usr/share/texmf-texlive/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2005/04/14 v1.61803 publication quality tables
+\heavyrulewidth=\dimen117
+\lightrulewidth=\dimen118
+\cmidrulewidth=\dimen119
+\belowrulesep=\dimen120
+\belowbottomsep=\dimen121
+\aboverulesep=\dimen122
+\abovetopsep=\dimen123
+\cmidrulesep=\dimen124
+\cmidrulekern=\dimen125
+\defaultaddspace=\dimen126
+\@cmidla=\count109
+\@cmidlb=\count110
+\@aboverulesep=\dimen127
+\@belowrulesep=\dimen128
+\@thisruleclass=\count111
+\@lastruleclass=\count112
+\@thisrulewidth=\dimen129
 ) (./mainrep.aux
 (./intro/introduction.aux) (./lit/literature.aux) (./expt/experimental.aux)
 (./rnd/results.aux))
 \openout1 = `mainrep.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 63.
-LaTeX Font Info:    Try loading font information for OML+txmi on input line 63.
+LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 51.
+LaTeX Font Info:    Try loading font information for OML+txmi on input line 51.
 
  (/usr/share/texmf-texlive/tex/latex/txfonts/omltxmi.fd
 File: omltxmi.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 63.
-LaTeX Font Info:    Try loading font information for OMS+txsy on input line 63.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 51.
+LaTeX Font Info:    Try loading font information for OMS+txsy on input line 51.
 
 
 (/usr/share/texmf-texlive/tex/latex/txfonts/omstxsy.fd
 File: omstxsy.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 63.
-LaTeX Font Info:    Try loading font information for OMX+txex on input line 63.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 51.
+LaTeX Font Info:    Try loading font information for OMX+txex on input line 51.
 
 
 (/usr/share/texmf-texlive/tex/latex/txfonts/omxtxex.fd
 File: omxtxex.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 63.
-LaTeX Font Info:    Try loading font information for U+txexa on input line 63.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 51.
+LaTeX Font Info:    Try loading font information for U+txexa on input line 51.
 
 (/usr/share/texmf-texlive/tex/latex/txfonts/utxexa.fd
 File: utxexa.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Try loading font information for OT1+txr on input line 63.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Try loading font information for OT1+txr on input line 51.
 
 (/usr/share/texmf-texlive/tex/latex/txfonts/ot1txr.fd
 File: ot1txr.fd 2000/12/15 v3.1
 )
-Package hyperref Info: Link coloring OFF on input line 63.
+Package hyperref Info: Link coloring OFF on input line 51.
 
 (/usr/share/texmf-texlive/tex/latex/hyperref/nameref.sty
 Package: nameref 2007/05/29 v2.31 Cross-referencing by name of section
@@ -389,8 +391,8 @@ Package: refcount 2008/08/11 v3.1 Data extraction from references (HO)
 )
 \c@section@level=\count113
 )
-LaTeX Info: Redefining \ref on input line 63.
-LaTeX Info: Redefining \pageref on input line 63.
+LaTeX Info: Redefining \ref on input line 51.
+LaTeX Info: Redefining \pageref on input line 51.
  (./mainrep.out)
 (./mainrep.out)
 \@outlinefile=\write3
@@ -410,49 +412,86 @@ LaTeX Info: Redefining \pageref on input line 63.
 \MPnumerator=\count118
 \everyMPtoPDFconversion=\toks22
 )
-LaTeX Font Info:    Try loading font information for U+txmia on input line 70.
- (/usr/share/texmf-texlive/tex/latex/txfonts/utxmia.fd
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 60.
+ (/usr/share/texmf-texlive/tex/latex/psnfss/ot1ptm.fd
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+)
+LaTeX Font Info:    Try loading font information for OT1+phv on input line 60.
+
+(/usr/share/texmf-texlive/tex/latex/psnfss/ot1phv.fd
+File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
+)
+LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <20.74> not available
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 60.
+LaTeX Font Info:    Try loading font information for U+txmia on input line 60.
+
+(/usr/share/texmf-texlive/tex/latex/txfonts/utxmia.fd
 File: utxmia.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+txsya on input line 70.
+LaTeX Font Info:    Try loading font information for U+txsya on input line 60.
 
 (/usr/share/texmf-texlive/tex/latex/txfonts/utxsya.fd
 File: utxsya.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+txsyb on input line 70.
+LaTeX Font Info:    Try loading font information for U+txsyb on input line 60.
 
 (/usr/share/texmf-texlive/tex/latex/txfonts/utxsyb.fd
 File: utxsyb.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+txsyc on input line 70.
+LaTeX Font Info:    Try loading font information for U+txsyc on input line 60.
 
 (/usr/share/texmf-texlive/tex/latex/txfonts/utxsyc.fd
 File: utxsyc.fd 2000/12/15 v3.1
-) [1
+)
+LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <14.4> not available
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 60.
+LaTeX Font Info:    Try loading font information for OT1+pzc on input line 60.
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]pdfTeX warning (ext4): dest
-ination with the same identifier (name{page.1}) has been already used, duplicat
-e ignored
+(/usr/share/texmf-texlive/tex/latex/psnfss/ot1pzc.fd
+File: ot1pzc.fd 2001/06/04 font definitions for OT1/pzc.
+)
+LaTeX Font Info:    Font shape `OT1/pzc/m/it' in size <14.4> not available
+(Font)              Font shape `OT1/pzc/mb/it' tried instead on input line 60.
+LaTeX Font Info:    Try loading font information for OT1+ppl on input line 60.
+
+(/usr/share/texmf-texlive/tex/latex/psnfss/ot1ppl.fd
+File: ot1ppl.fd 2001/06/04 font definitions for OT1/ppl.
+)
+LaTeX Font Info:    Font shape `OT1/ppl/bx/it' in size <14.4> not available
+(Font)              Font shape `OT1/ppl/b/it' tried instead on input line 60.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 60.
+
+<iitb-black.pdf, id=39, 557.08125pt x 533.995pt>
+File: iitb-black.pdf Graphic file (type pdf)
+ <use iitb-black.pdf> [1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./iitb-black.pdf>]pdfTeX w
+arning (ext4): destination with the same identifier (name{page.1}) has been alr
+eady used, duplicate ignored
 <to be read again> 
                    \relax 
-l.77 \end{abstract}
+l.68 \end{abstract}
                     [1] (./mainrep.toc)
 \tf@toc=\write4
 \openout4 = `mainrep.toc'.
 
  [1
 
+] [2
+
 ] (./mainrep.lot)
 \tf@lot=\write5
 \openout5 = `mainrep.lot'.
 
- [2
+ [3] [4
 
-] (./mainrep.lof)
+]
+(./mainrep.lof)
 \tf@lof=\write6
 \openout6 = `mainrep.lof'.
 
-[3
+ [5] [6
 
 ]
 \openout2 = `intro/introduction.aux'.
@@ -463,7 +502,7 @@ LaTeX Font Info:    Try loading font information for OMS+txr on input line 14.
 (/usr/share/texmf-texlive/tex/latex/txfonts/omstxr.fd
 File: omstxr.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Font shape `OMS/txr/m/n' in size <10.95> not available
+LaTeX Font Info:    Font shape `OMS/txr/m/n' in size <12> not available
 (Font)              Font shape `OMS/txsy/m/n' tried instead on input line 14.
 LaTeX Font Info:    Try loading font information for OT1+txtt on input line 25.
 
@@ -474,65 +513,73 @@ File: ot1txtt.fd 2000/12/15 v3.1
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.54 
-      [1
+l.29 \end{enumerate}
+                     [1
 
 
-
-]) [2]
+]) [2] [3]
 \openout2 = `lit/literature.aux'.
 
- (./lit/literature.tex
-Chapter 2.
-) [3
+ (./lit/literature.tex [4
 
 
 
 ]
+Chapter 2.
+
+Overfull \hbox (2.5301pt too wide) in paragraph at lines 21--26
+[]\OT1/txr/m/n/12 Alternately ci-ta-tions can ap-pear in paren-the-sis. The com
+-mand []\OT1/txtt/m/n/12 \citep{Auth09}
+ []
+
+) [5]
 \openout2 = `expt/experimental.aux'.
 
- (./expt/experimental.tex
+ (./expt/experimental.tex [6
+
+
+
+]
 Chapter 3.
-<expt/profflow.pdf, id=112, 462.72874pt x 182.6825pt>
+<expt/profflow.pdf, id=147, 462.72874pt x 182.6825pt>
 File: expt/profflow.pdf Graphic file (type pdf)
  <use expt/profflow.pdf>)
-[4
-
-
-
- <./expt/profflow.pdf>]
+[7] [8 <./expt/profflow.pdf>]
 \openout2 = `rnd/results.aux'.
 
  (./rnd/results.tex
 Chapter 4.
-) [5
+) [9
 
 
 
-] (./mainrep.bbl) [6
+] (./mainrep.bbl [10
 
 
-] (./mainrep.aux (./intro/introduction.aux)
+]) [11] (./mainrep.aux (./intro/introduction.aux)
 (./lit/literature.aux) (./expt/experimental.aux) (./rnd/results.aux)) ) 
 Here is how much of TeX's memory you used:
- 6082 strings out of 495061
- 83165 string characters out of 1182621
- 147462 words of memory out of 3000000
- 9059 multiletter control sequences out of 15000+50000
- 42395 words of font info for 105 fonts, out of 3000000 for 9000
+ 6366 strings out of 495061
+ 86423 string characters out of 1182621
+ 151609 words of memory out of 3000000
+ 9310 multiletter control sequences out of 15000+50000
+ 47383 words of font info for 107 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
- 38i,10n,38p,252b,316s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 45i,10n,45p,274b,398s stack positions out of 5000i,500n,10000p,200000b,50000s
 {/usr/sh
 are/texmf-texlive/fonts/enc/dvips/base/8r.enc}</usr/share/texmf-texlive/fonts/t
 ype1/public/txfonts/rtxmi.pfb></usr/share/texmf-texlive/fonts/type1/public/txfo
 nts/rtxr.pfb></usr/share/texmf-texlive/fonts/type1/public/txfonts/txex.pfb></us
 r/share/texmf-texlive/fonts/type1/public/txfonts/txsy.pfb></usr/share/texmf-tex
 live/fonts/type1/public/txfonts/txtt.pfb></usr/share/texmf-texlive/fonts/type1/
-urw/times/utmb8a.pfb></usr/share/texmf-texlive/fonts/type1/urw/times/utmr8a.pfb
-></usr/share/texmf-texlive/fonts/type1/urw/times/utmri8a.pfb>
-Output written on mainrep.pdf (11 pages, 83366 bytes).
+urw/helvetic/uhvb8a.pfb></usr/share/texmf-texlive/fonts/type1/urw/palatino/uplb
+i8a.pfb></usr/share/texmf-texlive/fonts/type1/urw/times/utmb8a.pfb></usr/share/
+texmf-texlive/fonts/type1/urw/times/utmr8a.pfb></usr/share/texmf-texlive/fonts/
+type1/urw/times/utmri8a.pfb></usr/share/texmf-texlive/fonts/type1/urw/zapfchan/
+uzcmi8a.pfb>
+Output written on mainrep.pdf (19 pages, 214553 bytes).
 PDF statistics:
- 169 PDF objects out of 1000 (max. 8388607)
- 35 named destinations out of 1000 (max. 500000)
- 78 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 228 PDF objects out of 1000 (max. 8388607)
+ 43 named destinations out of 1000 (max. 500000)
+ 83 words of extra memory for PDF output out of 10000 (max. 10000000)
 
