@@ -1,9 +1,13 @@
-%%% Time-stamp: <2015-04-14 23:26:50 sunthar>
+%%% Time-stamp: <2015-04-14 23:41:13 sunthar>
 
 %%% $Log:$
 
 %\documentclass[11pt,a4paper,openright]{report}
-\documentclass[seminar,twoside,openright]{iitbreport}
+\documentclass[seminar,twoside]{iitbreport}
+
+
+%% Selectively comment out sections that you want to be left out but
+%% maintaining the page numbers and other \ref
 \includeonly{%
   intro/introduction,
   lit/literature,
@@ -16,18 +20,9 @@
 %%% the packages)
 
 
-
-
-
-\usepackage{amsmath}
-\usepackage{natbib}
 \usepackage{booktabs}
-\usepackage{graphicx}
 \graphicspath{{expt/}}
 
-
-%\usepackage{times}
-%\usepackage[varg]{txfonts}
 
 %%% Macro definitions for Commonly used symbols
 \newcommand{\etas}{\ensuremath{\eta_{\mathrm{s}}}}
@@ -46,17 +41,16 @@
 
 
 
-
-
 \begin{document}
 \title{Essential \LaTeX\ Templates for Report Writing}
 \author{P Sunthar}
-\date{\today}
+%\date{\today}
 \degree{Doctor of Philosophy}
 \dept{Chemical Engineering}
 
 \makecoverpage
 
+\layout
 
 \begin{abstract}
 This document contains essential templates required to write technical

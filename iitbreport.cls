@@ -1,7 +1,7 @@
 %%
 %% This is file `iitbreport.cls',
 %%
-%% Time-stamp: <2015-04-14 23:24:22 sunthar> 
+%% Time-stamp: <2015-04-14 23:39:15 sunthar> 
 %% 
 %% 
 %% IMPORTANT NOTICE:
@@ -88,8 +88,7 @@
 \setlength\topmargin{2.6cm}
 \setlength\oddsidemargin{3.4cm}
 \setlength\evensidemargin{2.6cm}
-%\setlength\textwidth{15cm}
-\setlength\textwidth{14cm}
+\setlength\textwidth{15cm}
 \setlength\textheight{22cm}
 \setlength\footskip{1.3cm}
 \setlength\headheight{1cm}
@@ -110,6 +109,7 @@
 
 %% The style file for References (Rev. Mod. Phys long
 %% apsrmp4-1long.bst)
+\RequirePackage{natbib}
 \bibliographystyle{iitbauthyr}
 
 

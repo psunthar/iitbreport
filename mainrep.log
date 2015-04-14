@@ -1,8 +1,12 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.7.24)  14 APR 2015 23:25
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.7.24)  14 APR 2015 23:39
 entering extended mode
  %&-line parsing enabled.
-**\input mainrep.tex
-(./mainrep.tex (./iitbreport.cls
+**mainrep.tex
+(./mainrep.tex
+LaTeX2e <2009/09/24>
+Babel <v3.8l> and hyphenation patterns for english, usenglishmax, dumylang, noh
+yphenation, loaded.
+(./iitbreport.cls
 Document Class: iitbreport 14/04/2015 IIT Bombay Report class v 1.0
 (/usr/share/texmf-texlive/tex/latex/base/report.cls
 Document Class: report 2007/10/19 v1.4h Standard LaTeX document class
@@ -308,13 +312,47 @@ File: pdftex.def 2010/03/12 v0.04p Graphics/color for pdfTeX
 ))
 \Gin@req@height=\dimen115
 \Gin@req@width=\dimen116
-))
+)
 (/usr/share/texmf-texlive/tex/latex/natbib/natbib.sty
 Package: natbib 2009/07/16 8.31 (PWD, AO)
 \bibhang=\skip55
 \bibsep=\skip56
 LaTeX Info: Redefining \cite on input line 694.
 \c@NAT@ctr=\count108
+))
+(/usr/share/texmf-texlive/tex/latex/tools/layout.sty
+Package: layout 2000/09/25 v1.2c Show layout parameters
+\oneinch=\count109
+\cnt@paperwidth=\count110
+\cnt@paperheight=\count111
+\cnt@hoffset=\count112
+\cnt@voffset=\count113
+\cnt@textheight=\count114
+\cnt@textwidth=\count115
+\cnt@topmargin=\count116
+\cnt@oddsidemargin=\count117
+\cnt@evensidemargin=\count118
+\cnt@headheight=\count119
+\cnt@headsep=\count120
+\cnt@marginparsep=\count121
+\cnt@marginparwidth=\count122
+\cnt@marginparpush=\count123
+\cnt@footskip=\count124
+\fheight=\count125
+\ref@top=\count126
+\ref@hoffset=\count127
+\ref@voffset=\count128
+\ref@head=\count129
+\ref@body=\count130
+\ref@foot=\count131
+\ref@margin=\count132
+\ref@marginwidth=\count133
+\ref@marginpar=\count134
+\Interval=\count135
+\ExtraYPos=\count136
+\PositionX=\count137
+\PositionY=\count138
+\ArrowLength=\count139
 )
 (/usr/share/texmf-texlive/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2005/04/14 v1.61803 publication quality tables
@@ -328,60 +366,60 @@ Package: booktabs 2005/04/14 v1.61803 publication quality tables
 \cmidrulesep=\dimen124
 \cmidrulekern=\dimen125
 \defaultaddspace=\dimen126
-\@cmidla=\count109
-\@cmidlb=\count110
+\@cmidla=\count140
+\@cmidlb=\count141
 \@aboverulesep=\dimen127
 \@belowrulesep=\dimen128
-\@thisruleclass=\count111
-\@lastruleclass=\count112
+\@thisruleclass=\count142
+\@lastruleclass=\count143
 \@thisrulewidth=\dimen129
 ) (./mainrep.aux
 (./intro/introduction.aux) (./lit/literature.aux) (./expt/experimental.aux)
 (./rnd/results.aux))
 \openout1 = `mainrep.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 51.
-LaTeX Font Info:    Try loading font information for OML+txmi on input line 51.
+LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 45.
+LaTeX Font Info:    Try loading font information for OML+txmi on input line 45.
 
  (/usr/share/texmf-texlive/tex/latex/txfonts/omltxmi.fd
 File: omltxmi.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 51.
-LaTeX Font Info:    Try loading font information for OMS+txsy on input line 51.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 45.
+LaTeX Font Info:    Try loading font information for OMS+txsy on input line 45.
 
 
 (/usr/share/texmf-texlive/tex/latex/txfonts/omstxsy.fd
 File: omstxsy.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 51.
-LaTeX Font Info:    Try loading font information for OMX+txex on input line 51.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 45.
+LaTeX Font Info:    Try loading font information for OMX+txex on input line 45.
 
 
 (/usr/share/texmf-texlive/tex/latex/txfonts/omxtxex.fd
 File: omxtxex.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 51.
-LaTeX Font Info:    Try loading font information for U+txexa on input line 51.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 45.
+LaTeX Font Info:    Try loading font information for U+txexa on input line 45.
 
 (/usr/share/texmf-texlive/tex/latex/txfonts/utxexa.fd
 File: utxexa.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Try loading font information for OT1+txr on input line 51.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Try loading font information for OT1+txr on input line 45.
 
 (/usr/share/texmf-texlive/tex/latex/txfonts/ot1txr.fd
 File: ot1txr.fd 2000/12/15 v3.1
 )
-Package hyperref Info: Link coloring OFF on input line 51.
+Package hyperref Info: Link coloring OFF on input line 45.
 
 (/usr/share/texmf-texlive/tex/latex/hyperref/nameref.sty
 Package: nameref 2007/05/29 v2.31 Cross-referencing by name of section
@@ -389,10 +427,10 @@ Package: nameref 2007/05/29 v2.31 Cross-referencing by name of section
 (/usr/share/texmf-texlive/tex/latex/oberdiek/refcount.sty
 Package: refcount 2008/08/11 v3.1 Data extraction from references (HO)
 )
-\c@section@level=\count113
+\c@section@level=\count144
 )
-LaTeX Info: Redefining \ref on input line 51.
-LaTeX Info: Redefining \pageref on input line 51.
+LaTeX Info: Redefining \ref on input line 45.
+LaTeX Info: Redefining \pageref on input line 45.
  (./mainrep.out)
 (./mainrep.out)
 \@outlinefile=\write3
@@ -401,77 +439,137 @@ LaTeX Info: Redefining \pageref on input line 51.
 \AtBeginShipoutBox=\box28
  (/usr/share/texmf-texlive/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count114
+\scratchcounter=\count145
 \scratchdimen=\dimen130
 \scratchbox=\box29
-\nofMPsegments=\count115
-\nofMParguments=\count116
+\nofMPsegments=\count146
+\nofMParguments=\count147
 \everyMPshowfont=\toks21
-\MPscratchCnt=\count117
+\MPscratchCnt=\count148
 \MPscratchDim=\dimen131
-\MPnumerator=\count118
+\MPnumerator=\count149
 \everyMPtoPDFconversion=\toks22
 )
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 60.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 52.
  (/usr/share/texmf-texlive/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
-LaTeX Font Info:    Try loading font information for OT1+phv on input line 60.
+LaTeX Font Info:    Try loading font information for OT1+phv on input line 52.
 
 (/usr/share/texmf-texlive/tex/latex/psnfss/ot1phv.fd
 File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
 )
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <20.74> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 60.
-LaTeX Font Info:    Try loading font information for U+txmia on input line 60.
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 52.
+LaTeX Font Info:    Try loading font information for U+txmia on input line 52.
 
 (/usr/share/texmf-texlive/tex/latex/txfonts/utxmia.fd
 File: utxmia.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+txsya on input line 60.
+LaTeX Font Info:    Try loading font information for U+txsya on input line 52.
 
 (/usr/share/texmf-texlive/tex/latex/txfonts/utxsya.fd
 File: utxsya.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+txsyb on input line 60.
+LaTeX Font Info:    Try loading font information for U+txsyb on input line 52.
 
 (/usr/share/texmf-texlive/tex/latex/txfonts/utxsyb.fd
 File: utxsyb.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+txsyc on input line 60.
+LaTeX Font Info:    Try loading font information for U+txsyc on input line 52.
 
 (/usr/share/texmf-texlive/tex/latex/txfonts/utxsyc.fd
 File: utxsyc.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <14.4> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 60.
-LaTeX Font Info:    Try loading font information for OT1+pzc on input line 60.
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 52.
+LaTeX Font Info:    Try loading font information for OT1+pzc on input line 52.
 
 (/usr/share/texmf-texlive/tex/latex/psnfss/ot1pzc.fd
 File: ot1pzc.fd 2001/06/04 font definitions for OT1/pzc.
 )
 LaTeX Font Info:    Font shape `OT1/pzc/m/it' in size <14.4> not available
-(Font)              Font shape `OT1/pzc/mb/it' tried instead on input line 60.
-LaTeX Font Info:    Try loading font information for OT1+ppl on input line 60.
+(Font)              Font shape `OT1/pzc/mb/it' tried instead on input line 52.
+LaTeX Font Info:    Try loading font information for OT1+ppl on input line 52.
 
 (/usr/share/texmf-texlive/tex/latex/psnfss/ot1ppl.fd
 File: ot1ppl.fd 2001/06/04 font definitions for OT1/ppl.
 )
 LaTeX Font Info:    Font shape `OT1/ppl/bx/it' in size <14.4> not available
-(Font)              Font shape `OT1/ppl/b/it' tried instead on input line 60.
+(Font)              Font shape `OT1/ppl/b/it' tried instead on input line 52.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 60.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 52.
 
 <iitb-black.pdf, id=39, 557.08125pt x 533.995pt>
 File: iitb-black.pdf Graphic file (type pdf)
- <use iitb-black.pdf> [1
+ <use iitb-black.pdf>
+Two-sided document style, odd page.
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./iitb-black.pdf>]pdfTeX w
-arning (ext4): destination with the same identifier (name{page.1}) has been alr
-eady used, duplicate ignored
+! LaTeX Error: Bad \line or \vector argument.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.55 
+     
+? s
+OK, entering \scrollmode...
+
+! LaTeX Error: Bad \line or \vector argument.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.55 
+     
+You've lost some text.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+LaTeX Font Info:    Try loading font information for OT1+txtt on input line 55.
+
+(/usr/share/texmf-texlive/tex/latex/txfonts/ot1txtt.fd
+File: ot1txtt.fd 2000/12/15 v3.1
+) [1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./iitb-black.pdf>] [2]
+Two-sided document style, odd page.
+
+! LaTeX Error: Bad \line or \vector argument.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.55 
+     
+You've lost some text.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Bad \line or \vector argument.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.55 
+     
+You've lost some text.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[3]
+Overfull \hbox (0.71632pt too wide) in paragraph at lines 57--61
+\OT1/txr/m/n/12 This doc-u-ment con-tains es-sen-tial tem-plates re-quired to w
+rite tech-ni-cal re-ports us-ing L[]T[]X.
+ []
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
+been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.68 \end{abstract}
+l.61 \end{abstract}
                     [1] (./mainrep.toc)
 \tf@toc=\write4
 \openout4 = `mainrep.toc'.
@@ -504,82 +602,86 @@ File: omstxr.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Font shape `OMS/txr/m/n' in size <12> not available
 (Font)              Font shape `OMS/txsy/m/n' tried instead on input line 14.
-LaTeX Font Info:    Try loading font information for OT1+txtt on input line 25.
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.33 \section
+             {First section of this chapter} [1
 
 
-(/usr/share/texmf-texlive/tex/latex/txfonts/ot1txtt.fd
-File: ot1txtt.fd 2000/12/15 v3.1
-)pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
+])pdfTeX warning (ext4): destination with the same identifier (name{page.2}) ha
+s been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.73 \include{intro/introduction}
+                                  [2]
+\openout2 = `lit/literature.aux'.
+
+ (./lit/literature.tex
+Chapter 2.
+)pdfTeX warning (ext4): destination with the same identifier (name{page.3}) has
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.29 \end{enumerate}
-                     [1
-
-
-]) [2] [3]
-\openout2 = `lit/literature.aux'.
-
- (./lit/literature.tex [4
+l.74 \include{lit/literature}
+                              [3
 
 
 
 ]
-Chapter 2.
-
-Overfull \hbox (2.5301pt too wide) in paragraph at lines 21--26
-[]\OT1/txr/m/n/12 Alternately ci-ta-tions can ap-pear in paren-the-sis. The com
--mand []\OT1/txtt/m/n/12 \citep{Auth09}
- []
-
-) [5]
 \openout2 = `expt/experimental.aux'.
 
- (./expt/experimental.tex [6
+ (./expt/experimental.tex [4
 
 
 
 ]
 Chapter 3.
-<expt/profflow.pdf, id=147, 462.72874pt x 182.6825pt>
+<expt/profflow.pdf, id=146, 462.72874pt x 182.6825pt>
 File: expt/profflow.pdf Graphic file (type pdf)
  <use expt/profflow.pdf>)
-[7] [8 <./expt/profflow.pdf>]
+[5 <./expt/profflow.pdf>]
 \openout2 = `rnd/results.aux'.
 
- (./rnd/results.tex
+ (./rnd/results.tex [6
+
+
+
+]
 Chapter 4.
-) [9
+) [7] (./mainrep.bbl [8
 
 
+]) [9] (./mainrep.aux (./intro/introduction.aux)
+(./lit/literature.aux) (./expt/experimental.aux) (./rnd/results.aux))
 
-] (./mainrep.bbl [10
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-
-]) [11] (./mainrep.aux (./intro/introduction.aux)
-(./lit/literature.aux) (./expt/experimental.aux) (./rnd/results.aux)) ) 
+ ) 
 Here is how much of TeX's memory you used:
- 6366 strings out of 495061
- 86423 string characters out of 1182621
- 151609 words of memory out of 3000000
- 9310 multiletter control sequences out of 15000+50000
- 47383 words of font info for 107 fonts, out of 3000000 for 9000
+ 6473 strings out of 495061
+ 87763 string characters out of 1182621
+ 162830 words of memory out of 3000000
+ 9411 multiletter control sequences out of 15000+50000
+ 60227 words of font info for 142 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
- 45i,10n,45p,274b,398s stack positions out of 5000i,500n,10000p,200000b,50000s
-{/usr/sh
-are/texmf-texlive/fonts/enc/dvips/base/8r.enc}</usr/share/texmf-texlive/fonts/t
-ype1/public/txfonts/rtxmi.pfb></usr/share/texmf-texlive/fonts/type1/public/txfo
-nts/rtxr.pfb></usr/share/texmf-texlive/fonts/type1/public/txfonts/txex.pfb></us
-r/share/texmf-texlive/fonts/type1/public/txfonts/txsy.pfb></usr/share/texmf-tex
-live/fonts/type1/public/txfonts/txtt.pfb></usr/share/texmf-texlive/fonts/type1/
-urw/helvetic/uhvb8a.pfb></usr/share/texmf-texlive/fonts/type1/urw/palatino/uplb
-i8a.pfb></usr/share/texmf-texlive/fonts/type1/urw/times/utmb8a.pfb></usr/share/
-texmf-texlive/fonts/type1/urw/times/utmr8a.pfb></usr/share/texmf-texlive/fonts/
-type1/urw/times/utmri8a.pfb></usr/share/texmf-texlive/fonts/type1/urw/zapfchan/
-uzcmi8a.pfb>
-Output written on mainrep.pdf (19 pages, 214553 bytes).
+ 45i,11n,50p,253b,336s stack positions out of 5000i,500n,10000p,200000b,50000s
+{/usr/share/texmf-texlive/fonts/enc/dvips/base/8r.enc}</usr/share/texmf-texli
+ve/fonts/type1/public/amsfonts/latxfont/lcircle1.pfb></usr/share/texmf-texlive/
+fonts/type1/public/amsfonts/latxfont/line10.pfb></usr/share/texmf-texlive/fonts
+/type1/public/txfonts/rtxmi.pfb></usr/share/texmf-texlive/fonts/type1/public/tx
+fonts/rtxr.pfb></usr/share/texmf-texlive/fonts/type1/public/txfonts/txex.pfb></
+usr/share/texmf-texlive/fonts/type1/public/txfonts/txsy.pfb></usr/share/texmf-t
+exlive/fonts/type1/public/txfonts/txtt.pfb></usr/share/texmf-texlive/fonts/type
+1/urw/helvetic/uhvb8a.pfb></usr/share/texmf-texlive/fonts/type1/urw/palatino/up
+lbi8a.pfb></usr/share/texmf-texlive/fonts/type1/urw/times/utmb8a.pfb></usr/shar
+e/texmf-texlive/fonts/type1/urw/times/utmr8a.pfb></usr/share/texmf-texlive/font
+s/type1/urw/times/utmri8a.pfb></usr/share/texmf-texlive/fonts/type1/urw/zapfcha
+n/uzcmi8a.pfb>
+Output written on mainrep.pdf (19 pages, 223528 bytes).
 PDF statistics:
- 228 PDF objects out of 1000 (max. 8388607)
- 43 named destinations out of 1000 (max. 500000)
+ 232 PDF objects out of 1000 (max. 8388607)
+ 41 named destinations out of 1000 (max. 500000)
  83 words of extra memory for PDF output out of 10000 (max. 10000000)
 
