@@ -1,9 +1,0 @@
-\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
-\contentsline {section}{\numberline {1.1}First section of this chapter}{2}{section.1.1}
-\contentsline {subsection}{\numberline {1.1.1}Equations and Math symbols}{2}{subsection.1.1.1}
-\contentsline {subsection}{\numberline {1.1.2}Commonly used Symbols}{2}{subsection.1.1.2}
-\contentsline {chapter}{\numberline {2}Literature Survey}{3}{chapter.2}
-\contentsline {chapter}{\numberline {3}Materials and Methods}{5}{chapter.3}
-\contentsline {section}{\numberline {3.1}Including Figures}{5}{section.3.1}
-\contentsline {chapter}{\numberline {4}Results and Discussion}{7}{chapter.4}
-\contentsline {section}{\numberline {4.1}Including Tables}{7}{section.4.1}
