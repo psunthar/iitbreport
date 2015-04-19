@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.7.24)  20 APR 2015 00:47
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.7.24)  20 APR 2015 01:32
 entering extended mode
  %&-line parsing enabled.
 **mainrep.tex
@@ -559,57 +559,30 @@ Chapter 4.
 ) [7] (./mainrep.bbl [8
 
 
-] [9]
-Missing character: There is no â in font txr!
-Missing character: There is no € in font txr!
-Missing character: There is no “ in font txr!
- [10] [11] [12]
-Missing character: There is no ‚ in font txr!
- [13]
-Missing character: There is no â in font txr!
-Missing character: There is no € in font txr!
-Missing character: There is no “ in font txr!
-Missing character: There is no â in font txr!
-Missing character: There is no € in font txr!
-Missing character: There is no “ in font txr!
- [14]
-Missing character: There is no â in font txr!
-Missing character: There is no „ in font txr!
- [15]
-Underfull \hbox (badness 10000) in paragraph at lines 1141--1145
-[]\OT1/txr/m/n/12 Overton, E, 1899, ``Viertel-jahrschrift der Natur-forschende 
-Ges-selschaft
- []
-
-[16]
-Missing character: There is no â in font txr!
-Missing character: There is no € in font txr!
-Missing character: There is no “ in font txr!
- [17] [18]) [19] (./mainrep.aux (./intro/introduction.aux)
+]) [9] (./mainrep.aux (./intro/introduction.aux)
 (./lit/literature.aux) (./expt/experimental.aux) (./rnd/results.aux)) ) 
 Here is how much of TeX's memory you used:
- 6925 strings out of 495061
- 95485 string characters out of 1182621
- 156268 words of memory out of 3000000
- 9645 multiletter control sequences out of 15000+50000
+ 6404 strings out of 495061
+ 87031 string characters out of 1182621
+ 150612 words of memory out of 3000000
+ 9336 multiletter control sequences out of 15000+50000
  49515 words of font info for 110 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
- 45i,10n,50p,253b,656s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 45i,10n,50p,253b,336s stack positions out of 5000i,500n,10000p,200000b,50000s
 {/usr/sh
 are/texmf-texlive/fonts/enc/dvips/base/8r.enc}</usr/share/texmf-texlive/fonts/t
-ype1/public/txfonts/rtxi.pfb></usr/share/texmf-texlive/fonts/type1/public/txfon
-ts/rtxmi.pfb></usr/share/texmf-texlive/fonts/type1/public/txfonts/rtxr.pfb></us
-r/share/texmf-texlive/fonts/type1/public/txfonts/rtxsc.pfb></usr/share/texmf-te
-xlive/fonts/type1/public/txfonts/txex.pfb></usr/share/texmf-texlive/fonts/type1
-/public/txfonts/txsy.pfb></usr/share/texmf-texlive/fonts/type1/public/txfonts/t
-xtt.pfb></usr/share/texmf-texlive/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/sha
-re/texmf-texlive/fonts/type1/urw/palatino/uplbi8a.pfb></usr/share/texmf-texlive
-/fonts/type1/urw/times/utmb8a.pfb></usr/share/texmf-texlive/fonts/type1/urw/tim
-es/utmr8a.pfb></usr/share/texmf-texlive/fonts/type1/urw/times/utmri8a.pfb></usr
-/share/texmf-texlive/fonts/type1/urw/zapfchan/uzcmi8a.pfb>
-Output written on mainrep.pdf (27 pages, 295416 bytes).
+ype1/public/txfonts/rtxmi.pfb></usr/share/texmf-texlive/fonts/type1/public/txfo
+nts/rtxr.pfb></usr/share/texmf-texlive/fonts/type1/public/txfonts/rtxsc.pfb></u
+sr/share/texmf-texlive/fonts/type1/public/txfonts/txex.pfb></usr/share/texmf-te
+xlive/fonts/type1/public/txfonts/txsy.pfb></usr/share/texmf-texlive/fonts/type1
+/public/txfonts/txtt.pfb></usr/share/texmf-texlive/fonts/type1/urw/helvetic/uhv
+b8a.pfb></usr/share/texmf-texlive/fonts/type1/urw/palatino/uplbi8a.pfb></usr/sh
+are/texmf-texlive/fonts/type1/urw/times/utmb8a.pfb></usr/share/texmf-texlive/fo
+nts/type1/urw/times/utmr8a.pfb></usr/share/texmf-texlive/fonts/type1/urw/times/
+utmri8a.pfb></usr/share/texmf-texlive/fonts/type1/urw/zapfchan/uzcmi8a.pfb>
+Output written on mainrep.pdf (17 pages, 223518 bytes).
 PDF statistics:
- 515 PDF objects out of 1000 (max. 8388607)
- 158 named destinations out of 1000 (max. 500000)
+ 240 PDF objects out of 1000 (max. 8388607)
+ 47 named destinations out of 1000 (max. 500000)
  83 words of extra memory for PDF output out of 10000 (max. 10000000)
 

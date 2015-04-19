@@ -1,5 +1,7 @@
 %%
 %% This is file `iitbauthyr.bst',
+%% Version: 1.1
+%% Time-stamp: <2015-04-20 01:28:38 sunthar>
 %% edited from file `apsrmp4-1long.bst',
 %% generated with the docstrip utility.
 %%
@@ -924,6 +926,12 @@ FUNCTION {doi.command.href}
   "\Doi"
 }
 
+FUNCTION {url.command.href}
+{
+  "\urlhref"
+}
+
+
 FUNCTION {format.doi}
 { doi "doi" bibinfo.check
   duplicate$ empty$ 'skip$
@@ -934,11 +942,31 @@ FUNCTION {format.doi}
   if$
 }
 
+
+FUNCTION {add.url}
+{
+  duplicate$ empty$ 'skip$
+    {
+      url duplicate$ empty$ 'pop$
+        {
+          "{" swap$ * "}" *
+          swap$
+          "{" swap$ * "}" *
+          *
+          url.command.href swap$ *
+        }
+      if$
+    }
+  if$
+}
+
+
+
 FUNCTION {add.doi}
 {
   duplicate$ empty$ 'skip$
     {
-      doi duplicate$ empty$ 'pop$
+      doi duplicate$ empty$ { pop$ add.url }
         {
           "{" swap$ * "}" *
           swap$
@@ -950,6 +978,8 @@ FUNCTION {add.doi}
     }
   if$
 }
+
+
 
 FUNCTION {select.language}
 { duplicate$ empty$
@@ -1534,7 +1564,7 @@ FUNCTION {format.in.ed.booktitle.inbook}
 {
   format.booktitle duplicate$ empty$ 'pop$
     {
-  add.doi
+      add.doi
       word.in swap$ * output.nonnull
       bookaddress "address" bibinfo.check output
       format.number.series "series and number" bibinfo.check output
@@ -1672,6 +1702,7 @@ FUNCTION {article}
       journal
       "journal" bibinfo.warn
       pages empty$ 'skip$ { add.doi } if$
+      %%pages empty$ 'skip$ {  doi empty$ {add.url} {add.doi} if$ } if$
       "journal" 'bibfield :=
       emphasize
       output
@@ -1691,8 +1722,8 @@ FUNCTION {article}
   %%format.note output
   %%format.eprint output
   %%format.translation output
-  new.block
-  format.url output
+  %%new.block
+  %%format.url output
   fin.entry
 }
 
@@ -1736,7 +1767,7 @@ FUNCTION {book}
   new.sentence.comma
   %%format.note output
   %%format.eprint output
-  format.url output
+  %%format.url output
   fin.entry
 }
 
@@ -1757,7 +1788,7 @@ FUNCTION {booklet}
   new.sentence.comma
   %%format.note output
   %%format.eprint output
-  format.url output
+  %%format.url output
   fin.entry
 }
 
@@ -1804,7 +1835,7 @@ FUNCTION {inbook}
   new.sentence.comma
   %%format.note output
   %%format.eprint output
-  format.url output
+  %%format.url output
   fin.entry
 }
 
@@ -1833,7 +1864,7 @@ FUNCTION {incollection}
   new.sentence.comma
   %%format.note output
   %%format.eprint output
-  format.url output
+  %%format.url output
   fin.entry
 }
 
@@ -1861,7 +1892,7 @@ FUNCTION {inproceedings}
   new.sentence.comma
   %%format.note output
   %%format.eprint output
-  format.url output
+  %%format.url output
   fin.entry
 }
 
@@ -1881,7 +1912,7 @@ FUNCTION {manual}
   new.sentence.comma
   %%format.note output
   %%format.eprint output
-  format.url output
+  %%format.url output
   fin.entry
 }
 
@@ -1902,7 +1933,7 @@ FUNCTION {mastersthesis}
   new.sentence.comma
   %%format.note output
   %%format.eprint output
-  format.url output
+  %%format.url output
   fin.entry
 }
 
@@ -1921,7 +1952,7 @@ FUNCTION {misc}
   new.sentence.comma
   %%format.note output
   %%format.eprint output
-  format.url output
+  %%format.url output
   fin.entry
 }
 
@@ -1942,7 +1973,7 @@ FUNCTION {phdthesis}
   new.sentence.comma
   %%format.note output
   %%format.eprint output
-  format.url output
+  %%format.url output
   fin.entry
 }
 
@@ -1985,7 +2016,7 @@ FUNCTION {proceedings}
   new.sentence.comma
   %%format.note output
   %%format.eprint output
-  format.url output
+  %%format.url output
   fin.entry
 }
 
@@ -2006,7 +2037,7 @@ FUNCTION {techreport}
   new.sentence.comma
   %%format.note output
   %%format.eprint output
-  format.url output
+  %%format.url output
   fin.entry
 }
 
@@ -2022,7 +2053,7 @@ FUNCTION {unpublished}
   new.sentence.comma
   %%format.note "note" output.check
   %%format.eprint output
-  format.url output
+  %%format.url output
   fin.entry
 }
 
@@ -2337,6 +2368,7 @@ FUNCTION {init.bib.doi}
   "}%"  write$ newline$
   "\providecommand \doibase [0]{" doi.base * "}%" * write$ newline$
   doi.command.href "\providecommand " swap$ * "[1]{\href{\doibase#1}}%" * write$ newline$
+  url.command.href "\providecommand " swap$ * "[1]{\href{#1}}%" * write$ newline$
 }
 
 FUNCTION {init.bib.hypertex}
