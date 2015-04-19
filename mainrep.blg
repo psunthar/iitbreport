@@ -10,38 +10,38 @@ Database file #1: mylit.bib
 Database file #2: library.bib
 Merlin.mbs v4.21 2009-07-09. 
 You've used 109 entries,
-            4470 wiz_defined-function locations,
-            1800 strings with 35240 characters,
-and the built_in function-call counts, 111862 in all, are:
-= -- 7616
+            4494 wiz_defined-function locations,
+            1803 strings with 35255 characters,
+and the built_in function-call counts, 114058 in all, are:
+= -- 7758
 > -- 3131
 < -- 286
 + -- 1055
 - -- 944
-* -- 17755
-:= -- 12029
-add.period$ -- 214
+* -- 17977
+:= -- 12254
+add.period$ -- 221
 call.type$ -- 109
-change.case$ -- 864
+change.case$ -- 863
 chr.to.int$ -- 110
 cite$ -- 218
-duplicate$ -- 9777
-empty$ -- 8454
+duplicate$ -- 10099
+empty$ -- 8856
 format.name$ -- 1814
-if$ -- 19659
+if$ -- 20202
 int.to.chr$ -- 3
 int.to.str$ -- 1
-missing$ -- 1598
-newline$ -- 1115
+missing$ -- 1597
+newline$ -- 1122
 num.names$ -- 439
-pop$ -- 3130
+pop$ -- 3334
 preamble$ -- 1
 purify$ -- 749
 quote$ -- 2
-skip$ -- 3400
+skip$ -- 3405
 stack$ -- 0
-substring$ -- 3859
-swap$ -- 9834
+substring$ -- 3857
+swap$ -- 9941
 text.length$ -- 216
 text.prefix$ -- 0
 top$ -- 1
@@ -49,4 +49,4 @@ type$ -- 1290
 warning$ -- 0
 while$ -- 526
 width$ -- 0
-write$ -- 1663
+write$ -- 1677

@@ -692,8 +692,13 @@ FUNCTION {format.url}
   url duplicate$ empty$
     { pop$ "" }
     {
-      "\url"
-      "{" * swap$ * "}" *
+      doi empty$
+      {
+	"\href"
+	"{" * swap$ * "}{URL}" *
+      }
+      { pop$ ""}
+      if$
     }
   if$
 }
@@ -1668,6 +1673,7 @@ FUNCTION {article}
       "journal" bibinfo.warn
       pages empty$ 'skip$ { add.doi } if$
       "journal" 'bibfield :=
+      emphasize
       output
       format.ser.vol.num
       output
@@ -1680,12 +1686,13 @@ FUNCTION {article}
   pages empty$ {
   format.doi output
   } 'skip$ if$
-  new.block.comma
-  new.sentence.comma
+  %%new.block.comma
+  %%new.sentence.comma
   %%format.note output
   %%format.eprint output
-  %% format.url output
   %%format.translation output
+  new.block
+  format.url output
   fin.entry
 }
 
@@ -1729,7 +1736,7 @@ FUNCTION {book}
   new.sentence.comma
   %%format.note output
   %%format.eprint output
-  %%format.url output
+  format.url output
   fin.entry
 }
 
@@ -1750,7 +1757,7 @@ FUNCTION {booklet}
   new.sentence.comma
   %%format.note output
   %%format.eprint output
-  %%format.url output
+  format.url output
   fin.entry
 }
 
@@ -1797,7 +1804,7 @@ FUNCTION {inbook}
   new.sentence.comma
   %%format.note output
   %%format.eprint output
-  %%format.url output
+  format.url output
   fin.entry
 }
 
@@ -1826,7 +1833,7 @@ FUNCTION {incollection}
   new.sentence.comma
   %%format.note output
   %%format.eprint output
-  %%format.url output
+  format.url output
   fin.entry
 }
 
@@ -1854,7 +1861,7 @@ FUNCTION {inproceedings}
   new.sentence.comma
   %%format.note output
   %%format.eprint output
-  %%format.url output
+  format.url output
   fin.entry
 }
 
@@ -1874,7 +1881,7 @@ FUNCTION {manual}
   new.sentence.comma
   %%format.note output
   %%format.eprint output
-  %%format.url output
+  format.url output
   fin.entry
 }
 
@@ -1895,7 +1902,7 @@ FUNCTION {mastersthesis}
   new.sentence.comma
   %%format.note output
   %%format.eprint output
-  %%format.url output
+  format.url output
   fin.entry
 }
 
@@ -1914,7 +1921,7 @@ FUNCTION {misc}
   new.sentence.comma
   %%format.note output
   %%format.eprint output
-  %%format.url output
+  format.url output
   fin.entry
 }
 
@@ -1935,7 +1942,7 @@ FUNCTION {phdthesis}
   new.sentence.comma
   %%format.note output
   %%format.eprint output
-  %%format.url output
+  format.url output
   fin.entry
 }
 
@@ -1978,7 +1985,7 @@ FUNCTION {proceedings}
   new.sentence.comma
   %%format.note output
   %%format.eprint output
-  %%format.url output
+  format.url output
   fin.entry
 }
 
@@ -1997,8 +2004,8 @@ FUNCTION {techreport}
   format.org.or.pub output
   new.block.comma
   new.sentence.comma
-  format.note output
-  format.eprint output
+  %%format.note output
+  %%format.eprint output
   format.url output
   fin.entry
 }
@@ -2013,8 +2020,8 @@ FUNCTION {unpublished}
   "title" output.check
   new.block.comma
   new.sentence.comma
-  format.note "note" output.check
-  format.eprint output
+  %%format.note "note" output.check
+  %%format.eprint output
   format.url output
   fin.entry
 }

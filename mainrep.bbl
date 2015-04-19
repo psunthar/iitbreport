@@ -80,8 +80,11 @@
   \enquote{\bibinfo {title} {{Preparation of giant liposomes in physiological
   conditions and their characterization under an optical microscope}},}\ }%
   \bibfield{journal}{%
-  \bibinfo {journal} {Biophysical Journal}\ }%
-  \textbf{\bibinfo {volume} {71}},\ \bibinfo {pages} {3242--3250}%
+  \emph{\bibinfo {journal} {Biophysical Journal}}\ }%
+  \textbf{\bibinfo {volume} {71}},\ \bibinfo {pages} {3242--3250}.\EOS\
+\newblock
+  \href{http://www.scopus.com/inward/record.url?eid=2-s2.0-0029752766\&partner%
+ID=tZOtx3y1}{URL}%
   \bibAnnoteFile{NoStop}{Akashi1996}%
 \bibitem[{\citenamefont{Alessandrini}\ and\
   \citenamefont{Facci}(2012)}]{Alessandrini2012}%
@@ -93,8 +96,8 @@
   \enquote{\bibinfo {title} {{Nanoscale mechanical properties of lipid bilayers
   and their relevance in biomembrane organization and function.}}.}\ }%
   \bibfield{journal}{%
-  \Doi{10.1016/j.micron.2012.03.013}{\bibinfo {journal} {Micron (Oxford,
-  England : 1993)}}\ }%
+  \emph{\Doi{10.1016/j.micron.2012.03.013}{\bibinfo {journal} {Micron (Oxford,
+  England : 1993)}}}\ }%
   \textbf{\bibinfo {volume} {43}},\ \bibinfo {pages} {1212--23}%
   \bibAnnoteFile{NoStop}{Alessandrini2012}%
 \bibitem[{\citenamefont{Angelova}\ and\
@@ -106,8 +109,8 @@
   , \bibinfo {year} {1986},\ \bibfield{title}{%
   \enquote{\bibinfo {title} {{Liposome electroformation}},}\ }%
   \bibfield{journal}{%
-  \Doi{10.1039/DC9868100303}{\bibinfo {journal} {Faraday Discussions of the
-  Chemical Society}}\ }%
+  \emph{\Doi{10.1039/DC9868100303}{\bibinfo {journal} {Faraday Discussions of
+  the Chemical Society}}}\ }%
   \textbf{\bibinfo {volume} {81}},\ \bibinfo {pages} {303--311}%
   \bibAnnoteFile{NoStop}{Angelova1986}%
 \bibitem[{\citenamefont{Axelrod}(2001)}]{Axelrod2001}%
@@ -118,7 +121,8 @@
   \enquote{\bibinfo {title} {{Total internal reflection fluorescence microscopy
   in cell biology}},}\ }%
   \bibfield{journal}{%
-  \Doi{10.1034/j.1600-0854.2001.21104.x}{\bibinfo {journal} {Traffic}}\ }%
+  \emph{\Doi{10.1034/j.1600-0854.2001.21104.x}{\bibinfo {journal} {Traffic}}}\
+  }%
   \textbf{\bibinfo {volume} {2}},\ \bibinfo {pages} {764--774}%
   \bibAnnoteFile{NoStop}{Axelrod2001}%
 \bibitem[{\citenamefont{Bagatolli}(2006)}]{Bagatolli2006}%
@@ -129,8 +133,8 @@
   \enquote{\bibinfo {title} {{To see or not to see: lateral organization of
   biological membranes and fluorescence microscopy.}}.}\ }%
   \bibfield{journal}{%
-  \Doi{10.1016/j.bbamem.2006.05.019}{\bibinfo {journal} {Biochimica et
-  biophysica acta}}\ }%
+  \emph{\Doi{10.1016/j.bbamem.2006.05.019}{\bibinfo {journal} {Biochimica et
+  biophysica acta}}}\ }%
   \textbf{\bibinfo {volume} {1758}},\ \bibinfo {pages} {1541--56}%
   \bibAnnoteFile{NoStop}{Bagatolli2006}%
 \bibitem[{\citenamefont{Bagatolli}\ and\
@@ -144,8 +148,8 @@
   micromanipulation studies on the lipid bilayer membranes of giant unilamellar
   vesicles.}}.}\ }%
   \bibfield{journal}{%
-  \Doi{10.1016/j.chemphyslip.2014.02.009}{\bibinfo {journal} {Chemistry and
-  physics of lipids}}\ }%
+  \emph{\Doi{10.1016/j.chemphyslip.2014.02.009}{\bibinfo {journal} {Chemistry
+  and physics of lipids}}}\ }%
   \textbf{\bibinfo {volume} {181}},\ \bibinfo {pages} {99--120}%
   \bibAnnoteFile{NoStop}{Bagatolli2014}%
 \bibitem[{\citenamefont{Balleza}\ \emph{et~al.}(2015)\citenamefont{Balleza},
@@ -165,8 +169,8 @@
   \enquote{\bibinfo {title} {{Effects of neurosteroids on a model membrane
   including cholesterol: A Micropipette Aspiration study.}}.}\ }%
   \bibfield{journal}{%
-  \Doi{10.1016/j.bbamem.2015.01.017}{\bibinfo {journal} {Biochimica et
-  biophysica acta}}\ }%
+  \emph{\Doi{10.1016/j.bbamem.2015.01.017}{\bibinfo {journal} {Biochimica et
+  biophysica acta}}}\ }%
   \textbf{\bibinfo {volume} {1848}},\ \bibinfo {pages} {1268--1276}%
   \bibAnnoteFile{NoStop}{Balleza2015}%
 \bibitem[{\citenamefont{Batzri}\ and\ \citenamefont{Korn}(1973)}]{Batzri1973}%
@@ -178,8 +182,8 @@
   \enquote{\bibinfo {title} {{Single bilayer liposomes prepared without
   sonication}},}\ }%
   \bibfield{journal}{%
-  \Doi{10.1016/0005-2736(73)90408-2}{\bibinfo {journal} {Biochim. Biophys.
-  Acta}}\ }%
+  \emph{\Doi{10.1016/0005-2736(73)90408-2}{\bibinfo {journal} {Biochim.
+  Biophys. Acta}}}\ }%
   \textbf{\bibinfo {volume} {298}},\ \bibinfo {pages} {1015--1019}%
   \bibAnnoteFile{NoStop}{Batzri1973}%
 \bibitem[{\citenamefont{Blasie}\ and\
@@ -192,7 +196,8 @@
   \enquote{\bibinfo {title} {{Planar liquid-like arrangement of photopigment
   molecules in frog retinal receptor disk membranes}},}\ }%
   \bibfield{journal}{%
-  \Doi{10.1016/0022-2836(69)90136-3}{\bibinfo {journal} {J. Mol. Biol.}}\ }%
+  \emph{\Doi{10.1016/0022-2836(69)90136-3}{\bibinfo {journal} {J. Mol.
+  Biol.}}}\ }%
   \textbf{\bibinfo {volume} {39}},\ \bibinfo {pages} {417--439}%
   \bibAnnoteFile{NoStop}{Blasie1969}%
 \bibitem[{\citenamefont{Boal}(2012)}]{Boal2012}%
@@ -212,8 +217,9 @@
   \enquote{\bibinfo {title} {{Interactions of anticancer drugs with
   biomembranes: what can we learn from model membranes?}}.}\ }%
   \bibfield{journal}{%
-  \Doi{10.1016/j.jconrel.2014.05.012}{\bibinfo {journal} {Journal of controlled
-  release : official journal of the Controlled Release Society}}\ }%
+  \emph{\Doi{10.1016/j.jconrel.2014.05.012}{\bibinfo {journal} {Journal of
+  controlled release : official journal of the Controlled Release Society}}}\
+  }%
   \textbf{\bibinfo {volume} {190}},\ \bibinfo {pages} {127--38}%
   \bibAnnoteFile{NoStop}{Bourgaux2014}%
 \bibitem[{\citenamefont{Bouvrais}\ \emph{et~al.}(2010)\citenamefont{Bouvrais},
@@ -230,8 +236,8 @@
   \enquote{\bibinfo {title} {{Impact of membrane-anchored fluorescent probes on
   the mechanical properties of lipid bilayers.}}.}\ }%
   \bibfield{journal}{%
-  \Doi{10.1016/j.bbamem.2010.03.026}{\bibinfo {journal} {Biochimica et
-  biophysica acta}}\ }%
+  \emph{\Doi{10.1016/j.bbamem.2010.03.026}{\bibinfo {journal} {Biochimica et
+  biophysica acta}}}\ }%
   \textbf{\bibinfo {volume} {1798}},\ \bibinfo {pages} {1333--7}%
   \bibAnnoteFile{NoStop}{Bouvrais2010}%
 \bibitem[{\citenamefont{Bretscher}(1973)}]{Bretscher1973}%
@@ -242,7 +248,7 @@
   \enquote{\bibinfo {title} {{Membrane structure: some general principles}},}\
   }%
   \bibfield{journal}{%
-  \Doi{10.1126/science.181.4100.622}{\bibinfo {journal} {Science}}\ }%
+  \emph{\Doi{10.1126/science.181.4100.622}{\bibinfo {journal} {Science}}}\ }%
   \textbf{\bibinfo {volume} {181}},\ \bibinfo {pages} {622--629}%
   \bibAnnoteFile{NoStop}{Bretscher1973}%
 \bibitem[{\citenamefont{Brown}\ and\ \citenamefont{Rose}(1992)}]{Brown1992}%
@@ -255,7 +261,7 @@
   glycolipids-enriched membrane subdomains during transport to the apical cell
   surface}},}\ }%
   \bibfield{journal}{%
-  \Doi{10.1016/0092-8674(92)90189-J}{\bibinfo {journal} {Cell}}\ }%
+  \emph{\Doi{10.1016/0092-8674(92)90189-J}{\bibinfo {journal} {Cell}}}\ }%
   \textbf{\bibinfo {volume} {68}},\ \bibinfo {pages} {533--544}%
   \bibAnnoteFile{NoStop}{Brown1992}%
 \bibitem[{\citenamefont{Campelo}\ \emph{et~al.}(2014)\citenamefont{Campelo},
@@ -272,8 +278,8 @@
   theory of liquid interfaces to membranes as thick anisotropic elastic
   layers.}}.}\ }%
   \bibfield{journal}{%
-  \Doi{10.1016/j.cis.2014.01.018}{\bibinfo {journal} {Advances in colloid and
-  interface science}}\ }%
+  \emph{\Doi{10.1016/j.cis.2014.01.018}{\bibinfo {journal} {Advances in colloid
+  and interface science}}}\ }%
   \textbf{\bibinfo {volume} {208}},\ \bibinfo {pages} {25--33}%
   \bibAnnoteFile{NoStop}{Campelo2014}%
 \bibitem[{\citenamefont{Chapman}(1975)}]{Chapman1975}%
@@ -284,7 +290,7 @@
   \enquote{\bibinfo {title} {{Phase transitions and fluidity characteristics of
   lipids and cell membranes}},}\ }%
   \bibfield{journal}{%
-  \bibinfo {journal} {Quart. Rev. Biophys.}\ }%
+  \emph{\bibinfo {journal} {Quart. Rev. Biophys.}}\ }%
   \textbf{\bibinfo {volume} {8}},\ \bibinfo {pages} {185--235}%
   \bibAnnoteFile{NoStop}{Chapman1975}%
 \bibitem[{\citenamefont{Cheng}\ \emph{et~al.}(2009)\citenamefont{Cheng},
@@ -301,8 +307,8 @@
   micropipette-manipulated cell detachment from a substrate mediated by
   receptor–ligand binding}},}\ }%
   \bibfield{journal}{%
-  \Doi{10.1016/j.jmps.2008.11.003}{\bibinfo {journal} {Journal of the Mechanics
-  and Physics of Solids}}\ }%
+  \emph{\Doi{10.1016/j.jmps.2008.11.003}{\bibinfo {journal} {Journal of the
+  Mechanics and Physics of Solids}}}\ }%
   \textbf{\bibinfo {volume} {57}},\ \bibinfo {pages} {205--220}%
   \bibAnnoteFile{NoStop}{Cheng2009}%
 \bibitem[{\citenamefont{Chisari}\ \emph{et~al.}(2009)\citenamefont{Chisari},
@@ -327,8 +333,9 @@
   Lipophilicity on GABAA Receptor Modulation: Evidence for a Low-Affinity
   Interaction}},}\ }%
   \bibfield{journal}{%
-  \bibinfo {journal} {Journal of Neurophysiology}\ }%
-  \textbf{\bibinfo {volume} {102}},\ \bibinfo {pages} {1254--1264}%
+  \emph{\bibinfo {journal} {Journal of Neurophysiology}}\ }%
+  \textbf{\bibinfo {volume} {102}},\ \bibinfo {pages} {1254--1264}.\EOS\
+\newblock \href{http://jn.physiology.org/content/102/2/1254.abstract}{URL}%
   \bibAnnoteFile{NoStop}{Chisari2009}%
 \bibitem[{\citenamefont{Christian}\
   \emph{et~al.}(2009)\citenamefont{Christian}, \citenamefont{Tian},
@@ -350,7 +357,7 @@
   \enquote{\bibinfo {title} {{Spotted vesicles, striped micelles and Janus
   assemblies induced by ligand binding}},}\ }%
   \bibfield{journal}{%
-  \Doi{10.1038/nmat2512}{\bibinfo {journal} {Nat Mater}}\ }%
+  \emph{\Doi{10.1038/nmat2512}{\bibinfo {journal} {Nat Mater}}}\ }%
   \textbf{\bibinfo {volume} {8}},\ \bibinfo {pages} {843--849}%
   \bibAnnoteFile{NoStop}{Christian2009}%
 \bibitem[{\citenamefont{Cole}(1932)}]{Cole1932}%
@@ -360,8 +367,8 @@
   , \bibinfo {year} {1932},\ \bibfield{title}{%
   \enquote{\bibinfo {title} {{Surface forces of the Arbacia egg}},}\ }%
   \bibfield{journal}{%
-  \Doi{10.1002/jcp.1030010102}{\bibinfo {journal} {J. Cell. Comp. Physiol.}}\
-  }%
+  \emph{\Doi{10.1002/jcp.1030010102}{\bibinfo {journal} {J. Cell. Comp.
+  Physiol.}}}\ }%
   \textbf{\bibinfo {volume} {1}},\ \bibinfo {pages} {1--9}%
   \bibAnnoteFile{NoStop}{Cole1932}%
 \bibitem[{\citenamefont{Cone}(1972)}]{Cone1972}%
@@ -372,7 +379,7 @@
   \enquote{\bibinfo {title} {{Rotational diffusion of rhodopsin in the visual
   receptor membrane}},}\ }%
   \bibfield{journal}{%
-  \bibinfo {journal} {Nature New Biol.}\ }%
+  \emph{\bibinfo {journal} {Nature New Biol.}}\ }%
   \textbf{\bibinfo {volume} {15}},\ \bibinfo {pages} {39--43}%
   \bibAnnoteFile{NoStop}{Cone1972}%
 \bibitem[{\citenamefont{Danielli}\ and\
@@ -385,7 +392,7 @@
   \enquote{\bibinfo {title} {{A contribution to the theory of permeability of
   thin films}},}\ }%
   \bibfield{journal}{%
-  \bibinfo {journal} {J. Cell. Physiol.}\ }%
+  \emph{\bibinfo {journal} {J. Cell. Physiol.}}\ }%
   \textbf{\bibinfo {volume} {5}},\ \bibinfo {pages} {495--508}%
   \bibAnnoteFile{NoStop}{Danielli1935a}%
 \bibitem[{\citenamefont{Danielli}\ and\
@@ -398,8 +405,8 @@
   \enquote{\bibinfo {title} {{The tension at the surface of mackerel egg oil,
   with remarks on the nature of the cell surface}},}\ }%
   \bibfield{journal}{%
-  \Doi{10.1002/jcp.1030050408}{\bibinfo {journal} {J. Cell. Comp. Physiol.}}\
-  }%
+  \emph{\Doi{10.1002/jcp.1030050408}{\bibinfo {journal} {J. Cell. Comp.
+  Physiol.}}}\ }%
   \textbf{\bibinfo {volume} {5}},\ \bibinfo {pages} {483}%
   \bibAnnoteFile{NoStop}{Danielli1935}%
 \bibitem[{\citenamefont{Deamer}\ and\
@@ -412,7 +419,7 @@
   \enquote{\bibinfo {title} {{Surface area of human erythrocytes:
   reinvestigation of experiments on plasma membrane}},}\ }%
   \bibfield{journal}{%
-  \bibinfo {journal} {Science}\ }%
+  \emph{\bibinfo {journal} {Science}}\ }%
   \textbf{\bibinfo {volume} {153}},\ \bibinfo {pages} {1010--1012}%
   \bibAnnoteFile{NoStop}{Deamer1966}%
 \bibitem[{\citenamefont{Dieluweit}\
@@ -432,8 +439,8 @@
   giant unilamellar phospholipid vesicles. A comparative study of micropipet
   aspiration and atomic force microscopy.}}.}\ }%
   \bibfield{journal}{%
-  \Doi{10.1021/la1005242}{\bibinfo {journal} {Langmuir : the ACS journal of
-  surfaces and colloids}}\ }%
+  \emph{\Doi{10.1021/la1005242}{\bibinfo {journal} {Langmuir : the ACS journal
+  of surfaces and colloids}}}\ }%
   \textbf{\bibinfo {volume} {26}},\ \bibinfo {pages} {11041--9}%
   \bibAnnoteFile{NoStop}{Dieluweit2010}%
 \bibitem[{\citenamefont{Dimova}(2014)}]{Dimova2014}%
@@ -444,8 +451,8 @@
   \enquote{\bibinfo {title} {{Recent developments in the field of bending
   rigidity measurements on membranes.}}.}\ }%
   \bibfield{journal}{%
-  \Doi{10.1016/j.cis.2014.03.003}{\bibinfo {journal} {Advances in colloid and
-  interface science}}\ }%
+  \emph{\Doi{10.1016/j.cis.2014.03.003}{\bibinfo {journal} {Advances in colloid
+  and interface science}}}\ }%
   \textbf{\bibinfo {volume} {208}},\ \bibinfo {pages} {225--34}%
   \bibAnnoteFile{NoStop}{Dimova2014}%
 \bibitem[{\citenamefont{Ding}\ and\ \citenamefont{Ma}(2015)}]{Ding2015}%
@@ -457,8 +464,8 @@
   \enquote{\bibinfo {title} {{Theoretical and computational investigations of
   nanoparticle-biomembrane interactions in cellular delivery.}}.}\ }%
   \bibfield{journal}{%
-  \Doi{10.1002/smll.201401943}{\bibinfo {journal} {Small (Weinheim an der
-  Bergstrasse, Germany)}}\ }%
+  \emph{\Doi{10.1002/smll.201401943}{\bibinfo {journal} {Small (Weinheim an der
+  Bergstrasse, Germany)}}}\ }%
   \textbf{\bibinfo {volume} {11}},\ \bibinfo {pages} {1055--71}%
   \bibAnnoteFile{NoStop}{Ding2015}%
 \bibitem[{\citenamefont{D\"{o}bereiner}(2000)}]{Dobereiner2000}%
@@ -469,8 +476,8 @@
   , \bibinfo {year} {2000}\ \bibinfo {month} {Jul.},\ \bibfield{title}{%
   \enquote{\bibinfo {title} {{Properties of giant vesicles}},}\ }%
   \bibfield{journal}{%
-  \Doi{10.1016/S1359-0294(00)00064-9}{\bibinfo {journal} {Current Opinion in
-  Colloid \& Interface Science}}\ }%
+  \emph{\Doi{10.1016/S1359-0294(00)00064-9}{\bibinfo {journal} {Current Opinion
+  in Colloid \& Interface Science}}}\ }%
   \textbf{\bibinfo {volume} {5}},\ \bibinfo {pages} {256--263}%
   \bibAnnoteFile{NoStop}{Dobereiner2000}%
 \bibitem[{\citenamefont{D'Onofrio}(2003)}]{DOnofrio2003}%
@@ -481,7 +488,7 @@
   \enquote{\bibinfo {title} {{Controlling and measuring the interdependence of
   local properties in biomembranes}},}\ }%
   \bibfield{journal}{%
-  \Doi{10.1021/la026133a}{\bibinfo {journal} {Langmuir}}\ }%
+  \emph{\Doi{10.1021/la026133a}{\bibinfo {journal} {Langmuir}}}\ }%
   \textbf{\bibinfo {volume} {19}},\ \bibinfo {pages} {1618--1623}%
   \bibAnnoteFile{NoStop}{DOnofrio2003}%
 \bibitem[{\citenamefont{Edidin}(1974)}]{Edidin1974}%
@@ -492,8 +499,8 @@
   \enquote{\bibinfo {title} {{Rotational and translational diffusion in
   membranes}},}\ }%
   \bibfield{journal}{%
-  \Doi{10.1146/annurev.bb.03.060174.001143}{\bibinfo {journal} {Annu. Rev.
-  Biophys. Bioeng.}}\ }%
+  \emph{\Doi{10.1146/annurev.bb.03.060174.001143}{\bibinfo {journal} {Annu.
+  Rev. Biophys. Bioeng.}}}\ }%
   \textbf{\bibinfo {volume} {3}},\ \bibinfo {pages} {179--201}%
   \bibAnnoteFile{NoStop}{Edidin1974}%
 \bibitem[{\citenamefont{Edidin}(1997)}]{Edidin1997}%
@@ -504,8 +511,8 @@
   \enquote{\bibinfo {title} {{Lipid microdomains in cell surface membranes}},}\
   }%
   \bibfield{journal}{%
-  \Doi{10.1016/S0959-440X(97)80117-0}{\bibinfo {journal} {Curr. Opin. Struct.
-  Biol.}}\ }%
+  \emph{\Doi{10.1016/S0959-440X(97)80117-0}{\bibinfo {journal} {Curr. Opin.
+  Struct. Biol.}}}\ }%
   \textbf{\bibinfo {volume} {7}},\ \bibinfo {pages} {528--532}%
   \bibAnnoteFile{NoStop}{Edidin1997}%
 \bibitem[{\citenamefont{Edidin}(2001)}]{Edidin2001}%
@@ -516,8 +523,8 @@
   \enquote{\bibinfo {title} {{Shrinking patches and slippery rafts: scales of
   domains in the plasma membrane}},}\ }%
   \bibfield{journal}{%
-  \Doi{10.1016/S0962-8924(01)02139-0}{\bibinfo {journal} {Trends Cell Biol.}}\
-  }%
+  \emph{\Doi{10.1016/S0962-8924(01)02139-0}{\bibinfo {journal} {Trends Cell
+  Biol.}}}\ }%
   \textbf{\bibinfo {volume} {11}},\ \bibinfo {pages} {492--496}%
   \bibAnnoteFile{NoStop}{Edidin2001}%
 \bibitem[{\citenamefont{Edidin}(2003{\natexlab{a}})}]{Edidin2003a}%
@@ -528,7 +535,7 @@
   \bibfield{title}{%
   \enquote{\bibinfo {title} {{The state of lipid rafts: from model membranes to
   cells}},}\ }%
-  \bibinfo {journal} {Annu. Rev. Biophys. Biomolec. Struct.}%
+  \emph{\bibinfo {journal} {Annu. Rev. Biophys. Biomolec. Struct.}}%
   \bibAnnoteFile{Stop}{Edidin2003a}%
 \bibitem[{\citenamefont{Edidin}(2003{\natexlab{b}})}]{Edidin2003}%
   \BibitemOpen
@@ -541,7 +548,7 @@
   \enquote{\bibinfo {title} {{Lipids on the frontier: a century of
   cell-membrane bilayers}},}\ }%
   \bibfield{journal}{%
-  \Doi{10.1038/nrm1102}{\bibinfo {journal} {Nat Rev Mol Cell Biol}}\ }%
+  \emph{\Doi{10.1038/nrm1102}{\bibinfo {journal} {Nat Rev Mol Cell Biol}}}\ }%
   \textbf{\bibinfo {volume} {4}},\ \bibinfo {pages} {414--418}%
   \bibAnnoteFile{NoStop}{Edidin2003}%
 \bibitem[{\citenamefont{Evans}\ \emph{et~al.}(1995)\citenamefont{Evans},
@@ -555,8 +562,11 @@
   \enquote{\bibinfo {title} {{Sensitive force technique to probe molecular
   adhesion and structural linkages at biological interfaces}},}\ }%
   \bibfield{journal}{%
-  \bibinfo {journal} {Biophysical Journal}\ }%
-  \textbf{\bibinfo {volume} {68}},\ \bibinfo {pages} {2580--2587}%
+  \emph{\bibinfo {journal} {Biophysical Journal}}\ }%
+  \textbf{\bibinfo {volume} {68}},\ \bibinfo {pages} {2580--2587}.\EOS\
+\newblock
+  \href{http://www.scopus.com/inward/record.url?eid=2-s2.0-0029062769\&partner%
+ID=tZOtx3y1}{URL}%
   \bibAnnoteFile{NoStop}{Evans1995}%
 \bibitem[{\citenamefont{Evans}\ and\ \citenamefont{Needham}(1987)}]{Evans1987}%
   \BibitemOpen
@@ -568,8 +578,8 @@
   membranes: thermal transitions, elasticity, rigidity, cohesion and colloidal
   interactions}},}\ }%
   \bibfield{journal}{%
-  \Doi{10.1021/j100300a003}{\bibinfo {journal} {The Journal of Physical
-  Chemistry}}\ }%
+  \emph{\Doi{10.1021/j100300a003}{\bibinfo {journal} {The Journal of Physical
+  Chemistry}}}\ }%
   \textbf{\bibinfo {volume} {91}},\ \bibinfo {pages} {4219--4228}%
   \bibAnnoteFile{NoStop}{Evans1987}%
 \bibitem[{\citenamefont{Fa}\
@@ -591,8 +601,8 @@
   \enquote{\bibinfo {title} {{Decrease of elastic moduli of DOPC bilayers
   induced by a macrolide antibiotic, azithromycin}},}\ }%
   \bibfield{journal}{%
-  \Doi{10.1016/j.bbamem.2007.04.013}{\bibinfo {journal} {Biochimica et
-  Biophysica Acta - Biomembranes}}\ }%
+  \emph{\Doi{10.1016/j.bbamem.2007.04.013}{\bibinfo {journal} {Biochimica et
+  Biophysica Acta - Biomembranes}}}\ }%
   \textbf{\bibinfo {volume} {1768}},\ \bibinfo {pages} {1830--1838}%
   \bibAnnoteFile{NoStop}{Fa2007}%
 \bibitem[{\citenamefont{Fa}\
@@ -615,8 +625,8 @@
   \enquote{\bibinfo {title} {{Decrease of elastic moduli of DOPC bilayers
   induced by a macrolide antibiotic, azithromycin.}}.}\ }%
   \bibfield{journal}{%
-  \Doi{10.1016/j.bbamem.2007.04.013}{\bibinfo {journal} {Biochimica et
-  biophysica acta}}\ }%
+  \emph{\Doi{10.1016/j.bbamem.2007.04.013}{\bibinfo {journal} {Biochimica et
+  biophysica acta}}}\ }%
   \textbf{\bibinfo {volume} {1768}},\ \bibinfo {pages} {1830--8}%
   \bibAnnoteFile{NoStop}{Fa2007a}%
 \bibitem[{\citenamefont{Fairbanks}\
@@ -631,7 +641,7 @@
   \enquote{\bibinfo {title} {{Electrophoretic analysis of the major
   polypeptides of the human erythrocyte membrane}},}\ }%
   \bibfield{journal}{%
-  \bibinfo {journal} {Biochem.}\ }%
+  \emph{\bibinfo {journal} {Biochem.}}\ }%
   \textbf{\bibinfo {volume} {10}},\ \bibinfo {pages} {2606--2617}%
   \bibAnnoteFile{NoStop}{Fairbanks1971}%
 \bibitem[{\citenamefont{Fernandez-Moran}\ and\
@@ -644,7 +654,7 @@
   \enquote{\bibinfo {title} {{Electron microscope and low-angle x-ray
   diffraction studies of the nerve myelin sheath}},}\ }%
   \bibfield{journal}{%
-  \Doi{10.1083/jcb.3.5.725}{\bibinfo {journal} {J. Cell Biol.}}\ }%
+  \emph{\Doi{10.1083/jcb.3.5.725}{\bibinfo {journal} {J. Cell Biol.}}}\ }%
   \textbf{\bibinfo {volume} {3}},\ \bibinfo {pages} {725--748}%
   \bibAnnoteFile{NoStop}{Fernandez-Moran1957}%
 \bibitem[{\citenamefont{Fricke}(1923)}]{Fricke1923}%
@@ -654,7 +664,7 @@
   , \bibinfo {year} {1923},\ \bibfield{title}{%
   \enquote{\bibinfo {title} {{The electric capacity of cell suspensions}},}\ }%
   \bibfield{journal}{%
-  \bibinfo {journal} {Phys. Rev. Series II}\ }%
+  \emph{\bibinfo {journal} {Phys. Rev. Series II}}\ }%
   \textbf{\bibinfo {volume} {21}},\ \bibinfo {pages} {708--709}%
   \bibAnnoteFile{NoStop}{Fricke1923}%
 \bibitem[{\citenamefont{Frye}\ and\ \citenamefont{Edidin}(1970)}]{Frye1970}%
@@ -666,7 +676,7 @@
   \enquote{\bibinfo {title} {{The rapid intermixing of cell surface antigens
   after formation of mouse-human heterokaryons}},}\ }%
   \bibfield{journal}{%
-  \bibinfo {journal} {J. Cell Sci.}\ }%
+  \emph{\bibinfo {journal} {J. Cell Sci.}}\ }%
   \textbf{\bibinfo {volume} {7}},\ \bibinfo {pages} {319--335}%
   \bibAnnoteFile{NoStop}{Frye1970}%
 \bibitem[{\citenamefont{Gheber}\ and\
@@ -679,7 +689,7 @@
   \enquote{\bibinfo {title} {{A model for membrane patchiness: lateral
   diffusion in the presence of barriers and vesicle traffic}},}\ }%
   \bibfield{journal}{%
-  \bibinfo {journal} {Biophys. J.}\ }%
+  \emph{\bibinfo {journal} {Biophys. J.}}\ }%
   \textbf{\bibinfo {volume} {77}},\ \bibinfo {pages} {3163--3175}%
   \bibAnnoteFile{NoStop}{Gheber1999}%
 \bibitem[{\citenamefont{Go\~{n}i}(2014)}]{Goni2014}%
@@ -690,8 +700,8 @@
   \enquote{\bibinfo {title} {{The basic structure and dynamics of cell
   membranes: an update of the Singer-Nicolson model.}}.}\ }%
   \bibfield{journal}{%
-  \Doi{10.1016/j.bbamem.2014.01.006}{\bibinfo {journal} {Biochimica et
-  biophysica acta}}\ }%
+  \emph{\Doi{10.1016/j.bbamem.2014.01.006}{\bibinfo {journal} {Biochimica et
+  biophysica acta}}}\ }%
   \textbf{\bibinfo {volume} {1838}},\ \bibinfo {pages} {1467--76}%
   \bibAnnoteFile{NoStop}{Goni2014}%
 \bibitem[{\citenamefont{Goksu}\ \emph{et~al.}(2009)\citenamefont{Goksu},
@@ -708,8 +718,8 @@
   \enquote{\bibinfo {title} {{AFM for structure and dynamics of
   biomembranes.}}.}\ }%
   \bibfield{journal}{%
-  \Doi{10.1016/j.bbamem.2008.08.021}{\bibinfo {journal} {Biochimica et
-  biophysica acta}}\ }%
+  \emph{\Doi{10.1016/j.bbamem.2008.08.021}{\bibinfo {journal} {Biochimica et
+  biophysica acta}}}\ }%
   \textbf{\bibinfo {volume} {1788}},\ \bibinfo {pages} {254--66}%
   \bibAnnoteFile{NoStop}{Goksu2009}%
 \bibitem[{\citenamefont{Gorter}\ and\
@@ -722,7 +732,7 @@
   \enquote{\bibinfo {title} {{On bimolecular layers of lipoids on the
   chromocytes of the blood}},}\ }%
   \bibfield{journal}{%
-  \Doi{10.1084/jem.41.4.439}{\bibinfo {journal} {J. Exp. Med.}}\ }%
+  \emph{\Doi{10.1084/jem.41.4.439}{\bibinfo {journal} {J. Exp. Med.}}}\ }%
   \textbf{\bibinfo {volume} {41}},\ \bibinfo {pages} {439--443}%
   \bibAnnoteFile{NoStop}{Gorter1925}%
 \bibitem[{\citenamefont{Gracia}\ \emph{et~al.}(2010)\citenamefont{Gracia},
@@ -740,7 +750,7 @@
   saturated and unsaturated membranes: fluctuation and electrodeformation
   analysis of giant vesicles}},}\ }%
   \bibfield{journal}{%
-  \Doi{10.1039/B920629A}{\bibinfo {journal} {Soft Matter}}\ }%
+  \emph{\Doi{10.1039/B920629A}{\bibinfo {journal} {Soft Matter}}}\ }%
   \textbf{\bibinfo {volume} {6}},\ \bibinfo {pages} {1472--1482}%
   \bibAnnoteFile{NoStop}{Gracia2010}%
 \bibitem[{\citenamefont{Gupte}(1984)}]{Gupte1984}%
@@ -752,8 +762,8 @@
   frequency, and electron transfer of mitochondrial inner membrane
   oxidation-reduction components}},}\ }%
   \bibfield{journal}{%
-  \Doi{10.1073/pnas.81.9.2606}{\bibinfo {journal} {Proc. Natl Acad. Sci. USA}}\
-  }%
+  \emph{\Doi{10.1073/pnas.81.9.2606}{\bibinfo {journal} {Proc. Natl Acad. Sci.
+  USA}}}\ }%
   \textbf{\bibinfo {volume} {81}},\ \bibinfo {pages} {2606--2610}%
   \bibAnnoteFile{NoStop}{Gupte1984}%
 \bibitem[{\citenamefont{Harishchandra}\
@@ -769,7 +779,7 @@
   \enquote{\bibinfo {title} {{Biophysical methods for the characterization of
   PTEN/lipid bilayer interactions.}}.}\ }%
   \bibfield{journal}{%
-  \bibinfo {journal} {Methods (San Diego, Calif.)}\ }%
+  \emph{\bibinfo {journal} {Methods (San Diego, Calif.)}}\ }%
   \doi{\bibinfo {doi} {10.1016/j.ymeth.2015.02.004}}%
   \bibAnnoteFile{NoStop}{Harishchandra2015}%
 \bibitem[{\citenamefont{Heinrich}\ \emph{et~al.}(2010)\citenamefont{Heinrich},
@@ -785,8 +795,8 @@
   \enquote{\bibinfo {title} {{Dynamic sorting of lipids and proteins in
   membrane tubes with a moving phase boundary}},}\ }%
   \bibfield{journal}{%
-  \Doi{10.1073/pnas.0913997107}{\bibinfo {journal} {Proceedings of the National
-  Academy of Sciences}}\ }%
+  \emph{\Doi{10.1073/pnas.0913997107}{\bibinfo {journal} {Proceedings of the
+  National Academy of Sciences}}}\ }%
   \textbf{\bibinfo {volume} {107}},\ \bibinfo {pages} {7208--7213}%
   \bibAnnoteFile{NoStop}{Heinrich2010}%
 \bibitem[{\citenamefont{Heinrich}\ and\
@@ -799,7 +809,7 @@
   \enquote{\bibinfo {title} {{Automated, High-Resolution Micropipet Aspiration
   Reveals New Insight into the Physical Properties of Fluid Membranes}},}\ }%
   \bibfield{journal}{%
-  \Doi{10.1021/la047801q}{\bibinfo {journal} {Langmuir}}\ }%
+  \emph{\Doi{10.1021/la047801q}{\bibinfo {journal} {Langmuir}}}\ }%
   \textbf{\bibinfo {volume} {21}},\ \bibinfo {pages} {1962--1971}%
   \bibAnnoteFile{NoStop}{Heinrich2005}%
 \bibitem[{\citenamefont{Henriksen}\
@@ -819,8 +829,8 @@
   \enquote{\bibinfo {title} {{Universal behavior of membranes with
   sterols.}}.}\ }%
   \bibfield{journal}{%
-  \Doi{10.1529/biophysj.105.067652}{\bibinfo {journal} {Biophysical journal}}\
-  }%
+  \emph{\Doi{10.1529/biophysj.105.067652}{\bibinfo {journal} {Biophysical
+  journal}}}\ }%
   \textbf{\bibinfo {volume} {90}},\ \bibinfo {pages} {1639--49}%
   \bibAnnoteFile{NoStop}{Henriksen2006}%
 \bibitem[{\citenamefont{Jain}\ and\ \citenamefont{White}(1977)}]{Jain1977}%
@@ -831,7 +841,7 @@
   , \bibinfo {year} {1977},\ \bibfield{title}{%
   \enquote{\bibinfo {title} {{Long range order in biomembranes}},}\ }%
   \bibfield{journal}{%
-  \bibinfo {journal} {Adv. Lipid Res.}\ }%
+  \emph{\bibinfo {journal} {Adv. Lipid Res.}}\ }%
   \textbf{\bibinfo {volume} {15}},\ \bibinfo {pages} {1--60}%
   \bibAnnoteFile{NoStop}{Jain1977}%
 \bibitem[{\citenamefont{Jans}(1997)}]{Jans1997}%
@@ -860,7 +870,7 @@
   \enquote{\bibinfo {title} {{Quantitative methods for analyzing cell–cell
   adhesion in development}},}\ }%
   \bibfield{journal}{%
-  \bibinfo {journal} {Developmental Biology}\ }%
+  \emph{\bibinfo {journal} {Developmental Biology}}\ }%
   \doi{\bibinfo {doi} {10.1016/j.ydbio.2014.11.002}}%
   \bibAnnoteFile{NoStop}{Kashef2014}%
 \bibitem[{\citenamefont{Killian}\ and\ \citenamefont{von
@@ -873,8 +883,8 @@
   \enquote{\bibinfo {title} {{How proteins adapt to a membrane-water
   interface}},}\ }%
   \bibfield{journal}{%
-  \Doi{10.1016/S0968-0004(00)01626-1}{\bibinfo {journal} {Trends Biochem.
-  Sci.}}\ }%
+  \emph{\Doi{10.1016/S0968-0004(00)01626-1}{\bibinfo {journal} {Trends Biochem.
+  Sci.}}}\ }%
   \textbf{\bibinfo {volume} {25}},\ \bibinfo {pages} {429--434}%
   \bibAnnoteFile{NoStop}{Killian2000}%
 \bibitem[{\citenamefont{Laner}\ and\
@@ -889,8 +899,8 @@
   properties of glycerol-monopalmitate lipid bilayers investigated using
   molecular dynamics simulations: In quest of the biphasic effect}},}\ }%
   \bibfield{journal}{%
-  \Doi{10.1016/j.jmgm.2014.10.017}{\bibinfo {journal} {Journal of Molecular
-  Graphics and Modelling}}\ }%
+  \emph{\Doi{10.1016/j.jmgm.2014.10.017}{\bibinfo {journal} {Journal of
+  Molecular Graphics and Modelling}}}\ }%
   \textbf{\bibinfo {volume} {55}},\ \bibinfo {pages} {85--104}%
   \bibAnnoteFile{NoStop}{Laner2015}%
 \bibitem[{\citenamefont{Langmuir}(1917)}]{Langmuir1917}%
@@ -901,7 +911,8 @@
   \enquote{\bibinfo {title} {{The constitution and fundamental properties of
   solids and liquids. II. Liquids}},}\ }%
   \bibfield{journal}{%
-  \Doi{10.1021/ja02254a006}{\bibinfo {journal} {J. Amer. Chem. Soc.}}\ }%
+  \emph{\Doi{10.1021/ja02254a006}{\bibinfo {journal} {J. Amer. Chem. Soc.}}}\
+  }%
   \textbf{\bibinfo {volume} {39}},\ \bibinfo {pages} {1848--1906}%
   \bibAnnoteFile{NoStop}{Langmuir1917}%
 \bibitem[{\citenamefont{Lautscham}\
@@ -920,8 +931,8 @@
   \enquote{\bibinfo {title} {{Biomembrane-mimicking lipid bilayer system as a
   mechanically tunable cell substrate.}}.}\ }%
   \bibfield{journal}{%
-  \Doi{10.1016/j.biomaterials.2013.12.091}{\bibinfo {journal} {Biomaterials}}\
-  }%
+  \emph{\Doi{10.1016/j.biomaterials.2013.12.091}{\bibinfo {journal}
+  {Biomaterials}}}\ }%
   \textbf{\bibinfo {volume} {35}},\ \bibinfo {pages} {3198--207}%
   \bibAnnoteFile{NoStop}{Lautscham2014}%
 \bibitem[{\citenamefont{Lira}\ \emph{et~al.}(2014)\citenamefont{Lira},
@@ -935,7 +946,8 @@
   \enquote{\bibinfo {title} {{Giant unilamellar vesicles formed by hybrid films
   of agarose and lipids display altered mechanical properties.}}.}\ }%
   \bibfield{journal}{%
-  \Doi{10.1016/j.bpj.2014.08.009}{\bibinfo {journal} {Biophysical journal}}\ }%
+  \emph{\Doi{10.1016/j.bpj.2014.08.009}{\bibinfo {journal} {Biophysical
+  journal}}}\ }%
   \textbf{\bibinfo {volume} {107}},\ \bibinfo {pages} {1609--19}%
   \bibAnnoteFile{NoStop}{Lira2014}%
 \bibitem[{\citenamefont{Liu}\ \emph{et~al.}(2007)\citenamefont{Liu},
@@ -951,8 +963,8 @@
   \enquote{\bibinfo {title} {{Simulations of the spreading of a vesicle on a
   substrate surface mediated by receptor–ligand binding}},}\ }%
   \bibfield{journal}{%
-  \Doi{10.1016/j.jmps.2006.12.001}{\bibinfo {journal} {Journal of the Mechanics
-  and Physics of Solids}}\ }%
+  \emph{\Doi{10.1016/j.jmps.2006.12.001}{\bibinfo {journal} {Journal of the
+  Mechanics and Physics of Solids}}}\ }%
   \textbf{\bibinfo {volume} {55}},\ \bibinfo {pages} {1166--1181}%
   \bibAnnoteFile{NoStop}{Liu2007}%
 \bibitem[{\citenamefont{Liu}\ \emph{et~al.}(2014)\citenamefont{Liu},
@@ -970,8 +982,8 @@
   nanoparticles: effect of surface functional group measured using a tethered
   bilayer lipid membrane.}}.}\ }%
   \bibfield{journal}{%
-  \Doi{10.1016/j.bbamem.2013.09.007}{\bibinfo {journal} {Biochimica et
-  biophysica acta}}\ }%
+  \emph{\Doi{10.1016/j.bbamem.2013.09.007}{\bibinfo {journal} {Biochimica et
+  biophysica acta}}}\ }%
   \textbf{\bibinfo {volume} {1838}},\ \bibinfo {pages} {429--37}%
   \bibAnnoteFile{NoStop}{Liu2014}%
 \bibitem[{\citenamefont{Longo}\ and\ \citenamefont{Ly}(2007)}]{Longo2007}%
@@ -1006,8 +1018,8 @@
   interfacial tension, mechanical properties, area/molecule, and permeability
   of fluid lipid bilayers.}}.}\ }%
   \bibfield{journal}{%
-  \Doi{10.1529/biophysj.103.034280}{\bibinfo {journal} {Biophysical journal}}\
-  }%
+  \emph{\Doi{10.1529/biophysj.103.034280}{\bibinfo {journal} {Biophysical
+  journal}}}\ }%
   \textbf{\bibinfo {volume} {87}},\ \bibinfo {pages} {1013--33}%
   \bibAnnoteFile{NoStop}{Ly2004}%
 \bibitem[{\citenamefont{M\'{e}l\'{e}ard}\
@@ -1022,8 +1034,8 @@
   \enquote{\bibinfo {title} {{Giant unilamellar vesicle electroformation from
   lipid mixtures to native membranes under physiological conditions.}}.}\ }%
   \bibfield{journal}{%
-  \Doi{10.1016/S0076-6879(09)65009-6}{\bibinfo {journal} {Methods in
-  enzymology}}\ }%
+  \emph{\Doi{10.1016/S0076-6879(09)65009-6}{\bibinfo {journal} {Methods in
+  enzymology}}}\ }%
   \textbf{\bibinfo {volume} {465}},\ \bibinfo {pages} {161--76}%
   \bibAnnoteFile{NoStop}{Meleard2009}%
 \bibitem[{\citenamefont{Mitkova}\ \emph{et~al.}(2014)\citenamefont{Mitkova},
@@ -1039,8 +1051,8 @@
   \enquote{\bibinfo {title} {{Bending rigidity of phosphatidylserine-containing
   lipid bilayers in acidic aqueous solutions}},}\ }%
   \bibfield{journal}{%
-  \Doi{10.1016/j.colsurfa.2013.12.059}{\bibinfo {journal} {Colloids and
-  Surfaces A: Physicochemical and Engineering Aspects}}\ }%
+  \emph{\Doi{10.1016/j.colsurfa.2013.12.059}{\bibinfo {journal} {Colloids and
+  Surfaces A: Physicochemical and Engineering Aspects}}}\ }%
   \textbf{\bibinfo {volume} {460}},\ \bibinfo {pages} {71--78}%
   \bibAnnoteFile{NoStop}{Mitkova2014}%
 \bibitem[{\citenamefont{Morales-Penningston}\
@@ -1063,8 +1075,8 @@
   \enquote{\bibinfo {title} {{GUV preparation and imaging: minimizing
   artifacts.}}.}\ }%
   \bibfield{journal}{%
-  \Doi{10.1016/j.bbamem.2010.03.011}{\bibinfo {journal} {Biochimica et
-  biophysica acta}}\ }%
+  \emph{\Doi{10.1016/j.bbamem.2010.03.011}{\bibinfo {journal} {Biochimica et
+  biophysica acta}}}\ }%
   \textbf{\bibinfo {volume} {1798}},\ \bibinfo {pages} {1324--32}%
   \bibAnnoteFile{NoStop}{Morales-Penningston2010}%
 \bibitem[{\citenamefont{Nagle}(2013)}]{Nagle2013}%
@@ -1075,7 +1087,7 @@
   \enquote{\bibinfo {title} {{Introductory Lecture: Basic quantities in model
   biomembranes}},}\ }%
   \bibfield{journal}{%
-  \Doi{10.1039/C2FD20121F}{\bibinfo {journal} {Faraday Discussions}}\ }%
+  \emph{\Doi{10.1039/C2FD20121F}{\bibinfo {journal} {Faraday Discussions}}}\ }%
   \textbf{\bibinfo {volume} {161}},\ \bibinfo {pages} {11--29}%
   \bibAnnoteFile{NoStop}{Nagle2013}%
 \bibitem[{\citenamefont{Noppl-Simson}\ and\
@@ -1089,8 +1101,11 @@
   Adsorption and binding, cross-bridge formation, and lateral interactions}},}\
   }%
   \bibfield{journal}{%
-  \bibinfo {journal} {Biophysical Journal}\ }%
-  \textbf{\bibinfo {volume} {70}},\ \bibinfo {pages} {1391--1401}%
+  \emph{\bibinfo {journal} {Biophysical Journal}}\ }%
+  \textbf{\bibinfo {volume} {70}},\ \bibinfo {pages} {1391--1401}.\EOS\
+\newblock
+  \href{http://www.scopus.com/inward/record.url?eid=2-s2.0-0030044496\&partner%
+ID=40\&md5=1458e9c1b6330105b3623c604e6861d6}{URL}%
   \bibAnnoteFile{NoStop}{Noppl-Simson1996}%
 \bibitem[{\citenamefont{Olbrich}\ \emph{et~al.}(2000)\citenamefont{Olbrich},
   \citenamefont{Rawicz}, \citenamefont{Needham},\ and\
@@ -1105,8 +1120,11 @@
   \enquote{\bibinfo {title} {{Water permeability and mechanical strength of
   polyunsaturated lipid bilayers}},}\ }%
   \bibfield{journal}{%
-  \bibinfo {journal} {Biophysical Journal}\ }%
-  \textbf{\bibinfo {volume} {79}},\ \bibinfo {pages} {321--327}%
+  \emph{\bibinfo {journal} {Biophysical Journal}}\ }%
+  \textbf{\bibinfo {volume} {79}},\ \bibinfo {pages} {321--327}.\EOS\
+\newblock
+  \href{http://www.scopus.com/inward/record.url?eid=2-s2.0-0033918516\&partner%
+ID=40\&md5=bee1c48eaabd1891c364058dfb1f4616}{URL}%
   \bibAnnoteFile{NoStop}{Olbrich2000}%
 \bibitem[{\citenamefont{Olbrich}(1997)}]{Olbrich1997}%
   \BibitemOpen
@@ -1114,7 +1132,8 @@
   \bibinfo {author} {\bibnamefont{Olbrich}, \bibfnamefont{K~C}}}%
   , \bibinfo {year} {1997},\ \emph{\bibinfo {title} {{Water Permeability and
   Mechanical Properties of Unsaturated Lipid Membranes and Sarcolemmal
-  Vesicles}}}\ (\bibinfo {publisher} {Duke University})%
+  Vesicles}}}\ (\bibinfo {publisher} {Duke University})\
+  \href{http://books.google.co.in/books?id=HKjBXwAACAAJ}{URL}%
   \bibAnnoteFile{NoStop}{Olbrich1997}%
 \bibitem[{\citenamefont{Overton}(1899)}]{Overton1899}%
   \BibitemOpen
@@ -1131,8 +1150,8 @@
   , \bibinfo {year} {2014}\ \bibinfo {month} {Jan.},\ \bibfield{title}{%
   \enquote{\bibinfo {title} {{Novel methods for liposome preparation.}}.}\ }%
   \bibfield{journal}{%
-  \Doi{10.1016/j.chemphyslip.2013.10.011}{\bibinfo {journal} {Chemistry and
-  physics of lipids}}\ }%
+  \emph{\Doi{10.1016/j.chemphyslip.2013.10.011}{\bibinfo {journal} {Chemistry
+  and physics of lipids}}}\ }%
   \textbf{\bibinfo {volume} {177}},\ \bibinfo {pages} {8--18}%
   \bibAnnoteFile{NoStop}{Patil2014}%
 \bibitem[{\citenamefont{Picas}\ \emph{et~al.}(2012)\citenamefont{Picas},
@@ -1146,8 +1165,8 @@
   \enquote{\bibinfo {title} {{Direct measurement of the mechanical properties
   of lipid phases in supported bilayers.}}.}\ }%
   \bibfield{journal}{%
-  \Doi{10.1016/j.bpj.2011.11.4001}{\bibinfo {journal} {Biophysical journal}}\
-  }%
+  \emph{\Doi{10.1016/j.bpj.2011.11.4001}{\bibinfo {journal} {Biophysical
+  journal}}}\ }%
   \textbf{\bibinfo {volume} {102}},\ \bibinfo {pages} {L01--3}%
   \bibAnnoteFile{NoStop}{Picas2012}%
 \bibitem[{\citenamefont{Plank}\ \emph{et~al.}(1998)\citenamefont{Plank},
@@ -1161,8 +1180,8 @@
   \enquote{\bibinfo {title} {{Application of membrane-active peptides for drug
   and gene delivery across cellular membranes}},}\ }%
   \bibfield{journal}{%
-  \Doi{10.1016/S0169-409X(98)00005-2}{\bibinfo {journal} {Advanced Drug
-  Delivery Reviews}}\ }%
+  \emph{\Doi{10.1016/S0169-409X(98)00005-2}{\bibinfo {journal} {Advanced Drug
+  Delivery Reviews}}}\ }%
   \textbf{\bibinfo {volume} {34}},\ \bibinfo {pages} {21--35}%
   \bibAnnoteFile{NoStop}{Plank1998}%
 \bibitem[{\citenamefont{Poo}\ and\ \citenamefont{Cone}(1974)}]{Poo1974}%
@@ -1174,7 +1193,7 @@
   \enquote{\bibinfo {title} {{Lateral diffusion of rhodopsin in the
   photoreceptor membrane}},}\ }%
   \bibfield{journal}{%
-  \Doi{10.1038/247438a0}{\bibinfo {journal} {Nature}}\ }%
+  \emph{\Doi{10.1038/247438a0}{\bibinfo {journal} {Nature}}}\ }%
   \textbf{\bibinfo {volume} {247}},\ \bibinfo {pages} {438--441}%
   \bibAnnoteFile{NoStop}{Poo1974}%
 \bibitem[{\citenamefont{Pott}\ \emph{et~al.}(2008)\citenamefont{Pott},
@@ -1188,8 +1207,8 @@
   \enquote{\bibinfo {title} {{Giant unilamellar vesicle formation under
   physiologically relevant conditions.}}.}\ }%
   \bibfield{journal}{%
-  \Doi{10.1016/j.chemphyslip.2008.03.008}{\bibinfo {journal} {Chemistry and
-  physics of lipids}}\ }%
+  \emph{\Doi{10.1016/j.chemphyslip.2008.03.008}{\bibinfo {journal} {Chemistry
+  and physics of lipids}}}\ }%
   \textbf{\bibinfo {volume} {154}},\ \bibinfo {pages} {115--9}%
   \bibAnnoteFile{NoStop}{Pott2008}%
 \bibitem[{\citenamefont{Puia}\ \emph{et~al.}(1990)\citenamefont{Puia},
@@ -1210,7 +1229,7 @@
   \enquote{\bibinfo {title} {{Neurosteroids act on recombinant human GABAA
   receptors}},}\ }%
   \bibfield{journal}{%
-  \Doi{10.1016/0896-6273(90)90202-Q}{\bibinfo {journal} {Neuron}}\ }%
+  \emph{\Doi{10.1016/0896-6273(90)90202-Q}{\bibinfo {journal} {Neuron}}}\ }%
   \textbf{\bibinfo {volume} {4}},\ \bibinfo {pages} {759--765}%
   \bibAnnoteFile{NoStop}{Puia1990}%
 \bibitem[{\citenamefont{Rawicz}\ \emph{et~al.}(2000)\citenamefont{Rawicz},
@@ -1227,8 +1246,11 @@
   \enquote{\bibinfo {title} {{Effect of chain length and unsaturation on
   elasticity of lipid bilayers}},}\ }%
   \bibfield{journal}{%
-  \bibinfo {journal} {Biophysical Journal}\ }%
-  \textbf{\bibinfo {volume} {79}},\ \bibinfo {pages} {328--339}%
+  \emph{\bibinfo {journal} {Biophysical Journal}}\ }%
+  \textbf{\bibinfo {volume} {79}},\ \bibinfo {pages} {328--339}.\EOS\
+\newblock
+  \href{http://www.scopus.com/inward/record.url?eid=2-s2.0-0033932837\&partner%
+ID=tZOtx3y1}{URL}%
   \bibAnnoteFile{NoStop}{Rawicz2000}%
 \bibitem[{\citenamefont{Rawicz}\ \emph{et~al.}(2008)\citenamefont{Rawicz},
   \citenamefont{Smith}, \citenamefont{McIntosh}, \citenamefont{Simon},\ and\
@@ -1244,8 +1266,8 @@
   \enquote{\bibinfo {title} {{Elasticity, strength, and water permeability of
   bilayers that contain raft microdomain-forming lipids.}}.}\ }%
   \bibfield{journal}{%
-  \Doi{10.1529/biophysj.107.121731}{\bibinfo {journal} {Biophysical journal}}\
-  }%
+  \emph{\Doi{10.1529/biophysj.107.121731}{\bibinfo {journal} {Biophysical
+  journal}}}\ }%
   \textbf{\bibinfo {volume} {94}},\ \bibinfo {pages} {4725--36}%
   \bibAnnoteFile{NoStop}{Rawicz2008}%
 \bibitem[{\citenamefont{Reddy}\ \emph{et~al.}(2012)\citenamefont{Reddy},
@@ -1259,8 +1281,8 @@
   \enquote{\bibinfo {title} {{Effect of membrane tension on the physical
   properties of DOPC lipid bilayer membrane.}}.}\ }%
   \bibfield{journal}{%
-  \Doi{10.1016/j.bbamem.2012.05.006}{\bibinfo {journal} {Biochimica et
-  biophysica acta}}\ }%
+  \emph{\Doi{10.1016/j.bbamem.2012.05.006}{\bibinfo {journal} {Biochimica et
+  biophysica acta}}}\ }%
   \textbf{\bibinfo {volume} {1818}},\ \bibinfo {pages} {2271--81}%
   \bibAnnoteFile{NoStop}{Reddy2012}%
 \bibitem[{\citenamefont{Richman}\ and\
@@ -1287,7 +1309,7 @@
   \enquote{\bibinfo {title} {{The ultrastructure of cell membranes and their
   derivatives}},}\ }%
   \bibfield{journal}{%
-  \bibinfo {journal} {Biochem. Soc. Symp.}\ }%
+  \emph{\bibinfo {journal} {Biochem. Soc. Symp.}}\ }%
   \textbf{\bibinfo {volume} {16}},\ \bibinfo {pages} {3--43}%
   \bibAnnoteFile{NoStop}{Robertson1959}%
 \bibitem[{\citenamefont{Rodriguez-Boulan}\ and\
@@ -1300,7 +1322,7 @@
   \enquote{\bibinfo {title} {{Morphogenesis of the polarized epithelial cell
   phenotype}},}\ }%
   \bibfield{journal}{%
-  \Doi{10.1126/science.2672330}{\bibinfo {journal} {Science}}\ }%
+  \emph{\Doi{10.1126/science.2672330}{\bibinfo {journal} {Science}}}\ }%
   \textbf{\bibinfo {volume} {245}},\ \bibinfo {pages} {718--725}%
   \bibAnnoteFile{NoStop}{Rodriguez-Boulan1989}%
 \bibitem[{\citenamefont{Sacchi}\ \emph{et~al.}(2015)\citenamefont{Sacchi},
@@ -1318,8 +1340,8 @@
   \enquote{\bibinfo {title} {{Effect of neurosteroids on a model lipid bilayer
   including cholesterol: An Atomic Force Microscopy study}},}\ }%
   \bibfield{journal}{%
-  \Doi{10.1016/j.bbamem.2015.01.002}{\bibinfo {journal} {Biochimica et
-  Biophysica Acta (BBA) - Biomembranes}}\ }%
+  \emph{\Doi{10.1016/j.bbamem.2015.01.002}{\bibinfo {journal} {Biochimica et
+  Biophysica Acta (BBA) - Biomembranes}}}\ }%
   \textbf{\bibinfo {volume} {1848}},\ \bibinfo {pages} {1258--1267}%
   \bibAnnoteFile{NoStop}{Sacchi2015}%
 \bibitem[{\citenamefont{Sackmann}(1995)}]{Sackmann1995a}%
@@ -1357,8 +1379,8 @@
   electrostatic interactions on membrane fluidity and bending elasticity}},}\
   }%
   \bibfield{journal}{%
-  \Doi{10.1016/j.chemphyslip.2013.11.009}{\bibinfo {journal} {Chemistry and
-  Physics of Lipids}}\ }%
+  \emph{\Doi{10.1016/j.chemphyslip.2013.11.009}{\bibinfo {journal} {Chemistry
+  and Physics of Lipids}}}\ }%
   \textbf{\bibinfo {volume} {178}},\ \bibinfo {pages} {52--62}%
   \bibAnnoteFile{NoStop}{Santhosh2014}%
 \bibitem[{\citenamefont{Saxton}\ and\
@@ -1371,8 +1393,8 @@
   \enquote{\bibinfo {title} {{Single-particle tracking: applications to
   membrane dynamics}},}\ }%
   \bibfield{journal}{%
-  \Doi{10.1146/ANNUREV.BIOPHYS.26.1.373}{\bibinfo {journal} {Annu. Rev.
-  Biophys. Biomol. Struct.}}\ }%
+  \emph{\Doi{10.1146/ANNUREV.BIOPHYS.26.1.373}{\bibinfo {journal} {Annu. Rev.
+  Biophys. Biomol. Struct.}}}\ }%
   \textbf{\bibinfo {volume} {26}},\ \bibinfo {pages} {373--399}%
   \bibAnnoteFile{NoStop}{Saxton1997}%
 \bibitem[{\citenamefont{Shoemaker}\ and\
@@ -1385,8 +1407,9 @@
   \enquote{\bibinfo {title} {{Material Studies of Lipid Vesicles in the
   L($\alpha$) and L($\alpha$)-Gel Coexistence Regimes}},}\ }%
   \bibfield{journal}{%
-  \bibinfo {journal} {Biophysical Journal}\ }%
-  \textbf{\bibinfo {volume} {84}},\ \bibinfo {pages} {998--1009}%
+  \emph{\bibinfo {journal} {Biophysical Journal}}\ }%
+  \textbf{\bibinfo {volume} {84}},\ \bibinfo {pages} {998--1009}.\EOS\
+\newblock \href{http://www.ncbi.nlm.nih.gov/pmc/articles/PMC1302677/}{URL}%
   \bibAnnoteFile{NoStop}{Shoemaker2003}%
 \bibitem[{\citenamefont{Simons}\ and\
   \citenamefont{Ikonnen}(1997)}]{Simons1997}%
@@ -1397,7 +1420,7 @@
   , \bibinfo {year} {1997},\ \bibfield{title}{%
   \enquote{\bibinfo {title} {{Functional rafts in cell membranes}},}\ }%
   \bibfield{journal}{%
-  \Doi{10.1038/42408}{\bibinfo {journal} {Nature}}\ }%
+  \emph{\Doi{10.1038/42408}{\bibinfo {journal} {Nature}}}\ }%
   \textbf{\bibinfo {volume} {389}},\ \bibinfo {pages} {569--572}%
   \bibAnnoteFile{NoStop}{Simons1997}%
 \bibitem[{\citenamefont{Simons}\ and\ \citenamefont{van
@@ -1409,7 +1432,7 @@
   , \bibinfo {year} {1988},\ \bibfield{title}{%
   \enquote{\bibinfo {title} {{Lipid sorting in epithelial cells}},}\ }%
   \bibfield{journal}{%
-  \Doi{10.1021/bi00417a001}{\bibinfo {journal} {Biochemistry}}\ }%
+  \emph{\Doi{10.1021/bi00417a001}{\bibinfo {journal} {Biochemistry}}}\ }%
   \textbf{\bibinfo {volume} {27}},\ \bibinfo {pages} {6197--6202}%
   \bibAnnoteFile{NoStop}{Simons1988}%
 \bibitem[{\citenamefont{Singer}\ and\
@@ -1421,7 +1444,7 @@
   , \bibinfo {year} {1972},\ \bibfield{title}{%
   \enquote{\bibinfo {title} {{The fluid mosaic model of cell membranes}},}\ }%
   \bibfield{journal}{%
-  \Doi{10.1126/science.175.4023.720}{\bibinfo {journal} {Science}}\ }%
+  \emph{\Doi{10.1126/science.175.4023.720}{\bibinfo {journal} {Science}}}\ }%
   \textbf{\bibinfo {volume} {175}},\ \bibinfo {pages} {720--731}%
   \bibAnnoteFile{NoStop}{Singer1972}%
 \bibitem[{\citenamefont{Smith}(1999)}]{Smith99}%
@@ -1441,7 +1464,7 @@
   \enquote{\bibinfo {title} {{Dynamic structure of membranes by deuterium
   NMR}},}\ }%
   \bibfield{journal}{%
-  \bibinfo {journal} {Science}\ }%
+  \emph{\bibinfo {journal} {Science}}\ }%
   \textbf{\bibinfo {volume} {222}},\ \bibinfo {pages} {280--288}%
   \bibAnnoteFile{NoStop}{Smith1984}%
 \bibitem[{\citenamefont{Steck}(1974)}]{Steck1974}%
@@ -1452,7 +1475,7 @@
   \enquote{\bibinfo {title} {{The organization of proteins of the human red
   blood cell membrane, a review}},}\ }%
   \bibfield{journal}{%
-  \Doi{10.1083/jcb.62.1.1}{\bibinfo {journal} {J. Cell Biol.}}\ }%
+  \emph{\Doi{10.1083/jcb.62.1.1}{\bibinfo {journal} {J. Cell Biol.}}}\ }%
   \textbf{\bibinfo {volume} {62}},\ \bibinfo {pages} {1--19}%
   \bibAnnoteFile{NoStop}{Steck1974}%
 \bibitem[{\citenamefont{Steinman}\ \emph{et~al.}(1983)\citenamefont{Steinman},
@@ -1468,7 +1491,7 @@
   \enquote{\bibinfo {title} {{Endocytosis and the recycling of plasma
   membrane}},}\ }%
   \bibfield{journal}{%
-  \Doi{10.1083/jcb.96.1.1}{\bibinfo {journal} {J. Cell Biol.}}\ }%
+  \emph{\Doi{10.1083/jcb.96.1.1}{\bibinfo {journal} {J. Cell Biol.}}}\ }%
   \textbf{\bibinfo {volume} {96}},\ \bibinfo {pages} {1--27}%
   \bibAnnoteFile{NoStop}{Steinman1983}%
 \bibitem[{\citenamefont{Stoeckenius}\ and\
@@ -1481,7 +1504,7 @@
   \enquote{\bibinfo {title} {{Current models for the structure of biological
   membranes}},}\ }%
   \bibfield{journal}{%
-  \Doi{10.1083/jcb.42.3.613}{\bibinfo {journal} {J. Cell Biol.}}\ }%
+  \emph{\Doi{10.1083/jcb.42.3.613}{\bibinfo {journal} {J. Cell Biol.}}}\ }%
   \textbf{\bibinfo {volume} {42}},\ \bibinfo {pages} {613--646}%
   \bibAnnoteFile{NoStop}{Stoeckenius1969}%
 \bibitem[{\citenamefont{Streicher}\
@@ -1503,8 +1526,8 @@
   \enquote{\bibinfo {title} {{Integrin reconstituted in GUVs: a biomimetic
   system to study initial steps of cell spreading.}}.}\ }%
   \bibfield{journal}{%
-  \Doi{10.1016/j.bbamem.2009.07.025}{\bibinfo {journal} {Biochimica et
-  biophysica acta}}\ }%
+  \emph{\Doi{10.1016/j.bbamem.2009.07.025}{\bibinfo {journal} {Biochimica et
+  biophysica acta}}}\ }%
   \textbf{\bibinfo {volume} {1788}},\ \bibinfo {pages} {2291--300}%
   \bibAnnoteFile{NoStop}{Streicher2009}%
 \bibitem[{\citenamefont{Sunthar}(2003)}]{SunHI03}%
@@ -1512,7 +1535,7 @@
   \bibfield{author}{%
   \bibinfo {author} {\bibnamefont{Sunthar}, \bibfnamefont{P}}}%
   , \bibinfo {year} {2003},\ \enquote{\bibinfo {title} {Calculation of fixed
-  point in the zimm model: revisited},}\ \bibinfo {note} {Unpublished notes}%
+  point in the zimm model: revisited},}\ %
   \bibAnnoteFile{NoStop}{SunHI03}%
 \bibitem[{\citenamefont{Tanford}(1978)}]{Tanford1978}%
   \BibitemOpen
@@ -1521,7 +1544,7 @@
   , \bibinfo {year} {1978},\ \bibfield{title}{%
   \enquote{\bibinfo {title} {{The hydrophobic effect and living matter}},}\ }%
   \bibfield{journal}{%
-  \Doi{10.1126/science.653353}{\bibinfo {journal} {Science}}\ }%
+  \emph{\Doi{10.1126/science.653353}{\bibinfo {journal} {Science}}}\ }%
   \textbf{\bibinfo {volume} {200}},\ \bibinfo {pages} {1012--1018}%
   \bibAnnoteFile{NoStop}{Tanford1978}%
 \bibitem[{\citenamefont{Tomita}\ \emph{et~al.}(1978)\citenamefont{Tomita},
@@ -1536,7 +1559,7 @@
   glycophorin A. Isolation and characterization of peptides and complete amino
   acid sequence}},}\ }%
   \bibfield{journal}{%
-  \Doi{10.1021/bi00615a025}{\bibinfo {journal} {Biochemistry}}\ }%
+  \emph{\Doi{10.1021/bi00615a025}{\bibinfo {journal} {Biochemistry}}}\ }%
   \textbf{\bibinfo {volume} {17}},\ \bibinfo {pages} {4756--4770}%
   \bibAnnoteFile{NoStop}{Tomita1978}%
 \bibitem[{\citenamefont{Wang}\ \emph{et~al.}(2014)\citenamefont{Wang},
@@ -1554,8 +1577,9 @@
   system for enhance therapeutic efficacy in treating bone metastasis from
   prostate cancer.}}.}\ }%
   \bibfield{journal}{%
-  \Doi{10.1016/j.jconrel.2014.10.012}{\bibinfo {journal} {Journal of controlled
-  release : official journal of the Controlled Release Society}}\ }%
+  \emph{\Doi{10.1016/j.jconrel.2014.10.012}{\bibinfo {journal} {Journal of
+  controlled release : official journal of the Controlled Release Society}}}\
+  }%
   \textbf{\bibinfo {volume} {196}},\ \bibinfo {pages} {222--33}%
   \bibAnnoteFile{NoStop}{Wang2014}%
 \bibitem[{\citenamefont{Wolf}\ \emph{et~al.}(1981)\citenamefont{Wolf},
@@ -1572,7 +1596,8 @@
   plasma membrane upon fertilization: indications from lateral diffusion rates
   of lipid-soluble fluorescent dyes}},}\ }%
   \bibfield{journal}{%
-  \Doi{10.1016/0012-1606(81)90355-9}{\bibinfo {journal} {Dev. Biol.}}\ }%
+  \emph{\Doi{10.1016/0012-1606(81)90355-9}{\bibinfo {journal} {Dev. Biol.}}}\
+  }%
   \textbf{\bibinfo {volume} {81}},\ \bibinfo {pages} {133--138}%
   \bibAnnoteFile{NoStop}{Wolf1981}%
 \bibitem[{\citenamefont{Yechiel}\ and\
@@ -1585,7 +1610,7 @@
   \enquote{\bibinfo {title} {{Micrometer scale domains in fibroblast plasma
   membranes}},}\ }%
   \bibfield{journal}{%
-  \Doi{10.1083/jcb.105.2.755}{\bibinfo {journal} {J. Cell Biol.}}\ }%
+  \emph{\Doi{10.1083/jcb.105.2.755}{\bibinfo {journal} {J. Cell Biol.}}}\ }%
   \textbf{\bibinfo {volume} {105}},\ \bibinfo {pages} {755--760}%
   \bibAnnoteFile{NoStop}{Yechiel1987}%
 \bibitem[{\citenamefont{Yoshimoto}\
@@ -1600,8 +1625,8 @@
   \enquote{\bibinfo {title} {{Liposome clusters with shear stress-induced
   membrane permeability.}}.}\ }%
   \bibfield{journal}{%
-  \Doi{10.1016/j.chemphyslip.2013.06.001}{\bibinfo {journal} {Chemistry and
-  physics of lipids}}\ }%
+  \emph{\Doi{10.1016/j.chemphyslip.2013.06.001}{\bibinfo {journal} {Chemistry
+  and physics of lipids}}}\ }%
   \textbf{\bibinfo {volume} {174}},\ \bibinfo {pages} {8--16}%
   \bibAnnoteFile{NoStop}{Yoshimoto2013}%
 \bibitem[{\citenamefont{Zhou}\ and\ \citenamefont{Raphael}(2005)}]{Zhou2005}%
@@ -1613,8 +1638,8 @@
   \enquote{\bibinfo {title} {{Effect of salicylate on the elasticity, bending
   stiffness, and strength of SOPC membranes.}}.}\ }%
   \bibfield{journal}{%
-  \Doi{10.1529/biophysj.104.054510}{\bibinfo {journal} {Biophysical journal}}\
-  }%
+  \emph{\Doi{10.1529/biophysj.104.054510}{\bibinfo {journal} {Biophysical
+  journal}}}\ }%
   \textbf{\bibinfo {volume} {89}},\ \bibinfo {pages} {1789--801}%
   \bibAnnoteFile{NoStop}{Zhou2005}%
 \bibitem[{\citenamefont{Zhou}\ and\ \citenamefont{Raphael}(2007)}]{Zhou2007}%
@@ -1627,8 +1652,8 @@
   properties of phosphatidylcholine membranes: relation between interfacial
   electrostatics, intramembrane potential, and bending elasticity.}}.}\ }%
   \bibfield{journal}{%
-  \Doi{10.1529/biophysj.106.096362}{\bibinfo {journal} {Biophysical journal}}\
-  }%
+  \emph{\Doi{10.1529/biophysj.106.096362}{\bibinfo {journal} {Biophysical
+  journal}}}\ }%
   \textbf{\bibinfo {volume} {92}},\ \bibinfo {pages} {2451--62}%
   \bibAnnoteFile{NoStop}{Zhou2007}%
 \end{thebibliography}%
