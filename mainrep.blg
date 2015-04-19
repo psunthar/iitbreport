@@ -7,45 +7,46 @@ A level-1 auxiliary file: expt/experimental.aux
 A level-1 auxiliary file: rnd/results.aux
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Database file #1: mylit.bib
+Database file #2: library.bib
 Merlin.mbs v4.21 2009-07-09. 
-You've used 8 entries,
-            4548 wiz_defined-function locations,
-            929 strings with 9056 characters,
-and the built_in function-call counts, 7064 in all, are:
-= -- 493
-> -- 123
-< -- 20
-+ -- 42
-- -- 34
-* -- 963
-:= -- 801
-add.period$ -- 13
-call.type$ -- 8
-change.case$ -- 55
-chr.to.int$ -- 11
-cite$ -- 16
-duplicate$ -- 680
-empty$ -- 573
-format.name$ -- 72
-if$ -- 1273
-int.to.chr$ -- 1
+You've used 109 entries,
+            4470 wiz_defined-function locations,
+            1800 strings with 35240 characters,
+and the built_in function-call counts, 111862 in all, are:
+= -- 7616
+> -- 3131
+< -- 286
++ -- 1055
+- -- 944
+* -- 17755
+:= -- 12029
+add.period$ -- 214
+call.type$ -- 109
+change.case$ -- 864
+chr.to.int$ -- 110
+cite$ -- 218
+duplicate$ -- 9777
+empty$ -- 8454
+format.name$ -- 1814
+if$ -- 19659
+int.to.chr$ -- 3
 int.to.str$ -- 1
-missing$ -- 98
-newline$ -- 121
-num.names$ -- 34
-pop$ -- 264
+missing$ -- 1598
+newline$ -- 1115
+num.names$ -- 439
+pop$ -- 3130
 preamble$ -- 1
-purify$ -- 42
+purify$ -- 749
 quote$ -- 2
-skip$ -- 260
+skip$ -- 3400
 stack$ -- 0
-substring$ -- 187
-swap$ -- 586
-text.length$ -- 11
+substring$ -- 3859
+swap$ -- 9834
+text.length$ -- 216
 text.prefix$ -- 0
 top$ -- 1
-type$ -- 80
+type$ -- 1290
 warning$ -- 0
-while$ -- 32
+while$ -- 526
 width$ -- 0
-write$ -- 166
+write$ -- 1663

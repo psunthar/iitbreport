@@ -1,8 +1,12 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.7.24)  15 APR 2015 00:55
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.7.24)  19 APR 2015 23:57
 entering extended mode
  %&-line parsing enabled.
-**\input mainrep.tex
-(./mainrep.tex (./iitbreport.cls
+**mainrep.tex
+(./mainrep.tex
+LaTeX2e <2009/09/24>
+Babel <v3.8l> and hyphenation patterns for english, usenglishmax, dumylang, noh
+yphenation, loaded.
+(./iitbreport.cls
 Document Class: iitbreport 14/04/2015 IIT Bombay Report class v 1.0
 (/usr/share/texmf-texlive/tex/latex/base/report.cls
 Document Class: report 2007/10/19 v1.4h Standard LaTeX document class
@@ -555,16 +559,42 @@ Chapter 4.
 ) [7] (./mainrep.bbl [8
 
 
-] [9]) [10] (./mainrep.aux (./intro/introduction.aux)
+] [9]
+Missing character: There is no â in font txr!
+Missing character: There is no € in font txr!
+Missing character: There is no “ in font txr!
+ [10] [11] [12]
+Missing character: There is no ‚ in font txr!
+ [13]
+Missing character: There is no â in font txr!
+Missing character: There is no € in font txr!
+Missing character: There is no “ in font txr!
+Missing character: There is no â in font txr!
+Missing character: There is no € in font txr!
+Missing character: There is no “ in font txr!
+ [14]
+Missing character: There is no â in font txr!
+Missing character: There is no „ in font txr!
+ [15]
+Underfull \hbox (badness 10000) in paragraph at lines 1122--1126
+[]\OT1/txr/m/n/12 Overton, E, 1899, ``Viertel-jahrschrift der Natur-forschende 
+Ges-selschaft
+ []
+
+[16]
+Missing character: There is no â in font txr!
+Missing character: There is no € in font txr!
+Missing character: There is no “ in font txr!
+ [17] [18]) [19] (./mainrep.aux (./intro/introduction.aux)
 (./lit/literature.aux) (./expt/experimental.aux) (./rnd/results.aux)) ) 
 Here is how much of TeX's memory you used:
- 6405 strings out of 495061
- 87045 string characters out of 1182621
- 150612 words of memory out of 3000000
- 9336 multiletter control sequences out of 15000+50000
+ 6926 strings out of 495061
+ 95499 string characters out of 1182621
+ 156268 words of memory out of 3000000
+ 9646 multiletter control sequences out of 15000+50000
  49515 words of font info for 110 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
- 45i,10n,50p,260b,468s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 45i,10n,50p,253b,654s stack positions out of 5000i,500n,10000p,200000b,50000s
 {/usr/sh
 are/texmf-texlive/fonts/enc/dvips/base/8r.enc}</usr/share/texmf-texlive/fonts/t
 ype1/public/txfonts/rtxmi.pfb></usr/share/texmf-texlive/fonts/type1/public/txfo
@@ -576,9 +606,9 @@ b8a.pfb></usr/share/texmf-texlive/fonts/type1/urw/palatino/uplbi8a.pfb></usr/sh
 are/texmf-texlive/fonts/type1/urw/times/utmb8a.pfb></usr/share/texmf-texlive/fo
 nts/type1/urw/times/utmr8a.pfb></usr/share/texmf-texlive/fonts/type1/urw/times/
 utmri8a.pfb></usr/share/texmf-texlive/fonts/type1/urw/zapfchan/uzcmi8a.pfb>
-Output written on mainrep.pdf (18 pages, 222964 bytes).
+Output written on mainrep.pdf (27 pages, 288098 bytes).
 PDF statistics:
- 243 PDF objects out of 1000 (max. 8388607)
- 48 named destinations out of 1000 (max. 500000)
+ 502 PDF objects out of 1000 (max. 8388607)
+ 158 named destinations out of 1000 (max. 500000)
  83 words of extra memory for PDF output out of 10000 (max. 10000000)
 

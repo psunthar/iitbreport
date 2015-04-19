@@ -1676,16 +1676,16 @@ FUNCTION {article}
     }
   if$
   eid.or.pages
-  format.issn output
+  %% format.issn output
   pages empty$ {
   format.doi output
   } 'skip$ if$
   new.block.comma
   new.sentence.comma
-  format.note output
-  format.eprint output
-  format.url output
-  format.translation output
+  %%format.note output
+  %%format.eprint output
+  %% format.url output
+  %%format.translation output
   fin.entry
 }
 
@@ -1727,9 +1727,9 @@ FUNCTION {book}
       output
   new.block.comma
   new.sentence.comma
-  format.note output
-  format.eprint output
-  format.url output
+  %%format.note output
+  %%format.eprint output
+  %%format.url output
   fin.entry
 }
 
@@ -1748,9 +1748,9 @@ FUNCTION {booklet}
   format.book.pages output
   new.block.comma
   new.sentence.comma
-  format.note output
-  format.eprint output
-  format.url output
+  %%format.note output
+  %%format.eprint output
+  %%format.url output
   fin.entry
 }
 
@@ -1795,9 +1795,9 @@ FUNCTION {inbook}
   format.pages "pages" output.check
   new.block.comma
   new.sentence.comma
-  format.note output
-  format.eprint output
-  format.url output
+  %%format.note output
+  %%format.eprint output
+  %%format.url output
   fin.entry
 }
 
@@ -1824,9 +1824,9 @@ FUNCTION {incollection}
   format.pages "pages" output.check
   new.block.comma
   new.sentence.comma
-  format.note output
-  format.eprint output
-  format.url output
+  %%format.note output
+  %%format.eprint output
+  %%format.url output
   fin.entry
 }
 
@@ -1842,8 +1842,8 @@ FUNCTION {inproceedings}
     {
       format.in.ed.booktitle
       format.organization.publisher.address output
-      format.isbn output
-      format.issn output
+      %%format.isbn output
+      %%format.issn output
     }{
       format.incoll.inproc.crossref output.nonnull
     }
@@ -1852,9 +1852,9 @@ FUNCTION {inproceedings}
   format.pages "pages" output.check
   new.block.comma
   new.sentence.comma
-  format.note output
-  format.eprint output
-  format.url output
+  %%format.note output
+  %%format.eprint output
+  %%format.url output
   fin.entry
 }
 
@@ -1872,9 +1872,9 @@ FUNCTION {manual}
   format.edition output
   new.block.comma
   new.sentence.comma
-  format.note output
-  format.eprint output
-  format.url output
+  %%format.note output
+  %%format.eprint output
+  %%format.url output
   fin.entry
 }
 
@@ -1893,9 +1893,9 @@ FUNCTION {mastersthesis}
   format.school.address.output
   new.block.comma
   new.sentence.comma
-  format.note output
-  format.eprint output
-  format.url output
+  %%format.note output
+  %%format.eprint output
+  %%format.url output
   fin.entry
 }
 
@@ -1912,9 +1912,9 @@ FUNCTION {misc}
   howpublished "howpublished" bibinfo.check output
   new.block.comma
   new.sentence.comma
-  format.note output
-  format.eprint output
-  format.url output
+  %%format.note output
+  %%format.eprint output
+  %%format.url output
   fin.entry
 }
 
@@ -1933,9 +1933,9 @@ FUNCTION {phdthesis}
   format.school.address.output
   new.block.comma
   new.sentence.comma
-  format.note output
-  format.eprint output
-  format.url output
+  %%format.note output
+  %%format.eprint output
+  %%format.url output
   fin.entry
 }
 
@@ -1972,13 +1972,13 @@ FUNCTION {proceedings}
   format.number.series output
   format.bvolume output
   format.organization.publisher.address output
-  format.isbn output
-  format.issn output
+  %%format.isbn output
+  %%format.issn output
   new.block.comma
   new.sentence.comma
-  format.note output
-  format.eprint output
-  format.url output
+  %%format.note output
+  %%format.eprint output
+  %%format.url output
   fin.entry
 }
 
