@@ -25,7 +25,9 @@
 %% If you receive only some of these files from someone, complain!
 %% 
 %% Report errors in case of UNCHANGED versions to 
-%% 
+%%
+%%     https://github.com/psunthar/iitbreport/issues/new (preferred)
+%%       or 
 %%     P Sunthar  <p.sunthar@gmail.com>
 %% 
 %%
