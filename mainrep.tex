@@ -3,7 +3,7 @@
 %%% $Log:$
 
 %\documentclass[11pt,a4paper,openright]{report}
-\documentclass[seminar,twoside]{iitbreport}
+\documentclass[twoside]{iitbreport}
 
 
 %% Selectively comment out sections that you want to be left out but
@@ -25,11 +25,9 @@
 
 
 %%% Macro definitions for Commonly used symbols
-\newcommand{\etas}{\ensuremath{\eta_{\mathrm{s}}}}
 \newcommand{\Rey}{\ensuremath{\mathrm{Re}}}
 \newcommand{\avg}[1]{\ensuremath{\overline{#1}}}
 \newcommand{\tenpow}[1]{\ensuremath{\times 10^{#1}}}
-
 \newcommand{\pder}[2]{\ensuremath{\frac{\partial#1}{\partial#2}}}
 
 
@@ -43,13 +41,31 @@
 
 \begin{document}
 \title{Essential \LaTeX\ Templates for Report Writing}
-\author{P Sunthar \\ (I06011)}
-%\date{\today}
-\degree{Doctor of Philosophy}
-\dept{Chemical Engineering}
-\monthyear{April 2015}
+\author{P Sunthar \\ (15006011)}
 
-%\makecoverpage
+%% Print the date. Today's date comes by default, change it here to 
+%% other date format, if required:
+
+%\date{\today}
+%\date{2 Oct 2015}
+
+
+%% The type of the report can be set here
+
+%\reporttype{A Seminar Report}
+%\reporttype{A Thesis}
+\reporttype{M.Tech Stage-I Report}
+%\reporttype{A Project Report}
+
+%% Name of the degree
+%\degree{Doctor of Philosophy}
+\degree{Master of Technology}
+
+
+%% Department/Centre Name
+%\dept{Department of Chemical Engineering}
+
+
 \maketitle
 
 \begin{abstract}
@@ -74,9 +90,14 @@ document.
 \include{expt/experimental}
 \include{rnd/results}
 
-%\nocite{*}
+
+\makeheadtoc{\bibname}
 \bibliography{mylit}
-%\bibliography{mylit,library}
+
+
+%% Additional, supporting material, such as codes, derivations, etc., can be placed in the appendix
+\appendix
+\chapter{Supporting Material}
 
 
 \end{document}

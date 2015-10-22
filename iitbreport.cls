@@ -1,7 +1,7 @@
 %%
 %% This is file `iitbreport.cls',
 %%
-%% Time-stamp: <2015-04-15 00:00:54 sunthar> 
+%% Time-stamp: <2015-10-23 00:15:00 sunthar> 
 %% 
 %% 
 %% IMPORTANT NOTICE:
@@ -15,21 +15,27 @@
 %% 
 %% You are allowed to distribute this file under the condition that it is
 %% distributed together with all files mentioned below.
+%%  - iitbauthyr.bst
+%%  - iitb-black.pdf 
+%%  - README.txt
+
+%% Updated versions of this file and related files is available from
+%%   https://github.com/psunthar/iitbreport
 %% 
 %% If you receive only some of these files from someone, complain!
 %% 
-%% Error Reports in case of UNCHANGED versions to either of
+%% Report errors in case of UNCHANGED versions to 
 %% 
 %%     P Sunthar  <p.sunthar@gmail.com>
 %% 
 %%
 
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesClass{iitbreport} [14/04/2015 IIT Bombay Report class v 1.0]
+\ProvidesClass{iitbreport} [23/10/2015 IIT Bombay Report class v 1.1]
 
 \newif\if@draft
 \newif\if@seminar
-\newif\if@project
+\newif\if@degree
 
 \DeclareOption{twoside}{%
   \PassOptionsToClass{twoside}{report}
@@ -46,7 +52,6 @@
 }
 
 
-
 \DeclareOption*{\PassOptionsToPackage{\CurrentOption}{report}}  
 
 
@@ -57,7 +62,6 @@
 
 %%% Other packages
 \usepackage[bookmarks,%
-            a4paper,%
             breaklinks,%
             backref=false,%
             pdfhighlight=/I,%
@@ -158,45 +162,57 @@
 
 %%  Coverpage format
 \newcommand{\Usefont}[1]{\fontfamily{#1}\selectfont}
-\newcommand{\monthyear}[1]{\gdef\@monthyear{#1}}
-\gdef\@monthyear{}
-\newcommand{\degree}[1]{\gdef\@degree{#1}}
+\newcommand{\monthyear}[1]{%
+ \ClassWarning{iitbreport}{%
+ \protect\monthyear\space command has been deprecated from Version 1.1 \space \MessageBreak
+ use \protect\date\space instead.
+ }
+}
+
+%% Indian date format DD Month YYYY
+\renewcommand{\today}{%
+\number\day\space%
+\ifcase \month \or January\or February\or March\or April\or May%
+\or June\or July\or August\or September\or October\or November\or December\fi%
+\space\number\year
+}
+
+\gdef\@date{\today}
+
+
+
+\newcommand{\reporttype}[1]{\gdef\@reptype{#1}}
+\gdef\@reptype{A Project Report}
+\newcommand{\degree}[1]{\gdef\@degree{#1} \@degreetrue}
 \gdef\@degree{}
 \newcommand{\dept}[1]{\gdef\@dept{#1}}
-\gdef\@dept{}
+\gdef\@dept{\leavevmode}
 
 
+\newcommand{\@declaration}{%
+    { \large \em \Usefont{pzc} 
+      \@reptype \\ [.25\baselineskip] 
+      submitted 
+      \if@degree{
+        in partial fulfillment of the \\ [.25\baselineskip] 
+        requirements for the degree of \\ [.25\baselineskip] 
+        {\Usefont{ppl} \bfseries  \@degree } \\ [.25\baselineskip] 
+      }
+      \fi
+       by \par
+      } 
+}
 
 \if@seminar % 
-  \newcommand{\@declaration}{%
-    { \large \em \Usefont{pzc} 
-      A Seminar Report \\ [.25\baselineskip] 
-      submitted in partial fulfillment of the \\ [.25\baselineskip] 
-      requirements for the degree of \\ [.25\baselineskip] 
-      {\Usefont{ppl} \bfseries  \@degree } \\ [.25\baselineskip] 
-       by \par
-      } 
-    }
-\else % for research thesis
-  \newcommand{\@declaration}{%
-    { \large \em \Usefont{pzc} 
-      A Thesis \\ [.25\baselineskip] 
-      submitted in partial fulfillment of the \\ [.25\baselineskip] 
-      requirements for the degree of \\ [.25\baselineskip] 
-      {\Usefont{ppl} \bfseries  \@degree } \\ [.25\baselineskip] 
-      by \par }
-}
+  \ClassWarning{iitbreport}{%
+  \MessageBreak
+  seminar option deprecated.\MessageBreak
+  Use \protect\reporttype\space instead.
+  \MessageBreak
+  }
 \fi
 
 
-\if@project % declaration for project work
-  \newcommand{\@declaration}{%
-    { \large \em \Usefont{pzc} 
-      A Project Report submitted \\ [.25\baselineskip] 
-       by \par
-      } 
-    }
-\fi
 
 %\newcommand{\makecoverpage}{%
 \renewcommand{\maketitle}{%
@@ -214,8 +230,8 @@
       { \Usefont{ptm}
         {\large \@dept  \\[0.2\baselineskip]
           Indian Institute of Technology Bombay \\[0.3\baselineskip]
-          Mumbai 460076  (India) }\\ [.75\baselineskip]
-        {\Large \@monthyear \par}
+          Mumbai 400076  (India) }\\ [.75\baselineskip]
+        {\Large \@date \par}
         }
     \end{center}
     }}
@@ -236,6 +252,12 @@
                          {-3.25ex\@plus -1ex \@minus -.2ex}%
                          {1.5ex \@plus .2ex}%
                          {\normalfont\itshape\raggedright}}
+
+\newcommand{\makeheadtoc}[1]{%
+  \cleardoublepage
+    \markboth{#1}{#1}
+      \addcontentsline{toc}{chapter}{#1}
+}
 
 
 \endinput
