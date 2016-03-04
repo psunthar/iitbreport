@@ -2391,10 +2391,8 @@ FUNCTION {init.bib.ay}
 FUNCTION {init.bib.annote}
 {
   "\providecommand \bibAnnote [3]{%" write$ newline$
-  "  " bbl.shut * "{#1}%" * write$ newline$
-  "  \begin{quotation}\noindent" write$ newline$
-  "    \textsc{Key:}\ #2\\\textsc{Annotation:}\ #3%" write$ newline$
-  "  \end{quotation}%" write$ newline$
+  "  " bbl.shut * "{#1}. %" * write$ newline$ 
+  "    \textsc{Notes:}\ #3%" write$ newline$
   "}%" write$ newline$
   "\providecommand \bibAnnoteFile [2]{%" write$ newline$
   "  \IfFileExists{#2}{\bibAnnote {#1} {#2} {\input{#2}}}{}%" write$ newline$
