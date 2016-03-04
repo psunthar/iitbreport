@@ -731,33 +731,7 @@ FUNCTION {format.names}
   s num.names$ 'numnames :=
   numnames 'namesleft :=
     { namesleft #0 > }
-    { s nameptr
-      nameptr #1 >
-        { "{ff}" format.name$ duplicate$ empty$ 'skip$
-            { tie.or.space.prefix bib.fname.font swap$ * }
-          if$
-          s nameptr
-          "{vv~}{ll}" format.name$ bib.name.font *
-          s nameptr
-          "{jj}" format.name$ duplicate$ empty$ 'skip$
-            { bib.fname.font ", " swap$ * }
-          if$
-        }
-        { "{vv~}{ll}" format.name$ bib.name.font
-          s nameptr
-          "{ff}{, jj}"
-          format.name$ duplicate$ empty$ 'skip$
-            { bib.fname.font ", " swap$ * }
-          if$
-        }
-      if$
-      *
-      bibinfo bibinfo.check
-      type$ "presentation" =
-        { check.speaker }
-        'skip$
-      if$
-      't :=
+  { s nameptr "{vv~}{ll}{, f.}{, jj}" format.name$ 't :=
       nameptr #1 >
         {
           namesleft #1 >
@@ -1411,7 +1385,7 @@ FUNCTION {format.pages}
         }
       if$
       tie.or.space.prefix
-      "pages" bibinfo.check
+      "pages" bibinfo.check * "."
       * *
     }
   if$
@@ -1439,7 +1413,7 @@ FUNCTION {format.journal.pages}
         { volnum.punct *
           swap$
           n.dashify
-          "pages" bibinfo.check
+          "pages" bibinfo.check * "."
           *
         }
       if$
@@ -1640,7 +1614,7 @@ FUNCTION {format.org.or.pub}
   *
   duplicate$ empty$ 'skip$ {
     ""
-    "(" * swap$ * ")" *
+    "(" * swap$ * ")" * "." * 
     after.punctuation 'output.state :=
     punctuation.space 'punctuation.state :=
   } if$
@@ -1680,7 +1654,7 @@ FUNCTION {format.school.address.output}
     }
   if$
   *
-  duplicate$ empty$ 'skip$ { "(" swap$ * ")" * } if$ after.punctuation 'output.state :=
+  duplicate$ empty$ 'skip$ { "(" swap$ * ")" * "." *} if$ after.punctuation 'output.state :=
   output
 }
 
