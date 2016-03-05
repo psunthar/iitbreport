@@ -778,13 +778,13 @@ FUNCTION {format.names.ed}
   numnames 'namesleft :=
     { namesleft #0 > }
     { s nameptr
-      "{ff}" format.name$ duplicate$ empty$ 'skip$
+      "{vv~}" format.name$ duplicate$ empty$ 'skip$
         { tie.or.space.prefix bib.fname.font swap$ * }
       if$
       s nameptr
-      "{vv~}{ll}" format.name$ bib.name.font *
+      "{ll}{, f.}" format.name$ bib.name.font *
       s nameptr
-      "{jj}" format.name$ duplicate$ empty$ 'skip$
+      "{, jj}" format.name$ duplicate$ empty$ 'skip$
         { bib.fname.font ", " swap$ * }
       if$
       *
@@ -975,12 +975,12 @@ FUNCTION {format.note}
         'skip$
         {
           output.state after.word = output.state after.punctuation = or
-            { "l" }
             { "u" }
+            { "l" }
           if$ change.case$
         }
       if$
-      note #2 global.max$ substring$ * "note" bibinfo.check
+      note #2 global.max$ substring$ * "note" bibinfo.check  "." *
     }
   if$
 }
@@ -1924,7 +1924,7 @@ FUNCTION {misc}
   howpublished "howpublished" bibinfo.check output
   new.block.comma
   new.sentence.comma
-  %%format.note output
+  format.note output
   %%format.eprint output
   %%format.url output
   fin.entry
@@ -2022,9 +2022,10 @@ FUNCTION {unpublished}
   format.date.output date.block
   format.title
   add.doi
-  "title" output.check
+  "title" output.check 
   new.block.comma
   new.sentence.comma
+  format.note output
   %%format.note "note" output.check
   %%format.eprint output
   %%format.url output
@@ -2065,7 +2066,7 @@ FUNCTION {format.lab.names}
       #2 <
         'skip$
         {
-          s #2 "{ff }{vv }{ll}{ jj}" format.name$ "others" =
+          s #2 "{vv }{ll}{ff }{ jj}" format.name$ "others" =
             {
               word.space * bbl.etal
               emphasize
@@ -2391,8 +2392,10 @@ FUNCTION {init.bib.ay}
 FUNCTION {init.bib.annote}
 {
   "\providecommand \bibAnnote [3]{%" write$ newline$
-  "  " bbl.shut * "{#1}. %" * write$ newline$ 
-  "    \textsc{Notes:}\ #3%" write$ newline$
+  "  " bbl.shut * "{#1}%" * write$ newline$
+  "  \begin{quotation}\noindent" write$ newline$
+  "    \textsc{Key:}\ #2\\\textsc{Annotation:}\ #3%" write$ newline$
+  "  \end{quotation}%" write$ newline$
   "}%" write$ newline$
   "\providecommand \bibAnnoteFile [2]{%" write$ newline$
   "  \IfFileExists{#2}{\bibAnnote {#1} {#2} {\input{#2}}}{}%" write$ newline$
