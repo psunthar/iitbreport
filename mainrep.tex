@@ -1,10 +1,14 @@
-%%% Time-stamp: <2015-04-20 01:32:05 sunthar>
-
+%%% Time-stamp: <2016-03-08 01:32:05, v1.2 sunthar>
 %%% $Log:$
+% This document describes how to use iitbreport style
+%********************************************************************
 
 %\documentclass[11pt,a4paper,openright]{report}
 \documentclass[twoside]{iitbreport}
 
+%% Default spacing: 1.5
+%% Default font size: 12pt
+%% Default font: txfonts (similar to times new roman) 
 
 %% Selectively comment out sections that you want to be left out but
 %% maintaining the page numbers and other \ref
@@ -12,13 +16,13 @@
   intro/introduction,
   lit/literature,
   expt/experimental,
-  rnd/results,
+  rnd/results, 
+  dec,abs,pub,ack
 }
 
 %%% Some commonly used packages (make sure your LaTeX installation
 %%% contains these packages, if not ask your senior to help installing
 %%% the packages)
-
 
 \usepackage{booktabs}
 \graphicspath{{expt/}}
@@ -30,7 +34,6 @@
 \newcommand{\tenpow}[1]{\ensuremath{\times 10^{#1}}}
 \newcommand{\pder}[2]{\ensuremath{\frac{\partial#1}{\partial#2}}}
 
-
 % Referencing macros
 \newcommand{\Eqref}[1]{Equation~\eqref{#1}}
 \newcommand{\Tabref}[1]{Table~\ref{#1}}
@@ -38,72 +41,128 @@
 \newcommand{\Appref}[1]{Appendix~\ref{#1}}
 
 
-
 \begin{document}
+	
+%%********************************Frontmatter***********************
+% In frontmatter everything comes with roman numbering	
+\pagenumbering{roman}
+\setcounter{page}{1}
+
+%*******************************************************************
+%                         Title Page                            
+%*******************************************************************
 \title{Essential \LaTeX\ Templates for Report Writing}
-\author{P Sunthar \\ (15006011)}
+\author{My name}
 
 %% Print the date. Today's date comes by default, change it here to 
 %% other date format, if required:
 
 %\date{\today}
-%\date{2 Oct 2015}
+%\date{10 Mar 2016}
 
 
 %% The type of the report can be set here
 
-%\reporttype{A Seminar Report}
+\reporttype{A Seminar Report}
 %\reporttype{A Thesis}
-\reporttype{M.Tech Stage-I Report}
+%\reporttype{A Dissertation}
 %\reporttype{A Project Report}
 
 %% Name of the degree
-%\degree{Doctor of Philosophy}
-\degree{Master of Technology}
+\degree{Doctor of Philosophy}
+%\degree{Master of Technology}
 
 
 %% Department/Centre Name
 %\dept{Department of Chemical Engineering}
 
+%% Supervisor and cosupervisor name can be put here
+
+\supervisor{Supervisor name}
+%\cosupervisor{Unknown name}
+
+%% Roll number
+\rollnum{\ldots}
 
 \maketitle
 
-\begin{abstract}
-This document contains essential templates required to write technical
-reports using \LaTeX.  Particularly it shows how to create an
-equation, figure, table, and bibliographic citation in a \LaTeX\
-document.
-\end{abstract}
+%*******************************************************************
+%                         Copyright Page                          
+%******************************************************************* 
+%\mycopyright                    
 
-\pagenumbering{roman}
-\tableofcontents
+%*******************************************************************
+%                         Dedication Page                         
+%*******************************************************************
+\dedication[To my Parents]        
 
-\listoftables
-\listoffigures
+%*******************************************************************
+%                         Approval Sheet                         
+%*******************************************************************
+%\makeapproval{thesis}
 
+%*******************************************************************
+%                          Declaration                           
+%*******************************************************************
+\include{dec} 
+
+%******************************************************************
+%                          Abstract                             
+%******************************************************************  
+\include{abs}                    
+
+%******************************************************************
+%                         Contents list                         
+%******************************************************************
+%\figurespagefalse
+%\tablespagefalse
+\makecontents % Creats toc, lof, and lot
+
+%******************************************************************
+%                        Notations                              
+%******************************************************************
+\notations[4cm]{List of Symbols}      
+
+%%********************************Mainmatter***********************
+% In mainmatter everything comes with arabic numbering	
 \cleardoublepage
 \setcounter{page}{1}
 \pagenumbering{arabic}
 
+%******************************************************************
+%                         Chapters                           
+%****************************************************************** 
 \include{intro/introduction}
 \include{lit/literature}
 \include{expt/experimental}
 \include{rnd/results}
 
-
-\makeheadtoc{\bibname}
-\bibliography{mylit}
-
-
+%****************************************************************
+%                         Appendices                           
+%****************************************************************
 %% Additional, supporting material, such as codes, derivations, etc., can be placed in the appendix
 \appendix
 \chapter{Supporting Material}
 
+%******************************************************************
+%                         Bibliography or References          
+%******************************************************************  
+\bibliography{mylit}     
 
+%*******************************************************************
+%                         List of publications               
+%******************************************************************
+\include{pub}            
+
+%*******************************************************************
+%                        Acknowledgements                    
+%******************************************************************* 
+\include{ack}           
+
+% ******************************************************************
+% GAME OVER
+%*******************************************************************
 \end{document}
-
-
-
 
 %%% Local Variables: 
 %%% mode: latex

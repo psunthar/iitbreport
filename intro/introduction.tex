@@ -14,7 +14,7 @@ requires. Please consult the PDF file for the output of the document,
 and then look at the corresponding \LaTeX\ file to reproduce it.  The
 document illustrates the following constructs
 \begin{itemize}
-\item Unnumbered and Numbered Lists
+\item Unnumbered and numbered Lists
 \item Equations
 \item Defining short macros for frequently used symbols
 \item Bibliography
@@ -73,6 +73,82 @@ as:\\
 \verb|\newcommand{\etas}{\ensuremath{\eta_{\mathrm{s}}}}| \\
 in the preamble and to simply refer it to in the text as \etas\ or in
 a mathematical equation as $\etas = \eta \, ( 1 + \phi)$.
+%%
+%
+
+\section{How to write nomenclature} 
+
+\subsection{General guidelines:}
+\begin{enumerate}	
+	\item Use \verb|\nomenclature[prefix]{symbol}{description}| for symbols, the best place for this command is immediately after you introduce the symbol for the first time
+	\item Shorten the long command:\\ \verb|\newcommand{\nm}[2]{\nomenclature{#1}{#2}}|
+	\item Create compiler for nomenclature with the given code: \\
+	\textbf{makeindex \%.nlo -s nomencl.ist -o \%.nls -t \%.nlg }\\
+	For TeXstudio: go to options > build > user command > write- `user1: Nomenclature' amd paste the above code\\
+	For compiling the nomenclature: go to tools > user > Nomenclature	
+\end{enumerate}	
+
+\subsection{Grouped nomenclature}
+\begin{enumerate}
+\item For acronyms, use:\\
+ \verb|\nmA[sorting letter]{symbol}{descritpon}|
+\item For roman symbols, use:\\
+\verb|\nmR[sorting letter]{symbol}{descritpon}|
+\item For greek symbols, use:\\
+ \verb|\nmG[sorting letter]{symbol}{descritpon}|
+ \item For superscripts, use:\\
+ \verb|\nmS[sorting letter]{symbol}{descritpon}|
+ \item For subscripts, use:\\
+ \verb|\nms[sorting letter]{symbol}{descritpon}| 
+ \item For any other symbol, use:\\
+ \verb|\nmX[sorting letter]{symbol}{descritpon}|\\
+ Name of other symbols can be changed with \verb|\OtherSym{Name of symbols}|
+\end{enumerate}
+%%
+\subsection{Some examples}
+\begin{enumerate}
+\item \verb|\nmA[FF]{FFA}{Free fatty acid}|
+\item \verb|\nmA[AO]{AOR}{Angle of repose}|
+\item \verb|\nmR[Ra]{$R$}{Radius of circle}|
+\item \verb|\nmR[ra]{$r$}{Intrinsic length}|
+\item \verb|\nmR[Gr]{$G_\mathrm{r}$}{Gravity}|
+\item \verb|\nmG[al]{$\alpha_{\mathrm{a}}$}{Angular acceleration}|
+\item \verb|\nmG[et]{$\eta$}{Viscosity}|
+\item \verb|\nmG[be]{$\beta$}{Shape factor}|
+\item \verb|\nmS[v]{$v$}{Vapor phase}|
+\item \verb|\nmS[g]{$g$}{Gas phase}|
+\item \verb|\nms[i]{$i$}{Indices}|
+\item \verb|\nms[x]{$x$}{Variable in x-direction}|
+\item \verb|\nmX[f]{foo}{foo|
+\end{enumerate} 
+
+\nmA[FF]{FFA}{Free fatty acid}
+\nmA[AO]{AOR}{Angle of repose}
+
+
+\nmR[Ra]{$R$}{Radius of circle}
+\nmR[ra]{$r$}{Intrinsic length}
+%\nmR[Gr]{$G_\mathrm{r}$}{Gravity}
+
+
+\nmG[al]{$\alpha_{\mathrm{a}}$}{Angular acceleration}
+\nmG[et]{$\eta$}{Viscosity}
+%\nmG[be]{$\beta$}{Shape factor}
+
+
+\nmS[v]{$v$}{Vapor phase}
+\nmS[g]{$g$}{Gas phase}
+
+
+\nms[i]{$i$}{Indices}
+\nms[x]{$x$}{Variable in x-direction}
+
+
+\nmX[f]{foo}{foo}
+
+
+%%
+
 
 %%% Local Variables: 
 %%% mode: latex
