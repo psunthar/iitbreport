@@ -1,7 +1,7 @@
 %%
 %% This is file `iitbreport.cls',
 %%
-%% Time-stamp: <2016-03-08 00:15:00 sunthar> 
+%% Time-stamp:<2016-04-18 01:32:05, v1.3 sunthar>
 %%
 %% Indian Institue of Technology Bombay, Thesis Document Class for LaTeX2e
 %**********************************************************************
@@ -88,6 +88,7 @@
 %********************************************************************
 \RequirePackage[T1]{fontenc}
 \RequirePackage{amsmath, amsfonts, amssymb}
+\RequirePackage{xcolor}
 \RequirePackage{fancyhdr}
 
 \RequirePackage[bookmarks,%
@@ -298,6 +299,7 @@
 	\setcounter{page}{0} 
 	\addtocounter{page}{-1}   % For a page that should not be counted
   {\renewcommand{\baselinestretch}{1}\normalsize
+%  \pdfbookmark[0]{Title}{Title}  
   \thispagestyle{empty}
   {\begin{center}
       {\LARGE \bfseries \@title \par}
@@ -306,7 +308,7 @@
         \vspace{.25\baselineskip} 
       {\large \bfseries \@author \par}
       \vspace{.25\baselineskip}  
-      {\large (Roll no.~\@rollnum)}\vspace{\stretch{0.3}} 
+      {\large (\@rollnum)}\vspace{\stretch{0.3}} 
                  
      \ifx\@cosupervisor\@empty
         {\large  Supervisor:\par}\vspace{.25\baselineskip}  
@@ -332,12 +334,34 @@
 } % coverpage
 
 
+%**************************Certificate page*************************
+\newcommand*{\GuideSign}{%
+	\begin{center}	
+		\begin{tabular}{p{0.6\linewidth}c}
+		           	  & \rule{4cm}{1pt}\\	
+			Date: \@date    &  \@supervisor\\         
+		\end{tabular}	
+	\end{center}
+}
+\newcommand*{\makecertificate}[2][Acceptance Certificate]{%
+\cleardoublepage\phantomsection 	
+	\thispagestyle{empty} 
+%	\setcounter{page}{0} 
+%	\addtocounter{page}{-1}		
+		\chapter*{#1}
+The #2  entitled ``\@title" submitted by \@author{} (\@rollnum{}) may be accepted for being evaluated.\par
+\vspace{3cm} 
+\noindent
+\GuideSign 	
+	}
+
+
 %**************************Copyright page******************************
 \newcommand*{\mycopyright}{%
 	\cleardoublepage\phantomsection 	
 	\thispagestyle{empty} 
-	\setcounter{page}{0} 
-	\addtocounter{page}{-1}
+%	\setcounter{page}{0} 
+%	\addtocounter{page}{-1}
 	\setlength{\parindent}{0pt}	 
 	 \vspace*{19cm} 
 	{\itshape\copyright\,\footnotesize \@date, by \@author\\	
@@ -349,8 +373,8 @@
 \newcommand*{\dedication}[1][]{%
 	\cleardoublepage\phantomsection
 	\thispagestyle{empty} 
-	\setcounter{page}{0} 
-	\addtocounter{page}{-1}	
+%	\setcounter{page}{0} 
+%	\addtocounter{page}{-1}	
 	{\centering\large\itshape\null\vfill #1\vfill\null}
 }
 
@@ -359,8 +383,8 @@
 \newcommand*{\makeapproval}[2][Approval Sheet]{%
 	\cleardoublepage\phantomsection	
 	\thispagestyle{empty}
-	\setcounter{page}{0} 
-	\addtocounter{page}{-1}	
+%	\setcounter{page}{0} 
+%	\addtocounter{page}{-1}	
 		\begin{center}
 			{\LARGE \bfseries #1}\\[2\baselineskip]			
 		\end{center}
@@ -393,11 +417,10 @@ This #2 entitled ``\@title'' by \@author\ is approved for the degree of \@degree
 \newcommand*{\DecSign}[1][\today]{% 
 	\vspace{3cm}  
 	\begin{center}	
-		\begin{tabular}{p{0.69\linewidth}c}
+		\begin{tabular}{p{0.6\linewidth}c}
 		           	  & \rule{4cm}{1pt}\\	
 			          &  \@author\\
-			          & (\@rollnum) \\[1cm]
-		Date: #1 & \\	          
+	   Date: #1       & (\@rollnum) \\
 		\end{tabular}	
 	\end{center}
 }
@@ -409,8 +432,7 @@ This #2 entitled ``\@title'' by \@author\ is approved for the degree of \@degree
 
 %*************************Abstract*************************************
 \newenvironment{Abstract}[1][Abstract]{%	
-	\makeheadtoc{#1}
-	\chapter*{#1}}{%	
+\makeheadtoc{#1}\chapter*{#1}}{%	
 }
 %\renewcommand{\abstractname}{\Large Abstract}
 
@@ -441,6 +463,15 @@ This #2 entitled ``\@title'' by \@author\ is approved for the degree of \@degree
 	\cleardoublepage	 
 }
 
+\newcommand*{\addintoc}[2][chapter]{%
+	\addcontentsline{toc}{#1}{#2}\cleardoublepage\phantomsection
+	}
+\newcommand{\makeheadtoc}[1]{%
+  \cleardoublepage\phantomsection
+    \markboth{#1}{#1}
+      \addcontentsline{toc}{chapter}{#1}
+}
+
 %% The macros for the  Acknowledgements, List of publications  
 \newcommand*{\acknowledgments}[1][Acknowledgements]{%	
 	\makeheadtoc{#1}
@@ -461,31 +492,48 @@ This #2 entitled ``\@title'' by \@author\ is approved for the degree of \@degree
 	\end{flushright}
 }
 
+
+%*******************colophon********************************
+\newcommand{\colophon}{%
+\cleardoublepage
+\pagestyle{empty}\hfill\vfill
+\pdfbookmark[0]{Colophon}{colophon}
+\section*{\scshape Colophon}
+This document has been typeset using the {\color{blue}\texttt{iitbreport.cls}} typesetting
+system developed by {\color{blue}P. Sunthar} and {\color{blue}Chandra Has}. The body text is set at 12pt and a similar to times new roman font is accessed using {\color{red}\texttt{txfonts}} package; default line spacing is set at 1.5. Other important packages such as {\color{red}amsmath, amssymb, amsfonts, fancyhdr, hyperref, natbib}, and {\color{red}\texttt{graphicx}} are installed to use this style file.
+\vskip5mm 
+For any suggestion/query:\par
+\hfil {\color{blue}p.sunthar@gmail.com}\hfil\par 
+\hfil or\hfil\par
+\hfil {\color{blue}chandrahashbti@gmail.com}\hfil 
+}
+
+
 %**************************Chapter style*****************************
-%\def\@makechapterhead#1{%
-%	\vspace*{50\p@}%
-%	{\parindent \z@ \centering \normalfont
-%		\ifnum \c@secnumdepth >\m@ne
-%		\huge\bfseries \@chapapp\space \thechapter
-%		\par\nobreak
-%		\vskip 20\p@
-%		\fi
-%		\interlinepenalty\@M
-%		\Huge \bfseries #1\par\nobreak
-%		\vskip 40\p@
-%	}}
-%	
-%	\def\@makeschapterhead#1{%
-%		\vspace*{50\p@}%
-%		{\parindent \z@ \centering
-%			\normalfont
-%			\interlinepenalty\@M
-%			\Huge \bfseries  #1\par\nobreak
-%			\vskip 40\p@
-%		}}
+\def\@makechapterhead#1{%
+	\vspace*{50\p@}%
+	{\parindent \z@ \raggedright \normalfont
+		\ifnum \c@secnumdepth >\m@ne
+		\huge\bfseries \@chapapp\space \thechapter
+		\par\nobreak
+		\vskip 20\p@
+		\fi
+		\interlinepenalty\@M
+		\Huge \bfseries #1\par\nobreak
+		\vskip 40\p@
+	}}
+	
+	\def\@makeschapterhead#1{%
+		\vspace*{50\p@}%
+		{\parindent \z@ \raggedright
+			\normalfont
+			\interlinepenalty\@M
+			\Huge \bfseries  #1\par\nobreak
+			\vskip 40\p@
+		}}
 
 
-%**********************Section/subsection..styles********************
+%**********************Section/subsection styles********************
 \def\section{\@startsection{section}{1}%
   \z@{-.7\baselineskip\@plus-\baselineskip}{.5\baselineskip}%
   {\Large\normalfont\bfseries\hsize1\textwidth \raggedright}}
@@ -501,12 +549,6 @@ This #2 entitled ``\@title'' by \@author\ is approved for the degree of \@degree
                          {-3.25ex\@plus -1ex \@minus -.2ex}%
                          {1.5ex \@plus .2ex}%
                          {\normalfont\itshape\raggedright}}
-
-\newcommand{\makeheadtoc}[1]{%
-  \cleardoublepage\phantomsection
-    \markboth{#1}{#1}
-      \addcontentsline{toc}{chapter}{#1}
-}
 
 
 %********************* Paragraph, line spacing********************

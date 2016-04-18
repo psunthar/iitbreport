@@ -1,4 +1,4 @@
-%%% Time-stamp: <2016-03-08 01:32:05, v1.2 sunthar>
+%%% Time-stamp: <2016-04-18 01:32:05, v1.3 sunthar>
 %%% $Log:$
 % This document describes how to use iitbreport style
 %********************************************************************
@@ -77,12 +77,11 @@
 %\dept{Department of Chemical Engineering}
 
 %% Supervisor and cosupervisor name can be put here
-
 \supervisor{Supervisor name}
 %\cosupervisor{Unknown name}
 
 %% Roll number
-\rollnum{\ldots}
+\rollnum{Roll No. ....}
 
 \maketitle
 
@@ -94,17 +93,30 @@
 %*******************************************************************
 %                         Dedication Page                         
 %*******************************************************************
+
 \dedication[To my Parents]        
+%\addintoc{Dedication}
+%*******************************************************************
+%                        Certificate Page                         
+%*******************************************************************
+\makecertificate{seminar report} 
+%\makecertificate{thesis}
+%\makecertificate{dissertation}
+%\makecertificate{project report}
+
+%\addintoc{Certificate}
 
 %*******************************************************************
 %                         Approval Sheet                         
 %*******************************************************************
 %\makeapproval{thesis}
+%\makeapproval{dissertation}
 
 %*******************************************************************
 %                          Declaration                           
 %*******************************************************************
 \include{dec} 
+%\addintoc{Declaration}
 
 %******************************************************************
 %                          Abstract                             
@@ -159,7 +171,11 @@
 %******************************************************************* 
 \include{ack}           
 
-% ******************************************************************
+%*******************************************************************
+%                        About author                    
+%*******************************************************************
+\colophon % remove this command while using this file.
+
 % GAME OVER
 %*******************************************************************
 \end{document}

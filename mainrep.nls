@@ -1,0 +1,36 @@
+\begin{thenomenclature} 
+
+ \nomgroup{A}
+
+  \item [{$R$}]\begingroup Radius of circle\nomeqref {1.4}
+		\nompageref{4}
+  \item [{$r$}]\begingroup Intrinsic length\nomeqref {1.4}
+		\nompageref{4}
+
+ \nomgroup{B}
+
+  \item [{$\alpha _{\mathrm {a}}$}]\begingroup Angular acceleration\nomeqref {1.4}
+		\nompageref{4}
+  \item [{$\eta $}]\begingroup Viscosity\nomeqref {1.4}\nompageref{4}
+
+ \nomgroup{C}
+
+  \item [{$g$}]\begingroup Gas phase\nomeqref {1.4}\nompageref{4}
+  \item [{$v$}]\begingroup Vapor phase\nomeqref {1.4}\nompageref{4}
+
+ \nomgroup{D}
+
+  \item [{$i$}]\begingroup Indices\nomeqref {1.4}\nompageref{4}
+  \item [{$x$}]\begingroup Variable in x-direction\nomeqref {1.4}
+		\nompageref{4}
+
+ \nomgroup{E}
+
+  \item [{AOR}]\begingroup Angle of repose\nomeqref {1.4}\nompageref{4}
+  \item [{FFA}]\begingroup Free fatty acid\nomeqref {1.4}\nompageref{4}
+
+ \nomgroup{X}
+
+  \item [{foo}]\begingroup foo\nomeqref {1.4}\nompageref{4}
+
+\end{thenomenclature}
