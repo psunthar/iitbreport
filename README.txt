@@ -9,12 +9,14 @@ the .tex files and start making changes to get their first report.
 
 This uses IIT Bombay Report Class (iitbreport.cls)
 and an authoryear type citation (iitbauthyr.bst).  It will also generate
-a cover page with the IITB logo and standard information.
+a cover page with the IITB logo, copyright page, certificate, 
+approval sheet, declaration, and acknowledgements in standard format.
 
 Seasoned LaTeX users may also find better ways to organise a report:
 
  * Creating macros for math symbols
  * Creating separate files for chapters
+ * Creating nomenclature
  * Partially compiling chapters
  * Visually appealing fonts for text and math (instead of the default
    Computer Modern TeX fonts)

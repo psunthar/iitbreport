@@ -296,9 +296,8 @@
 %\newcommand{\makecoverpage}{%
 \renewcommand{\maketitle}{%
 \begin{titlepage}
-	\setcounter{page}{0} 
-	\addtocounter{page}{-1}   % For a page that should not be counted
-  {\renewcommand{\baselinestretch}{1}\normalsize
+  {%
+  	\renewcommand{\baselinestretch}{1}\normalsize
 %  \pdfbookmark[0]{Title}{Title}  
   \thispagestyle{empty}
   {\begin{center}
@@ -329,7 +328,8 @@
         {\Large \@date \par}
         
     \end{center}
-    }}
+   }
+    }
     \end{titlepage}
 } % coverpage
 
@@ -345,12 +345,15 @@
 }
 \newcommand*{\makecertificate}[2][Acceptance Certificate]{%
 \cleardoublepage\phantomsection 	
-	\thispagestyle{empty} 
-%	\setcounter{page}{0} 
-%	\addtocounter{page}{-1}		
-		\chapter*{#1}
-The #2  entitled ``\@title" submitted by \@author{} (\@rollnum{}) may be accepted for being evaluated.\par
-\vspace{3cm} 
+	\thispagestyle{empty} 	
+	\begin{center}	
+		{\LARGE \textbf{#1} \par}\vspace{2\baselineskip} 
+		{\large\textbf{\@dept}\par}\vspace{0.25\baselineskip} 
+		{\large\textbf{Indian Institute of Technology, Bombay}}
+	\end{center}
+\vspace{1.5\baselineskip} 
+The #2  entitled ``\@title'' submitted by \@author{} (\@rollnum{}) may be accepted for being evaluated.\par
+\vspace{4\baselineskip} 
 \noindent
 \GuideSign 	
 	}
@@ -359,9 +362,7 @@ The #2  entitled ``\@title" submitted by \@author{} (\@rollnum{}) may be accepte
 %**************************Copyright page******************************
 \newcommand*{\mycopyright}{%
 	\cleardoublepage\phantomsection 	
-	\thispagestyle{empty} 
-%	\setcounter{page}{0} 
-%	\addtocounter{page}{-1}
+	\thispagestyle{empty}
 	\setlength{\parindent}{0pt}	 
 	 \vspace*{19cm} 
 	{\itshape\copyright\,\footnotesize \@date, by \@author\\	
@@ -373,8 +374,6 @@ The #2  entitled ``\@title" submitted by \@author{} (\@rollnum{}) may be accepte
 \newcommand*{\dedication}[1][]{%
 	\cleardoublepage\phantomsection
 	\thispagestyle{empty} 
-%	\setcounter{page}{0} 
-%	\addtocounter{page}{-1}	
 	{\centering\large\itshape\null\vfill #1\vfill\null}
 }
 
@@ -383,8 +382,6 @@ The #2  entitled ``\@title" submitted by \@author{} (\@rollnum{}) may be accepte
 \newcommand*{\makeapproval}[2][Approval Sheet]{%
 	\cleardoublepage\phantomsection	
 	\thispagestyle{empty}
-%	\setcounter{page}{0} 
-%	\addtocounter{page}{-1}	
 		\begin{center}
 			{\LARGE \bfseries #1}\\[2\baselineskip]			
 		\end{center}
@@ -500,7 +497,7 @@ This #2 entitled ``\@title'' by \@author\ is approved for the degree of \@degree
 \pdfbookmark[0]{Colophon}{colophon}
 \section*{\scshape Colophon}
 This document has been typeset using the {\color{blue}\texttt{iitbreport.cls}} typesetting
-system developed by {\color{blue}P. Sunthar} and {\color{blue}Chandra Has}. The body text is set at 12pt and a similar to times new roman font is accessed using {\color{red}\texttt{txfonts}} package; default line spacing is set at 1.5. Other important packages such as {\color{red}amsmath, amssymb, amsfonts, fancyhdr, hyperref, natbib}, and {\color{red}\texttt{graphicx}} are installed to use this style file.
+system developed by {\color{blue}P. Sunthar} and {\color{blue}Chandra Has}. The body text is set at 12pt and a similar to times new roman font is accessed using {\color{red}\texttt{txfonts}} package; default line spacing is set at 1.5. Other important packages such as {\color{red}\texttt{amsmath, amssymb, amsfonts, fancyhdr, hyperref, natbib}}, and {\color{red}\texttt{graphicx}} are installed to use this style file.
 \vskip5mm 
 For any suggestion/query:\par
 \hfil {\color{blue}p.sunthar@gmail.com}\hfil\par 
