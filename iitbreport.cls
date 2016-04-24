@@ -33,7 +33,7 @@
 %%          or 
 %%      P Sunthar  <p.sunthar@gmail.com> 
 %%           or 
-%%      Chandra Has <chandrahashbti@gmail.com
+%%      Chandra Has <chandrahashbti@gmail.com>
 %% 
 %%
 %%====================================================================
@@ -264,6 +264,9 @@
 \global\let\@cosupervisor\@empty
 \def\cosupervisor#1{\gdef\@cosupervisor{#1}}
 
+\global\let\@excosupervisor\@empty
+\def\excosupervisor#1{\gdef\@excosupervisor{#1}}
+
 \global\let\@dept\@empty
 \def\dept#1{\gdef\@dept{#1}}
 
@@ -313,15 +316,26 @@
       {\large (\@rollnum)}\vspace{\stretch{0.3}} 
                  
      \ifx\@cosupervisor\@empty
+      \ifx\@excosupervisor\@empty
         {\large  Supervisor:\par}\vspace{.25\baselineskip}  
         {\large \bfseries \@supervisor \par}
+        \fi
        \else 
+       \ifx\@excosupervisor\@empty
         {\large Supervisors:\par} \vspace{.25\baselineskip}  
        {\large \bfseries \@supervisor \par} \vspace{.25\baselineskip}    
        and \par \vspace{.25\baselineskip}      
        {\large\bfseries\@cosupervisor \par}
-        \fi       
-            
+       
+       \else
+       {\large Supervisors:\par} \vspace{.25\baselineskip}  
+              {\large \bfseries \@supervisor \par}  \vspace{.25\baselineskip}      
+              {\large\bfseries\@cosupervisor \par}
+              \vspace{.25\baselineskip} 
+               and \par \vspace{.25\baselineskip}  
+              {\large\bfseries\@excosupervisor \par}              
+        \fi \fi 
+           
       \vspace{\stretch{0.3}}
       \if@draft\else\putiitblogo \fi\par      
       
