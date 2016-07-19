@@ -259,6 +259,7 @@
 \gdef\@degree{}
 \newcommand{\dept}[1]{\gdef\@dept{#1}}
 \def\rollnum#1{\gdef\@rollnum{#1}}
+\global\let\@supervisor\@empty
 \def\supervisor#1{\gdef\@supervisor{#1}}
 
 \global\let\@cosupervisor\@empty
@@ -270,22 +271,21 @@
 \global\let\@dept\@empty
 \def\dept#1{\gdef\@dept{#1}}
 
-\gdef\@supervisor{Unknown}
 \gdef\@rollnum{}
 
 \newcommand{\@declaration}{%
     {\large \em \Usefont{pzc} 
       \@reptype \par
-      \vspace{\stretch{0.3}}       
+      %\vspace{\stretch{0.3}}       
       \if@degree{
-        Submitted in partial fulfillment of the requirements \\ [.25\baselineskip] 
-        for the degree of \par
-        \vspace{\stretch{0.3}}
+        Submitted in partial fulfillment of  \\ [.25\baselineskip] 
+        the requirements for the degree of \par
         {\Usefont{ppl}   \bfseries  \@degree }
       }
        \\ [.25\baselineskip]      
       \fi
        by} \par
+        \vspace{\stretch{0.3}}
       } 
 
 
@@ -307,7 +307,7 @@
   \thispagestyle{empty}
   {\begin{center}
    {\Usefont{ptm}
-      {\Usefont{pcr} \LARGE \bfseries \@title \par}
+      {\Usefont{phv} \LARGE \bfseries \@title \par}
       \vspace{\stretch{0.3}}
        \@declaration
         \vspace{.25\baselineskip} 
@@ -316,11 +316,13 @@
       {\large (\@rollnum)}\vspace{\stretch{0.3}} 
                  
      \ifx\@cosupervisor\@empty
-      \ifx\@excosupervisor\@empty
-        {\large  Supervisor:\par}\vspace{.25\baselineskip}  
-        {\large \bfseries \@supervisor \par}
+       \ifx\@excosupervisor\@empty
+         \ifx\@supervisor\@empty
+             {\large  Supervisor:\par}\vspace{.25\baselineskip}  
+            {\large \bfseries \@supervisor \par}
+          \fi
         \fi
-       \else 
+     \else 
        \ifx\@excosupervisor\@empty
         {\large Supervisors:\par} \vspace{.25\baselineskip}  
        {\large \bfseries \@supervisor \par} \vspace{.25\baselineskip}    
@@ -334,7 +336,8 @@
               \vspace{.25\baselineskip} 
                and \par \vspace{.25\baselineskip}  
               {\large\bfseries\@excosupervisor \par}              
-        \fi \fi 
+        \fi 
+     \fi \fi
            
       \vspace{\stretch{0.3}}
       \if@draft\else\putiitblogo \fi\par      
