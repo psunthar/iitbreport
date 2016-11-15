@@ -259,6 +259,7 @@
 \gdef\@degree{}
 \newcommand{\dept}[1]{\gdef\@dept{#1}}
 \def\rollnum#1{\gdef\@rollnum{#1}}
+
 \global\let\@supervisor\@empty
 \def\supervisor#1{\gdef\@supervisor{#1}}
 
@@ -313,34 +314,42 @@
         \vspace{.25\baselineskip} 
       {\large \bfseries \@author \par}
       \vspace{.25\baselineskip}  
-      {\large (\@rollnum)}\vspace{\stretch{0.3}} 
-                 
-     \ifx\@cosupervisor\@empty
-       \ifx\@excosupervisor\@empty
+      {\large (\@rollnum)}\vspace{\stretch{0.3}}           
+          
+         
          \ifx\@supervisor\@empty
-             {\large  Supervisor:\par}\vspace{.25\baselineskip}  
-            {\large \bfseries \@supervisor \par}
-          \fi
-        \fi
-     \else 
-       \ifx\@excosupervisor\@empty
-        {\large Supervisors:\par} \vspace{.25\baselineskip}  
-       {\large \bfseries \@supervisor \par} \vspace{.25\baselineskip}    
-       and \par \vspace{.25\baselineskip}      
-       {\large\bfseries\@cosupervisor \par}
-       
-       \else
+         \ifx\@excosupervisor\@empty
+           \ifx\@cosupervisor\@empty  
+           \par        
+          \fi \fi
+          
+          \else  
+          \ifx\@excosupervisor\@empty
+             \ifx\@cosupervisor\@empty
+        {\large Supervisor:\par} \vspace{.25\baselineskip}  
+        {\large \bfseries \@supervisor \par}       
+                  
+         \else                    
+               {\large Supervisors:\par} \vspace{.25\baselineskip}  
+              {\large \bfseries \@supervisor \par} \vspace{.25\baselineskip}    
+              and \par \vspace{.25\baselineskip}      
+              {\large\bfseries\@cosupervisor \par}
+              \fi      
+                   
+       \else              
        {\large Supervisors:\par} \vspace{.25\baselineskip}  
               {\large \bfseries \@supervisor \par}  \vspace{.25\baselineskip}      
               {\large\bfseries\@cosupervisor \par}
               \vspace{.25\baselineskip} 
                and \par \vspace{.25\baselineskip}  
-              {\large\bfseries\@excosupervisor \par}              
-        \fi 
-     \fi \fi
-           
+              {\large\bfseries\@excosupervisor \par}           
+                           
+        \fi \fi       
+                
       \vspace{\stretch{0.3}}
-      \if@draft\else\putiitblogo \fi\par      
+      \if@draft
+      \else\putiitblogo
+       \fi\par      
       
       {\Usefont{ptm}
        \ifx\@dept\@empty
