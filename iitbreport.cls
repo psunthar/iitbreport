@@ -314,7 +314,10 @@
         \vspace{.25\baselineskip} 
       {\large \bfseries \@author \par}
       \vspace{.25\baselineskip}  
-      {\large (\@rollnum)}\vspace{\stretch{0.3}}           
+      \ifx\@rollnum\empty
+      \else
+        {\large (\@rollnum)}\vspace{\stretch{0.3}}           
+      \fi
           
          
          \ifx\@supervisor\@empty
