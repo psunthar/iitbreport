@@ -1704,7 +1704,10 @@ FUNCTION {article}
 FUNCTION {book}
 { output.bibitem
   author empty$
-    {
+    { % An edited volume with no overall author: the editor heads the entry,
+      % as "Meyers, R. A., editor".  Without this the entry opened with a
+      % bare comma where the author would have been.
+      format.editors output.nonnull
     }{
       format.authors output.nonnull
       crossref missing$ { editor.check.book } 'skip$ if$
@@ -1716,8 +1719,7 @@ FUNCTION {book}
   "title" output.check
   format.edition output
   author empty$
-    {
-      format.editor.in output
+    { % the editor has already been named at the head of the entry
       editor format.key output
     }
     {
